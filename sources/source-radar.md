@@ -1,143 +1,126 @@
 ---
-tags: [sources, research, tcs, bfsi, ai]
+tags: [sources, verification, tcs, bfsi, ai, public-intelligence]
+updated: 2026-09-09
 ---
 
-# Source Radar
+# Source Radar and Verification Rules
 
-[[index|← Home]] · [[dashboards/tcs-bfsi-ai-radar]] · [[templates/intelligence-note]]
+[[index|← Home]] · [[sources/source-catalog]] · [[news/timeline]]
 
 ## Trust hierarchy
 
 ### Tier 1 — Primary / authoritative
 
-Use these first for facts, regulations and company direction.
+Use these first for factual claims.
 
-#### TCS
+**TCS**
 - Newsroom: https://www.tcs.com/who-we-are/newsroom
+- Events: https://www.tcs.com/who-we-are/events
 - Banking: https://www.tcs.com/what-we-do/industries/banking
-- BFSI platforms: https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms
-- Investor relations: https://www.tcs.com/who-we-are/investor-relations
+- Insurance: https://www.tcs.com/what-we-do/industries/insurance
+- Capital Markets: https://www.tcs.com/what-we-do/industries/capital-markets
+- BFSI Platforms: https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms
+- Investor Relations: https://www.tcs.com/who-we-are/investor-relations
+- Annual Report: https://www.ar.tcs.com/
 
-#### Indian regulators
+**Indian regulators**
 - RBI: https://www.rbi.org.in/
 - SEBI: https://www.sebi.gov.in/
 - IRDAI: https://irdai.gov.in/
 
-#### Global financial / standards bodies
-- BIS: https://www.bis.org/
-- Basel Committee: https://www.bis.org/bcbs/
-- Financial Stability Board: https://www.fsb.org/
+**Standards / global financial authorities**
+- BIS / Basel Committee: https://www.bis.org/
+- FSB: https://www.fsb.org/
 - FATF: https://www.fatf-gafi.org/
 
-### Tier 2 — Strong ecosystem sources
+### Tier 2 — Direct ecosystem partners / customers
 
-- AWS financial services
-- Microsoft financial services / Azure AI
-- Google Cloud financial services
-- NVIDIA financial services
-- Anthropic / OpenAI / major model-vendor technical releases
-- major cloud security and AI governance documentation
+AWS, Google Cloud, Microsoft, NVIDIA, Anthropic, Mistral AI, OpenAI, ServiceNow and named customers when they publish the same program independently.
 
-### Tier 3 — Analyst / industry intelligence
+### Tier 3 — Analyst / industry evidence
 
-Use for market interpretation, then verify important claims against primary sources when possible.
+Gartner, Forrester, IDC, NelsonHall, Everest Group, Celent and Chartis. These are useful for externally assessed capabilities, not as a replacement for primary evidence about product status or deployments.
 
-- Gartner
-- Forrester
-- IDC
-- NelsonHall
-- Everest Group
-- Celent
-- Chartis Research
+### Tier 4 — Reputable news / discovery
 
-### Tier 4 — News / community
+Use to discover leads. Verify important claims against Tier 1–3 sources before promotion into durable notes.
 
-Useful for discovery, not as the sole basis for a high-confidence claim.
+## Evidence labels
 
-## Topics to continuously monitor
+Every entry must use one of these labels where applicable:
 
-### TCS
-- AI strategy
-- AI revenue / deals
-- BFSI wins
-- banking / insurance / capital-markets offerings
-- agentic AI platforms
-- GenAI / composite AI
-- Google/AWS/Azure/NVIDIA partnerships
-- innovation labs / experience centers
-
-### BFSI business
-- retail banking
-- lending
-- payments
-- fraud
-- AML/KYC
-- capital markets
-- insurance
-- wealth
-- service operations
-
-### AI engineering
-- agent orchestration
-- RAG / context engineering
-- knowledge graphs
-- evaluation
-- observability
-- model routing
-- MCP/tool protocols
-- identity/authorization
-- prompt injection
-- inference economics
-
-### Regulation / governance
-- AI responsibility/accountability
-- data privacy
-- model risk
-- cybersecurity
-- digital lending
-- financial crime
-- outsourcing / third-party risk
-- operational resilience
+| Label | Meaning |
+|---|---|
+| `live` | TCS/source explicitly describes an active service/platform/capability |
+| `deployed` | Source explicitly states implementation/deployment is operating |
+| `pilot` | Source explicitly says pilot/PoC/trial |
+| `announced` | Public announcement exists; deployment status may not be known |
+| `planned` | Future activity/event/investment is stated |
+| `public-case-study` | TCS/customer has published implementation evidence |
+| `thought-leadership` | White paper/POV; represents a public TCS view, not proof of deployment |
+| `analyst-recognition` | Third-party analyst assessment |
+| `regulatory` | Regulator consultation, framework, circular, report or rule |
 
 ## Intelligence scoring
 
-Score each discovered item before promoting it to the radar.
+Score candidate items from 0–2 on each dimension.
 
 | Dimension | 0 | 1 | 2 |
 |---|---|---|---|
 | TCS relevance | none | adjacent | direct |
 | BFSI relevance | none | indirect | direct |
 | AI relevance | none | adjacent | core |
-| Actionability | trivia | useful context | changes learning/design/action |
 | Source quality | weak | credible secondary | primary/authoritative |
-| Novelty | duplicate | incremental | meaningful new signal |
+| Specificity | vague claim | named capability | named capability + figures/status/use case |
+| Novelty | duplicate | incremental | meaningful new fact |
 
-**Promote to dashboard:** normally 9+/12.
+**Promote to the current radar:** normally 9+/12.  
+**Keep in the timeline:** lower-scoring items may be retained if they establish chronology or status history.
+
+## Mandatory capture fields
+
+For every new factual item record:
+
+- event date
+- publication date when available
+- entity / program / product
+- evidence label
+- factual statement
+- exact numerical claims, if any, attributed to the source
+- original source URL
+- source publisher/type
+- confidence
+- related Foam links
 
 ## Update rules
 
-1. Never add duplicate news just to create activity.
-2. Prefer event date over crawl/index date.
-3. Record source URL and publication date.
-4. Separate fact from interpretation.
-5. Add a BFSI implication.
-6. Add a career/engineering action only when justified.
-7. Link the note to at least two relevant Foam notes.
-8. If information is uncertain, label confidence explicitly.
+1. Do not add duplicate news simply because the source was re-indexed.
+2. Prefer the event/announcement date over crawl date.
+3. Preserve original source URLs.
+4. Separate product capability claims from proof of production deployment.
+5. Separate TCS-authored viewpoints from regulatory requirements.
+6. Do not convert public facts into personal recommendations or career advice.
+7. Do not store role, grade, joining, compensation, personal-employment or other private context.
+8. Never add internal TCS information, confidential client material, credentials, non-public project details or rumors.
+9. If a client is unnamed in the public source, keep it unnamed.
+10. If a fact cannot be verified, do not promote it as fact.
+11. Link durable notes to at least two related Foam notes.
 
-## Search patterns
+## Continuous-monitoring queries
 
-- `site:tcs.com BFSI agentic AI banking insurance`
-- `site:tcs.com newsroom AI banking TCS`
-- `site:rbi.org.in AI banking model risk cybersecurity`
-- `site:sebi.gov.in AI ML circular securities`
-- `site:irdai.gov.in AI insurance cybersecurity`
-- `agentic AI financial services production governance`
-- `banking GenAI evaluation observability regulation`
+- `site:tcs.com/who-we-are/newsroom AI BFSI banking insurance capital markets TCS`
+- `site:tcs.com/who-we-are/events TCS BFSI AI banking insurance`
+- `site:tcs.com/what-we-do/industries/banking agentic AI GenAI`
+- `site:tcs.com/what-we-do/industries/insurance agentic AI GenAI`
+- `site:tcs.com TCS BaNCS AI Quartz AI`
+- `site:rbi.org.in artificial intelligence banking responsible AI`
+- `site:sebi.gov.in artificial intelligence machine learning circular consultation`
+- `site:irdai.gov.in artificial intelligence insurance`
 
-## Output destination
+## Output destinations
 
-- breaking/high-value signal → `news/YYYY-MM-DD.md`
-- durable knowledge → relevant `tcs/`, `bfsi/`, or `ai/` note
-- executive implications → [[dashboards/tcs-bfsi-ai-radar]]
-- personal action → [[dashboards/career-visibility]]
+- current high-signal facts → [[dashboards/tcs-bfsi-ai-radar]]
+- chronology → [[news/timeline]]
+- dated research snapshot → `news/YYYY-MM-DD.md`
+- durable product/initiative knowledge → `tcs/`, `bfsi/`, `ai/`, `regulations/`
+- source inventory → [[sources/source-catalog]]
