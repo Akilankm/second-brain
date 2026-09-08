@@ -1,123 +1,111 @@
 ---
-tags: [bfsi, risk, compliance, ai, aml, kyc, governance]
+tags: [tcs, bfsi, risk, compliance, governance, ai, public-intelligence]
+updated: 2026-09-09
 ---
 
-# BFSI Risk, Compliance & AI
+# TCS BFSI AI — Risk, Compliance and Governance Public Intelligence
 
-[[index|← Home]] · [[bfsi/domain-map]] · [[ai/agentic-ai-bfsi-architecture]]
+[[bfsi/domain-map|← BFSI map]] · [[regulations/india-ai-bfsi]] · [[ai/agentic-ai-bfsi-architecture]]
 
-## Why this area matters
+## Risk Live North America 2026 — `planned`
 
-Risk and compliance is one of the best places to build differentiated AI expertise because value and control must coexist. A fast AI system that cannot explain, evidence or bound its decisions is often unusable in regulated workflows.
+TCS' public event page for 24 September 2026 states that its BFSI risk-management program will cover:
 
-## Core use-case map
+- scaling AI and agentic intelligence across risk and compliance
+- AI governance and monitoring frameworks
+- AI adoption metrics and business impact
+- robust, transparent and auditable models
+- bias mitigation
+- alignment with regulatory expectations and internal risk appetite
+- human judgment and oversight for accountability and trust
 
-| Process | AI role | Primary risk |
-|---|---|---|
-| KYC/CDD | document extraction, entity resolution, risk summarization | identity error, privacy, stale evidence |
-| AML monitoring | alert prioritization, investigation support | missed suspicious activity, false positives |
-| Sanctions | entity matching, adverse evidence | false negatives, explainability |
-| Fraud | anomaly detection, investigation orchestration | latency, adversarial behavior |
-| Credit | scoring support, memo generation | bias, policy violation, model risk |
-| Regulatory change | obligation extraction, impact mapping | hallucinated/omitted obligations |
-| Compliance QA | evidence review, control testing | incomplete audit trail |
-| Conduct surveillance | communications/event analysis | privacy, false accusation |
+Source: https://www.tcs.com/who-we-are/events/tcs-at-risk-live-north-america-2026
 
-## Architecture principle
+This is a stated public agenda for an upcoming event, not evidence that a particular client has implemented all listed controls.
 
-Use LLMs where language/context/reasoning help, but retain deterministic systems where policy, thresholds and calculations must be exact.
+## Cognitive Automation Platform governance — `live-capability`
 
-A strong pattern is:
+TCS publicly describes governance/control capabilities including:
 
-`Predictive model / rules → evidence retrieval → agent reasoning → policy check → human approval where required → action → immutable audit trace`
+- enterprise guardrails and policy controls
+- agent governance and observability
+- continuous evaluation
+- human approvals and overrides
+- business-context knowledge models
+- RAG / knowledge-fabric patterns
+- PII/security controls
+- hallucination-prevention/guardrail mechanisms
+- auditability across agent workflows
 
-## Control families for GenAI / agentic AI
+Source: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
 
-### Input controls
-- data classification
-- PII handling
-- prompt injection defenses
-- source authorization
+## Context Fabric for agentic AI in BFSI — `thought-leadership`
 
-### Model controls
-- approved model registry
-- versioning
-- validation and benchmark thresholds
-- fallback model behavior
+TCS' BFSI white paper describes a context fabric as a backbone for agentic AI, bringing together domain, process, data and regulatory context. The paper uses complex BFSI tasks such as credit-risk assessment, AML/compliance and financial advisory as examples of multi-step agentic workflows.
 
-### Retrieval/context controls
-- source lineage
-- effective-date filtering
-- jurisdiction filtering
-- entitlements
-- freshness checks
+Source: https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi
 
-### Agent/tool controls
-- allow-listed tools
-- least privilege
-- transaction limits
-- idempotency
-- maker-checker approval
-- reversible actions where possible
+This source represents TCS' published architecture viewpoint rather than deployment proof.
 
-### Output controls
-- structured output validation
-- citations/evidence
-- prohibited-content checks
-- deterministic policy validation
+## TCS BaNCS AI Compass controls — `announced/live-capability`
 
-### Runtime controls
-- traces
-- latency/cost monitoring
-- drift
-- task success rate
-- hallucination/groundedness measures
-- anomaly detection
+TCS' AI Compass announcement describes:
 
-### Governance controls
-- model/agent inventory
-- owner
-- intended use
-- risk tier
-- approval history
-- incident process
-- periodic review
+- responsible, traceable and explainable AI
+- guardrails
+- audit logging
+- no-code AI lifecycle capabilities
 
-## Indian regulatory radar
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation
 
-### SEBI
+## TCS AI Spectrum / NVIDIA guardrails — `live-capability`
 
-SEBI has explicitly addressed responsibility around AI/ML usage by regulated entities and has also issued guidance/advisories related to responsible usage and advanced AI tools. Track new circulars continuously.
+TCS publicly describes AI Spectrum for BFSI as a composite-AI platform leveraging NVIDIA ecosystem components, including NeMo Guardrails, for enterprise/domain-specific AI.
 
-Useful public starting points:
+Source: https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi
 
-- https://www.sebi.gov.in/legal/circulars/may-2026/advisory-on-emerging-advanced-artificial-intelligence-ai-tools-for-vulnerability-detection_101270.html
-- https://www.sebi.gov.in/sebi_data/attachdocs/jun-2025/1750415065695.pdf
+## Proactive risk management with GenAI — `thought-leadership`
 
-### RBI
+TCS' public white paper discusses GenAI for continuous/proactive risk intelligence in BFSI. TCS cites survey findings that **59%** of firms were implementing/testing GenAI in risk/compliance and **53%** expected moderate or high impact.
 
-Track RBI material touching digital lending, model risk, cybersecurity, fraud, data governance, responsible AI and supervisory technology.
+Source: https://www.tcs.com/what-we-do/industries/banking/white-paper/generative-ai-proactive-risk-management-bfsi
 
-Source root: https://www.rbi.org.in/
+These are figures cited by TCS in thought-leadership material, not TCS deployment counts.
 
-### IRDAI
+## Public risk/compliance use cases described by TCS
 
-Track insurance cyber, governance, outsourcing, digital distribution, claims and AI-related developments.
+Across CAP and context-fabric material, TCS publicly references:
 
-Source root: https://irdai.gov.in/
+- KYC and periodic KYC
+- AML monitoring
+- credit risk
+- fraud/transaction monitoring
+- trade-finance screening
+- market surveillance
+- compliance/KYC through Quartz
+- regulatory-context injection into agent workflows
 
-## High-value demo ideas
+Sources:
+- https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+- https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi
+- https://www.tcs.com/who-we-are/events/tcs-bancs-quartz-sibos-2026-miami
 
-1. **AML investigation agent** — alert + transactions + KYC + policy → evidence-backed investigation brief.
-2. **Regulatory change impact agent** — circular → obligations → impacted processes/controls → owner/action list.
-3. **Credit memo copilot** — structured financial metrics + policy rules + sourced narrative.
-4. **Control evidence reviewer** — tests whether required evidence exists before a case is closed.
+## Model-provider partnership risk/governance signal
 
-## Design review questions
+### Anthropic — `announced`
+TCS' partnership announcement explicitly frames regulated sectors as requiring accuracy, auditability and oversight and says TCS and Anthropic will jointly target highly regulated sectors including financial services.
 
-- What happens when retrieval returns conflicting regulations?
-- Can the system prove which version of a rule was used?
-- Which actions require maker-checker approval?
-- How are false negatives measured?
-- How is privileged/customer data isolated?
-- Can an investigator reconstruct the complete agent decision path months later?
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-anthropic-launch-global-premier-partnership-drive-enterprise-ai-scaling
+
+### Mistral — `announced`
+TCS says the Mistral collaboration will support domain-specific AI grounded in enterprise knowledge/data and names BFSI among the initial sectors, with a dedicated CoE supporting design, deployment and governance.
+
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-partners-mistral-first-global-systems-integrator-enterprises-worldwide
+
+## India regulatory sources
+
+See [[regulations/india-ai-bfsi]] for RBI/SEBI/IRDAI public material. TCS-authored governance approaches and regulator requirements are kept separate in this graph.
+
+## Related
+
+[[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]] · [[tcs/ai-partnerships]] · [[sources/source-catalog]]
