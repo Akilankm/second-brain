@@ -26,6 +26,7 @@ tags: [home, tcs, bfsi, ai, foam]
 ## AI engineering map
 
 - [[ai/agentic-ai-bfsi-architecture]]
+- [[projects/build-backlog|BFSI AI build backlog]]
 
 ## Intelligence system
 
