@@ -1,92 +1,133 @@
 ---
-tags: [tcs, bfsi, ai, platforms, offerings]
+tags: [tcs, bfsi, ai, products, platforms, public-intelligence]
+updated: 2026-09-09
 ---
 
-# TCS BFSI AI Offerings — Public Landscape
+# TCS BFSI AI Products and Platforms — Public Reference
 
-[[index|← Home]] · [[tcs/tcs-ai-strategy]] · [[bfsi/domain-map]] · [[ai/agentic-ai-bfsi-architecture]]
+[[index|← Home]] · [[tcs/tcs-ai-strategy]] · [[bfsi/public-implementations]] · [[ai/agentic-ai-bfsi-architecture]]
 
-## 1. TCS Cognitive Automation Platform
+This page separates **published product capabilities** from **public evidence of customer deployment**.
 
-Publicly positioned as an agentic orchestration platform for BFSI business and IT operations.
+## TCS Cognitive Automation Platform (CAP) — `live-capability`
 
-Key concepts to understand:
+TCS describes CAP as an agentic-AI orchestration platform for business and IT operations.
 
-- agentic mesh
-- agent marketplace with reusable domain agents
-- agent studio / agent builder
-- GenAI + RAG + ML + NLP + computer vision
+### Published components
+
+- agentic mesh for multi-agent orchestration
+- agent marketplace with **200+ pre-built reusable domain-trained agents**
+- agent studio and agent builder
+- governance-centric agentic framework
+- enterprise guardrails and policy controls
+- business-context knowledge models
+- RAG / knowledge-fabric patterns
 - intelligent document processing
-- governance and observability
-- pre/post-processing controls
-- service operations, application support, contact center and CX
+- smart email management
+- conversational assistants
+- low-code workflow automation
+- human approvals and overrides
+- continuous evaluation / observability
+- multimodal and composite-AI capabilities
+- deployment on-premises or on hyperscalers
 
-**What to learn:** how orchestration, policy enforcement, evaluation and observability are separated architecturally.
+### BFSI use cases published by TCS
+
+Banking examples include retail KYC, creditworthiness, real-time loan decisioning, fraud monitoring, periodic KYC, credit risk, trade-finance screening and AML. Insurance examples span underwriting, claims and customer operations.
+
+### Published scale / proof points
+
+TCS states **60+ wins** and **30+ live implementations**. The product page also publishes anonymized customer examples; those are recorded in [[bfsi/public-implementations]].
 
 Source: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
 
-## 2. TCS AI Spectrum for BFSI
+## TCS AI Spectrum for BFSI — `live-capability`
 
-Publicly positioned around enterprise adoption of composite AI across financial data and document-heavy workflows.
+TCS describes AI Spectrum for BFSI as a **composite AI** platform combining predictive AI and generative AI for BFSI decisioning.
 
-Concepts:
-
-- predictive AI + GenAI
-- data preparation and curation
-- enterprise knowledge
-- custom LLM patterns
-- NVIDIA ecosystem integration
-- document intelligence
-
-**What to learn:** when predictive ML should remain the decision engine and GenAI should provide reasoning/explanation/orchestration around it.
+Published material says the platform leverages the NVIDIA ecosystem, including technologies such as NVIDIA NeMo components, NeMo Guardrails and TensorRT, and supports enterprise/domain context and proprietary data.
 
 Source: https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi
 
-## 3. TCS GenAI for BFSI
+Related partnership: [[tcs/ai-partnerships#NVIDIA]].
 
-Public capabilities include smart contact centers, financial-information analysis, fraud mitigation, forecasting, productivity and governance.
+## TCS BaNCS AI Compass — `announced/live-capability`
 
-Architecture ideas mentioned publicly include RAG, tuning/fine-tuning, human-in-the-loop and enterprise guardrails.
+Announced 19 December 2025 as an AI core for TCS BaNCS.
 
-Source: https://www.tcs.com/what-we-do/industries/banking/genai-insurance-banking-financial-services
+### Published capabilities
 
-## 4. TCS BaNCS + AI-led financial services
+- machine learning, deep learning and GenAI
+- pre-built agents
+- no-code build/train/test/deploy workflow
+- responsible, traceable and explainable AI
+- guardrails and audit logging
 
-Track how AI is incorporated into core banking, securities and insurance platform experiences. Public BaNCS material increasingly discusses agentic AI, journey orchestration, guardrails and explainability.
+### Published domain examples
+
+**Banking:** customer onboarding, underwriting, customer queries.  
+**Securities:** tax treatment, dividend/interest classification, missing corporate-action data and document interpretation.  
+**Scope:** banking, securities and wealth management.
+
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation
+
+## TCS BaNCS IX — `announced/live-capability`
+
+TCS announced GenAI-based capabilities in TCS BaNCS IX on 23 January 2025, describing GenAI agents intended to improve customer experience and financial-institution workflows.
+
+The same announcement said TCS was working with customers including tier-1 insurers on **two pilots and three projects** involving the announced GenAI solutions.
+
+Source: https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting
+
+## Quartz Intelligent Insights — `announced/live-capability`
+
+Announced alongside TCS BaNCS IX on 23 January 2025. TCS describes Quartz Intelligent Insights as applying GenAI across information from databases, distributed-ledger systems, unstructured data and big-data environments.
+
+Source: https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting
+
+## Quartz AI + DLT capabilities — `live-capability`
+
+For Sibos 2026, TCS publicly describes Quartz as combining AI and DLT across:
+
+- digital assets
+- tokenized deposits, stablecoins, cryptocurrencies and CBDCs
+- compliance and KYC
+- AI-powered surveillance and proactive risk detection
+- market intelligence
+
+Source: https://www.tcs.com/who-we-are/events/tcs-bancs-quartz-sibos-2026-miami
+
+## TCS BaNCS — current public scale signals
+
+For Sibos 2026, TCS states:
+
+- TCS BaNCS solutions are deployed across **500+ installations globally**
+- TCS BaNCS for Payments powers **80+ clearing systems globally**
+- the Global Securities Platform supports custodians facing T+0/T+1 and asset-servicing complexity
+
+For the ABA Annual Convention 2026, TCS states:
+
+- TCS BaNCS serves **500+ institutions worldwide**
+- two of the largest core-banking implementations process **more than 1 billion accounts**
+
+Sources:
+- https://www.tcs.com/who-we-are/events/tcs-bancs-quartz-sibos-2026-miami
+- https://www.tcs.com/who-we-are/events/tcs-bancs-at-aba-annual-convention-2026
+
+These scale figures describe the wider BaNCS footprint; they should not be interpreted as counts of AI deployments.
+
+## TCS BFSI Platforms — agentic-AI positioning
+
+TCS' BFSI Platforms page describes TCS BaNCS Intelligent Experience as built on an agentic-AI platform and references built-in AI, guardrails and explainability across insurance/customer journeys.
 
 Source: https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms
 
-## 5. Context Fabric for Agentic AI
+## TCS AI WisdomNext — `live-capability / cross-industry`
 
-This deserves special attention because it converts domain knowledge from documentation into an active runtime dependency for agents.
+TCS publicly positions AI WisdomNext as an enterprise GenAI/AI platform for model and agent orchestration, governance and enterprise adoption. It is not exclusively a BFSI platform, but TCS references it in BFSI/capital-markets contexts including wealth advisory.
 
-Potential components:
+Capital-markets analyst source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-leader-capital-markets-operations-services-everest-group
 
-- business ontology / knowledge graph
-- process state
-- regulatory rules
-- customer/account context
-- authorization scope
-- temporal context
-- source lineage
-- policy metadata
-- retrieval layer
+## Related
 
-Source: https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi
-
-## Questions to turn into technical experiments
-
-- Can a policy-aware RAG layer reject stale or jurisdictionally invalid rules?
-- How should an agent prove which policy and evidence supported an action?
-- How do we evaluate an agent workflow beyond LLM answer quality?
-- Which steps can be autonomous and which require maker-checker approval?
-- How should predictive scores and GenAI reasoning coexist in credit/fraud workflows?
-
-## Build queue
-
-- [[ai/agentic-ai-bfsi-architecture|Agentic BFSI control-plane reference architecture]]
-- AML investigation agent with evidence lineage
-- credit memo copilot with deterministic policy checks
-- regulatory change impact agent
-- claims triage agent with human escalation
-- AI evaluation dashboard for regulated workflows
+[[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]] · [[bfsi/public-implementations]] · [[tcs/ai-partnerships]] · [[ai/agentic-ai-bfsi-architecture]]

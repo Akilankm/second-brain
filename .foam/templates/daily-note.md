@@ -1,43 +1,38 @@
 ---
-foam_template:
-  name: TCS BFSI AI Daily Note
-  description: Daily learning, intelligence and visibility log
-tags: [daily, tcs, bfsi, ai]
+tags: [daily, research, tcs, bfsi, ai]
 ---
 
-# $FOAM_DATE_YEAR-$FOAM_DATE_MONTH-$FOAM_DATE_DATE
+# $FOAM_DATE_YEAR-$FOAM_DATE_MONTH-$FOAM_DATE_DATE — Public Intelligence Capture
 
-[[index|← Home]] · [[dashboards/tcs-bfsi-ai-radar]]
+## New verified facts
 
-## New intelligence
+### Item
+- **Event date:**
+- **Evidence label:** live | deployed | pilot | announced | planned | public-case-study | thought-leadership | analyst-recognition | regulatory
+- **Entity / product / program:**
+- **Fact:**
+- **Source URL:**
+- **Source publisher/type:**
+- **Confidence:**
+- **Already in graph?** yes / no
 
-- 
+## Status changes
 
-## BFSI concept learned
+Record when an earlier `planned`, `announced` or `pilot` item gains later public evidence of deployment, cancellation, expansion or completion.
 
-- 
+## Source checks
 
-## AI / architecture concept learned
+- TCS newsroom checked:
+- TCS BFSI/event pages checked:
+- RBI checked:
+- SEBI checked:
+- IRDAI checked:
+- partner/customer primary sources checked when relevant:
 
-- 
+## Graph updates
 
-## Artifact built or improved
-
-- 
-
-## One business question I can answer better now
-
-- 
-
-## One question to investigate next
-
-- 
-
-## Career signal created
-
-- Artifact / discussion / reuse / measurable outcome:
-
-## Links
-
+- [[news/timeline]]
+- [[dashboards/tcs-bfsi-ai-radar]]
 - [[sources/source-radar]]
-- [[career/recognition-operating-system]]
+
+Do not add personal employment data, internal TCS information, confidential customer material, rumors, career advice or unsourced interpretation.

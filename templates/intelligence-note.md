@@ -1,45 +1,47 @@
 ---
-tags: [template, intelligence]
-date: YYYY-MM-DD
-source_quality: primary|secondary|community
-confidence: high|medium|low
+tags: [template, intelligence, public-evidence]
 ---
 
 # {{title}}
 
-## Fact
+## Evidence metadata
 
-What objectively changed? Include event/publication date and source URL.
+- **Event date:** YYYY-MM-DD
+- **Publication date:** YYYY-MM-DD / unknown
+- **Entity/program/product:**
+- **Evidence label:** live | deployed | pilot | announced | planned | public-case-study | thought-leadership | analyst-recognition | regulatory
+- **Source publisher:**
+- **Source type:** primary TCS | regulator | partner/customer | analyst | secondary
+- **Original source URL:**
+- **Confidence:** high | medium | low
 
-## Why it matters to BFSI
+## Public facts
 
-Which process, product, risk, control, cost or customer outcome is affected?
+- Fact 1
+- Fact 2
+- Fact 3
 
-## TCS relevance
+## Quantified claims
 
-Is this directly relevant to a public TCS capability, offering, partnership, client pattern or strategic direction?
+| Metric / figure | Value | Attribution |
+|---|---:|---|
+| | | |
 
-## Architecture / engineering implication
+## Status boundary
 
-What changes in data, model, agent, tool, policy, evaluation, observability, deployment or security?
+State exactly what the source proves. Examples:
 
-## Career action
+- announcement only; production status not stated
+- pilot/PoC stated by source
+- live/deployed explicitly stated
+- TCS-authored thought leadership; not deployment evidence
+- analyst assessment; not a TCS product-status statement
 
-What should I learn, build, benchmark, ask or document because of this?
-
-## Questions to ask
-
-- 
-- 
-- 
-
-## Source
-
-- URL:
-- Published:
-- Retrieved:
-
-## Links
+## Related public notes
 
 - [[dashboards/tcs-bfsi-ai-radar]]
-- [[sources/source-radar]]
+- [[news/timeline]]
+
+## Verification notes
+
+Record contradictions, later status changes or limits in the public disclosure. Do not add personal recommendations, internal information or unsupported inference.

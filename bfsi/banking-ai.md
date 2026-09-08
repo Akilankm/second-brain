@@ -1,0 +1,124 @@
+---
+tags: [tcs, banking, ai, agentic-ai, public-intelligence]
+updated: 2026-09-09
+---
+
+# TCS Banking AI — Public Intelligence
+
+[[bfsi/domain-map|← BFSI map]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/public-implementations]]
+
+## Publicly described banking AI use cases
+
+TCS' Cognitive Automation Platform page lists banking use cases including:
+
+- retail KYC
+- creditworthiness assessment
+- real-time loan decisioning
+- transaction/fraud monitoring
+- periodic KYC
+- credit risk
+- trade-finance screening
+- AML
+- mortgage operations
+
+Source: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+
+## Agentic AI / context fabric — `thought-leadership`
+
+TCS' public context-fabric white paper describes agentic AI in retail banking, commercial banking and wealth management, including multi-step credit-risk assessment, AML/compliance and financial advisory. TCS presents a context fabric as a mechanism for combining domain, process, data and regulatory context for AI-agent reasoning.
+
+Source: https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi
+
+This is TCS-authored thought leadership, not a deployment claim.
+
+## TCS AI Spectrum for BFSI — `live-capability`
+
+TCS describes AI Spectrum as a composite predictive-AI + GenAI platform for BFSI, leveraging NVIDIA ecosystem technologies and enterprise/domain context.
+
+Source: https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi
+
+## TCS BaNCS AI Compass — `announced/live-capability`
+
+Public banking examples described at launch include:
+
+- onboarding
+- underwriting
+- customer-query handling
+
+The platform is described as combining ML, deep learning, GenAI and pre-built agents, with guardrails, audit logging and no-code lifecycle support.
+
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation
+
+## Bengaluru BFSI Gemini Experience Center — `live`
+
+Launched 22 August 2025 by TCS and Google Cloud inside TCS' BFSI Innovation Lab in Bengaluru.
+
+Publicly described banking/financial-services areas include:
+
+- agentic AI for customer service
+- business decision workflows
+- back-office operations
+- regulatory compliance
+- AI-powered contact-center guidance, insight and sentiment analysis
+- AI-assisted software development
+- access to TCS BaNCS on Google Cloud
+
+Source: https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-partners-with-google-cloud-accelerate-ai-driven-fnnovation-financial-services-industry
+
+## AWS Financial Services Symposium 2026 — `public-event evidence`
+
+TCS said it introduced two AWS-based solutions focused on:
+
+- wealth-management advisory
+- fraud detection
+
+The event also covered scaling agentic AI from PoC to production and operationalizing AI in regulated financial services.
+
+Source: https://www.tcs.com/who-we-are/events/tcs-at-aws-financial-services-symposium-2026
+
+## Public bank/customer evidence
+
+### Lloyds Banking Group — `public-case-study`
+TCS says it helped establish a GenAI Office and governed GenAI foundation at Lloyds Banking Group. The TCS case study cites **50+ GenAI use cases** and **>$50M business value**.
+
+Source: https://www.tcs.com/what-we-do/industries/banking/case-study/lloyds-banking-group-reimagine-banking-generative-ai
+
+### DNB Bank ASA — `announced`
+TCS and DNB extended their partnership for five years on 28 February 2025. The public announcement includes modernization, security and technology exploration involving AI and quantum.
+
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-extends-partnership-with-dnb-bank-asa-5-years-power-next-gen-banking-innovation
+
+### Khan Bank — `announced`
+On 14 May 2025 TCS announced TCS BaNCS Global Banking Platform modernization work with Khan Bank; the announcement is explicitly framed around AI/ML-supported future-ready operations.
+
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-partners-with-khan-bank-future-proof-operations-enhance-customer-experience-propel-innovation-leveraging-ai-ml
+
+### Anonymous top-five US bank — `public-case-study`
+TCS' CAP page states that a top-five US bank processes **5.6M+ payment documents monthly** using the solution and reports **30% processing-cost reduction** and **40% faster time-to-market**. TCS does not name the customer on that page.
+
+Source: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+
+More cases: [[bfsi/public-implementations]].
+
+## Banking analyst signal — `analyst-recognition`
+
+On 3 July 2026 TCS published its NelsonHall Leader result for GenAI and Process Automation in Banking. TCS' summary highlights movement from bolt-on AI to AI-native banking environments, agentic AI, process automation, human-in-the-loop and responsible-AI controls.
+
+Source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-a-leader-gen-ai-process-automation-banking
+
+Everest Group banking IT recognition published 16 June 2026 cites TCS strengths in core/lending/payments modernization, regulatory/risk transformation, AML and intelligent auditing with AI/ML.
+
+Source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/everest-group-names-tcs-leader-banking-it-services
+
+## Upcoming public banking signals
+
+- **24 Sep 2026 — Risk Live North America:** AI/agentic intelligence in risk and compliance.  
+  https://www.tcs.com/who-we-are/events/tcs-at-risk-live-north-america-2026
+- **28 Sep–1 Oct 2026 — Sibos:** BaNCS payments/securities and Quartz.  
+  https://www.tcs.com/who-we-are/events/tcs-bancs-quartz-sibos-2026-miami
+- **26 Oct 2026 — ABA Annual Convention:** core modernization, AI, tokenization/stablecoins, risk management.  
+  https://www.tcs.com/who-we-are/events/tcs-bancs-at-aba-annual-convention-2026
+
+## Related
+
+[[bfsi/risk-compliance-ai]] · [[bfsi/capital-markets-ai]] · [[tcs/ai-partnerships]] · [[ai/agentic-ai-bfsi-architecture]]
