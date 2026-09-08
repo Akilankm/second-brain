@@ -41,6 +41,33 @@ Source: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-a
 
 ## Public insurance implementation evidence
 
+### AmTrust Financial Services — E&S clearance — `public-case-study` / `deployed`
+
+TCS' current public case study describes a production AI-and-automation transformation for AmTrust Financial Services' **Excess & Surplus (E&S)** clearance process.
+
+The publicly described workflow combines:
+
+```mermaid
+flowchart LR
+  EMAIL[Broker email + attachments]
+  CLASS[AI classification]
+  EXT[Data extraction]
+  VAL[Validation]
+  AUTO[Automated clearance workflow]
+  HITL[Manual intervention when required]
+  QUOTE[Account + shell quote for underwriter]
+
+  EMAIL --> CLASS --> EXT --> VAL --> AUTO
+  AUTO --> QUOTE
+  AUTO --> HITL --> QUOTE
+```
+
+TCS states that the implementation was completed in **12 weeks** and then rolled out across all E&S products. Reported outcomes include underwriting-response turnaround moving from **a few days to same/next day**, with **more than 80% of submissions processed in less than four hours** after broker submission.
+
+Source: https://www.tcs.com/what-we-do/industries/insurance/case-study/amtrust-financial-services-transformation
+
+**Date discipline:** the retrieved TCS case-study page does not expose a publication date, so no event date is inferred.
+
 ### Tryg — `announced`
 On 2 September 2025, TCS announced a **seven-year, €550 million** agreement with Tryg covering AI and cloud across its IT landscape and automation of core processes.
 
@@ -108,4 +135,4 @@ Source: https://www.tcs.com/who-we-are/events/tcs-at-itc-vegas-2026
 
 ## Related
 
-[[tcs/ai-partnerships]] · [[bfsi/risk-compliance-ai]] · [[ai/agentic-ai-bfsi-architecture]] · [[news/timeline]]
+[[tcs/ai-partnerships]] · [[bfsi/risk-compliance-ai]] · [[ai/agentic-ai-bfsi-architecture]] · [[research/advanced-quantz-analytics-public-capability]] · [[news/timeline]]
