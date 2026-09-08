@@ -22,6 +22,24 @@ TCS' public case study says it helped Lloyds Banking Group establish a GenAI Off
 
 Source: https://www.tcs.com/what-we-do/industries/banking/case-study/lloyds-banking-group-reimagine-banking-generative-ai
 
+### AmTrust Financial Services — E&S clearance transformation — `public-case-study` / `deployed`
+
+TCS' public case study describes an implemented AI-and-automation transformation for **AmTrust Financial Services' Excess & Surplus (E&S)** insurance clearance process.
+
+TCS states that the solution:
+
+- was implemented in **12 weeks**, followed by rollout across all E&S products
+- uses AI-based classification and extraction from email attachments
+- validates extracted data and automates the clearance workflow
+- routes cases requiring human intervention rather than forcing full automation
+- prepares an account and shell quote for the underwriter after automated processing
+
+TCS reports that underwriting-response turnaround improved from **a few days to same/next day**, with **more than 80% of submissions processed in under four hours** after broker submission. The page also reports increased quote-submission volume over the previous six months and improved quote-to-bind ratio in four of those six months.
+
+Source: https://www.tcs.com/what-we-do/industries/insurance/case-study/amtrust-financial-services-transformation
+
+**Date discipline:** the current TCS case-study page does not expose a publication date in the retrieved public page metadata, so this entry records it as a current public case study without inventing an event date.
+
 ### Tryg — seven-year transformation — `announced`
 
 TCS announced on 2 September 2025 a **seven-year, €550M** agreement with Tryg. TCS says the program applies AI and cloud across the insurer's IT landscape and targets automation of core processes.
