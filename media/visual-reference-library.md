@@ -17,6 +17,7 @@ updated: 2026-09-09
 | **Key elements of agentic AI architecture — Figure 1** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Agentic automation + context fabric + data/governance architecture |
 | **Process context fabric sample — Table 1** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Process, regulation, policies, workflows and exception context |
 | **Data context fabric sample — Table 2** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Data/tool context and governance |
+| **AI project lifecycle — Figure 1** | [How Banks Can Improve Artificial Intelligence ROI](https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi) | Six stages from use-case discovery through PoC, production, go-live and scale |
 | **TCS Cognitive Automation Platform infographic** | [CAP solution page](https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking) | Platform modules, agentic orchestration and transformation capabilities |
 | **TCS AI Architecture for BFSI — Figure 5** | [Generative AI in Finance](https://www.tcs.com/what-we-do/industries/banking/white-paper/generative-ai-finance-insurance-industry) | Enterprise systems → data/models → task agents → AI-augmented work systems |
 | **ABOS layered architecture** | [ABOS article](https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/articles/redefining-banking-intelligence-abos) | Genesis, hyper-composability, autonomous product, autonomous watchdog and adaptive AI concepts |
@@ -92,6 +93,29 @@ The surrounding text says process context must include regulatory requirements, 
 The surrounding text describes data catalogues/sources, governance policies, role/activity-based access, tool specifications, semantic knowledge and historical examples used to validate task completion.
 
 </details>
+
+---
+
+## AI project lifecycle — Figure 1
+
+**Official visual:** **“Figure 1: Lifecycle stages in an AI project”** on [How Banks Can Improve Artificial Intelligence ROI](https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi).
+
+The public figure describes six stages:
+
+```mermaid
+flowchart LR
+  A[Use-case identification]
+  B[Use-case prioritization]
+  C[PoC scoping, execution and evaluation]
+  D[Production deployment]
+  E[Go-live / operationalization]
+  F[Scale-up]
+  A --> B --> C --> D --> E --> F
+```
+
+**Study reconstruction only.** The surrounding TCS text adds the operational controls that make the figure especially useful: security/compliance evaluation, human-vs-AI task boundaries, end-to-end testing, explainability, quality monitoring, guardrail adjustment, operational ownership, KPI redesign and centralized AI-CoE scaling.
+
+Deep note: [[research/ai-roi-lifecycle-and-coe]]
 
 ---
 
