@@ -1,186 +1,143 @@
 ---
-tags: [ai, agentic-ai, bfsi, architecture, governance]
+tags: [tcs, bfsi, agentic-ai, architecture, governance, public-intelligence]
+updated: 2026-09-09
 ---
 
-# Agentic AI Architecture for BFSI
+# TCS BFSI Agentic AI — Public Architecture Signals
 
-[[index|← Home]] · [[bfsi/risk-compliance-ai]] · [[tcs/tcs-bfsi-ai-offerings]]
+[[index|← Home]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/risk-compliance-ai]]
 
-## Reference architecture
+This page is a **cross-source map of architecture terms and capabilities that TCS publicly describes**. It is not an internal TCS reference architecture and does not claim that every deployment uses all components.
+
+## 1. Agent orchestration / agent mesh
+
+TCS Cognitive Automation Platform publicly describes:
+
+- multi-agent orchestration through an **agentic mesh**
+- an agent marketplace with **200+ pre-built reusable domain-trained agents**
+- agent studio/builder capabilities
+- coordination across business and IT workflows
+- human approvals/overrides
+
+Source: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+
+## 2. Context and enterprise knowledge
+
+TCS' BFSI **Context Fabric** white paper describes a contextual layer combining domain, process, data and regulatory context for agentic workflows such as credit risk, AML/compliance and financial advisory.
+
+Source: https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi
+
+CAP also publicly references business-context knowledge models, RAG and knowledge-fabric patterns.
+
+Source: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+
+## 3. Composite AI
+
+TCS AI Spectrum for BFSI is publicly described as combining **predictive AI + generative AI**. TCS says it leverages the NVIDIA ecosystem for enterprise/domain AI.
+
+Source: https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi
+
+TCS insurance thought leadership similarly discusses composite AI in claims alongside technologies such as geospatial data, wearables and digital twins.
+
+Source: https://www.tcs.com/what-we-do/industries/insurance/white-paper/ai-agents-insurance-claims-function
+
+## 4. Model / agent ecosystem
+
+Public TCS partnerships expose a multi-model ecosystem rather than a single-model strategy:
+
+- Claude / Anthropic
+- Mistral Forge
+- Gemini Enterprise / Google Cloud
+- NVIDIA AI Enterprise ecosystem
+- Microsoft AI/cloud
+- OpenAI partnership at company level
+
+See [[tcs/ai-partnerships]] for exact status and source boundaries.
+
+## 5. Governance, guardrails and observability
+
+Public TCS material repeatedly references:
+
+- guardrails and policy controls
+- governance and observability
+- continuous evaluation
+- human approvals / overrides
+- audit logging
+- responsible / traceable / explainable AI
+- PII/security controls
+- monitoring and regulatory alignment
+
+Primary sources:
+- CAP: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+- BaNCS AI Compass: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation
+- Risk Live 2026 agenda: https://www.tcs.com/who-we-are/events/tcs-at-risk-live-north-america-2026
+
+## 6. Core BFSI platform integration
+
+TCS public material connects AI capabilities with its BFSI platforms:
+
+- TCS BaNCS AI Compass as an AI core for BaNCS
+- TCS BaNCS IX GenAI agents
+- Quartz Intelligent Insights
+- TCS BaNCS availability at the Bengaluru BFSI Gemini Experience Center
+- Quartz AI + DLT across compliance, surveillance, digital assets/currencies
+
+See [[tcs/tcs-bfsi-ai-offerings]].
+
+## 7. Cloud / infrastructure layer
+
+Public TCS signals include:
+
+- hyperscaler/on-premises deployment support in CAP
+- Google Cloud/Gemini centers and accelerators
+- AWS-based wealth/fraud solutions demonstrated at the AWS Financial Services Symposium
+- NVIDIA-based AI Spectrum
+- HyperVault AI data-center infrastructure
+
+Sources:
+- https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+- https://www.tcs.com/who-we-are/events/tcs-at-aws-financial-services-symposium-2026
+- https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana
+
+## Cross-source public stack map
+
+The diagram below is a **repository synthesis of published TCS components**, not a diagram published by TCS.
 
 ```mermaid
-flowchart LR
-    U[User / Event] --> G[API + Identity Gateway]
-    G --> O[Agent Orchestrator]
-    O --> C[Context Fabric]
-    O --> P[Policy Engine]
-    O --> R[Reasoning / Planning]
-    R --> T[Tool Registry]
-    T --> S1[Banking Systems]
-    T --> S2[Data / Search]
-    T --> S3[Workflow / Case Mgmt]
-    C --> K[Knowledge + Ontology + Regulatory Context]
-    P --> H{Human approval required?}
-    H -->|Yes| M[Maker / Checker]
-    H -->|No| A[Execute Action]
-    M --> A
-    O --> E[Evaluation + Observability]
-    A --> L[Immutable Audit / Evidence]
-    E --> L
+flowchart TB
+    Channels[Customer / employee / operations channels]
+    Workflows[BFSI business workflows]
+    Agents[Agent orchestration / agent mesh]
+    Context[Context fabric / enterprise knowledge / RAG]
+    Models[Predictive AI + GenAI + partner models]
+    Controls[Guardrails / policy / governance / observability / human oversight]
+    Platforms[BaNCS / Quartz / enterprise systems]
+    Cloud[Cloud + AI infrastructure / HyperVault]
+
+    Channels --> Workflows
+    Workflows --> Agents
+    Agents --> Context
+    Context --> Models
+    Agents --> Controls
+    Models --> Controls
+    Agents --> Platforms
+    Platforms --> Cloud
 ```
 
-## 1. Identity and authorization
+## BFSI processes explicitly named in public TCS sources
 
-An agent must never have more authority than the user/workflow it represents.
+- KYC / periodic KYC
+- AML
+- creditworthiness / lending / real-time loan decisions
+- credit risk
+- fraud monitoring / investigation
+- trade-finance screening
+- customer service/contact center
+- underwriting
+- claims
+- wealth advisory
+- transfer agency
+- securities/corporate actions
+- compliance/KYC and surveillance through Quartz
 
-Design for:
-
-- workload identity
-- RBAC/ABAC
-- tenant/client isolation
-- scoped credentials
-- short-lived tokens
-- action-level entitlements
-
-## 2. Orchestrator
-
-Responsibilities:
-
-- task decomposition
-- state management
-- routing
-- retry/recovery
-- budget/latency constraints
-- human handoff
-
-Avoid letting an LLM implicitly own all workflow state.
-
-## 3. Context fabric
-
-The context layer should make business meaning available at runtime.
-
-Potential context dimensions:
-
-- customer/account/case
-- product
-- process state
-- business ontology
-- policy/regulation
-- geography/jurisdiction
-- effective dates
-- user authorization
-- historical decisions
-- source provenance
-
-This connects directly to TCS' public BFSI discussion of context fabric.
-
-## 4. Reasoning and planning
-
-Use bounded planning:
-
-- explicit goal
-- allowed actions
-- maximum steps
-- cost/latency budget
-- stopping criteria
-- escalation criteria
-
-## 5. Tool registry
-
-Every tool should define:
-
-- schema
-- owner
-- permission
-- side effects
-- timeout
-- retry behavior
-- idempotency
-- approval requirement
-- audit requirements
-
-Separate **read tools** from **write/transaction tools**.
-
-## 6. Policy engine
-
-Do not encode critical BFSI controls only in prompts.
-
-Externalize important constraints into deterministic policy/rule checks:
-
-- transaction thresholds
-- product eligibility
-- jurisdiction restrictions
-- segregation of duties
-- customer consent
-- mandatory evidence
-- model/agent allow lists
-
-## 7. Human-in-the-loop
-
-Use risk-tiered autonomy.
-
-| Tier | Example | Autonomy |
-|---|---|---|
-| 0 | summarize policy | autonomous |
-| 1 | recommend case priority | autonomous + reviewable |
-| 2 | propose credit/compliance action | human approval |
-| 3 | financial/regulated irreversible action | maker-checker / deterministic controls |
-
-## 8. Evaluation
-
-Evaluate the **workflow**, not just the model.
-
-Metrics:
-
-- task success
-- groundedness
-- source correctness
-- policy compliance
-- tool-call correctness
-- false-positive / false-negative impact
-- human override rate
-- escalation quality
-- latency
-- token/inference cost
-- failure recovery
-
-## 9. Observability
-
-Capture:
-
-- trace ID
-- prompts/context references
-- model/version
-- tool calls
-- policy decisions
-- human approvals
-- output validation
-- latency/cost
-- errors/retries
-- final business outcome
-
-## 10. Audit evidence
-
-For regulated workflows, preserve enough information to reconstruct:
-
-**what the agent knew → what it decided → what policy applied → who approved → what action occurred**.
-
-## Production-readiness checklist
-
-- [ ] threat model
-- [ ] PII/data classification
-- [ ] prompt-injection tests
-- [ ] tool permissions reviewed
-- [ ] deterministic policy checks
-- [ ] eval dataset
-- [ ] failure-mode tests
-- [ ] human escalation path
-- [ ] tracing/metrics
-- [ ] cost budget
-- [ ] audit retention
-- [ ] rollback/kill switch
-- [ ] model/version governance
-
-## First portfolio implementation
-
-Build a **Regulatory Change Impact Agent** because it demonstrates domain context, retrieval, structured extraction, policy mapping, human approval, lineage and evaluation without needing access to private banking transactions.
+See [[bfsi/banking-ai]], [[bfsi/insurance-ai]], [[bfsi/capital-markets-ai]] and [[bfsi/risk-compliance-ai]].
