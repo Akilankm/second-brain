@@ -1,151 +1,123 @@
 ---
-tags: [bfsi, domain, banking, insurance, capital-markets]
+tags: [bfsi, domain-map, tcs, ai, public-intelligence]
+updated: 2026-09-09
 ---
 
-# BFSI Domain Map for an AI Engineer
+# TCS BFSI AI — Domain Intelligence Map
 
-[[index|← Home]] · [[bfsi/risk-compliance-ai]] · [[tcs/tcs-bfsi-ai-offerings]]
+[[index|← Home]] · [[tcs/tcs-bfsi-ai-offerings]] · [[news/timeline]]
 
-## Mental model
-
-Do not learn BFSI as a list of terms. Learn it as **value chains, decisions, controls, data and failure modes**.
+This page is a navigation map of publicly documented TCS AI activity across BFSI.
 
 ## Banking
 
-### Retail banking
+See [[bfsi/banking-ai]].
 
-Customer lifecycle:
+Public TCS AI topics currently include:
 
-`Acquire → KYC → Account → Transact → Borrow → Service → Retain/Exit`
-
-AI opportunities:
-
-- onboarding/KYC document intelligence
-- next-best action
-- customer service copilot
-- lending decision support
-- collections prioritization
-- fraud/scam detection
-- complaint analysis
-
-### Commercial / corporate banking
-
-Core areas:
-
-- cash management
-- trade finance
-- commercial lending
-- treasury
-- payments
-- relationship management
-
-AI opportunities:
-
-- credit memo generation
-- covenant monitoring
-- trade-document checking
-- relationship intelligence
-- payment anomaly detection
-
-## Risk
-
-Major classes:
-
+- customer onboarding / KYC
+- periodic KYC
+- lending, creditworthiness and loan decisioning
 - credit risk
-- market risk
-- liquidity risk
-- operational risk
-- model risk
-- cyber/technology risk
-- third-party risk
+- fraud detection / investigation
+- AML and compliance
+- payments
+- mortgage operations
+- trade-finance screening
+- customer service / contact centers
+- wealth/advisory
+- core modernization and TCS BaNCS
+- AI-ready data and context layers
 
-AI value comes from earlier detection, better prioritization and faster investigation—but regulated decisions need traceability and human-control design.
-
-## Compliance / Financial crime
-
-Processes:
-
-- KYC / customer due diligence
-- AML transaction monitoring
-- sanctions screening
-- adverse media
-- suspicious activity investigation
-- regulatory reporting
-- conduct surveillance
-
-See [[bfsi/risk-compliance-ai]].
-
-## Capital markets / securities
-
-Value chain:
-
-`Research/Advice → Order → Execution → Clearing → Settlement → Custody → Reporting`
-
-AI opportunities:
-
-- surveillance
-- research assistance
-- document analysis
-- compliance monitoring
-- operations exception management
+Primary references:
+- https://www.tcs.com/what-we-do/industries/banking
+- https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+- https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi
 
 ## Insurance
 
-Value chain:
+See [[bfsi/insurance-ai]].
 
-`Product → Distribution → Underwriting → Policy Admin → Billing → Claims → Renewal`
+Public TCS AI topics currently include:
 
-AI opportunities:
+- underwriting
+- claims processing
+- intelligent document processing
+- customer service / contact centers
+- complaint handling
+- call-quality verification
+- policy/operations modernization
+- fraud
+- risk/compliance
+- agentic/composite AI for claims
+- AI-first insurance operating models
 
-- underwriting assistance
-- claims triage
-- document ingestion
-- fraud detection
-- service automation
-- retention/next-best action
+Primary references:
+- https://www.tcs.com/what-we-do/industries/insurance
+- https://www.tcs.com/what-we-do/industries/insurance/white-paper/ai-agents-insurance-claims-function
+- https://www.tcs.com/who-we-are/events/tcs-at-itc-vegas-2026
 
-## Cross-cutting enterprise processes
+## Capital markets / securities / wealth
 
-- finance
-- HR
-- procurement
-- legal
-- IT operations
-- software engineering
-- cybersecurity
-- knowledge management
+See [[bfsi/capital-markets-ai]].
 
-## Every BFSI AI use case should answer
+Public TCS AI topics currently include:
 
-1. What business decision or process step changes?
-2. What is the current baseline time/cost/error/loss?
-3. What data is authoritative?
-4. What regulation/control applies?
-5. What can AI recommend versus execute?
-6. What evidence must be retained?
-7. What is the human escalation path?
-8. What KPI proves value?
+- post-trade and securities operations
+- custody / asset servicing
+- corporate actions
+- transfer agency
+- wealth advisory
+- market surveillance
+- KYC/compliance
+- digital assets and tokenization
+- digital currencies / tokenized deposits / stablecoins / CBDCs
+- AI + DLT through Quartz
 
-## Business KPIs to recognize
+Primary references:
+- https://www.tcs.com/what-we-do/industries/capital-markets
+- https://www.tcs.com/who-we-are/events/tcs-bancs-quartz-sibos-2026-miami
+- https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-leader-capital-markets-operations-services-everest-group
 
-- cost-to-income ratio
-- turnaround time
-- straight-through-processing rate
-- false-positive rate
-- fraud loss
-- credit loss / delinquency
-- approval rate
-- customer effort / NPS
-- first-contact resolution
-- claims cycle time
-- compliance exceptions
-- analyst/investigator productivity
+## Risk, compliance and responsible AI
 
-## Learning order
+See [[bfsi/risk-compliance-ai]] and [[regulations/india-ai-bfsi]].
 
-1. [[bfsi/risk-compliance-ai|Risk & compliance]]
-2. retail banking + lending
-3. payments + fraud
-4. insurance claims/underwriting
-5. capital markets operations
-6. enterprise service operations
+Public TCS material covers:
+
+- agentic AI governance
+- policy controls / guardrails
+- model and agent observability
+- human approvals / overrides
+- auditability / traceability
+- explainability
+- PII/security controls
+- AML / KYC
+- fraud / surveillance
+- regulatory context in agent decisioning
+
+Primary references:
+- https://www.tcs.com/who-we-are/events/tcs-at-risk-live-north-america-2026
+- https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi
+- https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+
+## Cross-domain TCS platforms
+
+| Public TCS asset | Banking | Insurance | Capital markets / wealth | Source |
+|---|---:|---:|---:|---|
+| Cognitive Automation Platform | ✓ | ✓ | ✓ | https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking |
+| TCS AI Spectrum for BFSI | ✓ | BFSI-level | BFSI-level | https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi |
+| TCS BaNCS AI Compass | ✓ | — | ✓ | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation |
+| TCS BaNCS IX | ✓ / financial institutions | ✓ pilots/projects cited | — | https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting |
+| Quartz Intelligent Insights | financial institutions | — | ✓ | same announcement above |
+| Quartz AI + DLT | — | — | ✓ | https://www.tcs.com/who-we-are/events/tcs-bancs-quartz-sibos-2026-miami |
+
+A dash means the cited public source does not establish the domain use; it does not mean the technology cannot be used there.
+
+## Public implementation evidence
+
+See [[bfsi/public-implementations]] for named and anonymized public cases, including Lloyds Banking Group and published CAP examples.
+
+## Related
+
+[[tcs/tcs-ai-strategy]] · [[tcs/ai-partnerships]] · [[ai/agentic-ai-bfsi-architecture]] · [[sources/source-catalog]]
