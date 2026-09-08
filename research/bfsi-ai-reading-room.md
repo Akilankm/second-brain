@@ -17,6 +17,7 @@ mindmap
     Enterprise AI
       End of AI pilots
       AI investment ROI
+      AI lifecycle + AI-CoE
       GenAI adoption strategy
       GenAI architecture
     Agentic AI
@@ -232,6 +233,41 @@ Authors/public biographies include:
 This makes the paper useful not only for ROI concepts but for understanding publicly visible intersections between advanced quant/data-science and the wider BFSI Data & Analytics group.
 
 Related: [[people/public-capability-network]]
+
+---
+
+## 7A. How Banks Can Improve Artificial Intelligence ROI
+
+**Priority:** ⭐⭐⭐⭐⭐  
+**Evidence type:** `thought-leadership / operating-model / production-AI lifecycle`  
+**Open:** https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi
+
+### Why this is unusually useful
+
+TCS explicitly describes a six-stage lifecycle from use-case discovery through prioritization, PoC, production deployment, go-live and scale. The paper is especially valuable because it exposes what TCS publicly treats as necessary for moving AI beyond a successful demo:
+
+- end-to-end workflow integration
+- security and regulatory-compliance evaluation during PoC
+- explicit human-vs-AI task boundaries
+- production edge-case testing
+- explainability and user trust
+- continuous quality monitoring and human sampling
+- guardrail adjustment and model fine-tuning
+- flexible architecture for regulation/model/workflow changes
+- operational ownership and KPI redesign at go-live
+- centralized scaling through an AI Center of Excellence
+
+### AI-CoE signal
+
+The paper recommends that financial-services firms establish a centralized **AI Center of Excellence (AI-CoE)** that oversees AI projects, shares experience, manages common compute/software/data-governance resources and concentrates deep AI skills while business functions retain domain expertise.
+
+**Interpretation boundary:** this is TCS-authored advice for client operating models, not evidence of TCS' own internal reporting structure.
+
+### Named public author
+
+Dr. Rohit Lotlikar — Senior Data Science Architect in the Advanced Analytics Practice of the Data & Analytics Group of TCS' BFSI business unit.
+
+Deep note: [[research/ai-roi-lifecycle-and-coe]] · visual: [[media/visual-reference-library#ai-project-lifecycle--figure-1]]
 
 ---
 
@@ -457,6 +493,13 @@ flowchart LR
 ```mermaid
 flowchart LR
   A[BFSI Analytics & Insights] --> B[Data Mesh] --> C[AI-ready MDM] --> D[AQuA volatility risk] --> E[Portfolio-management AI] --> F[Composite AI / AI Spectrum]
+```
+
+## Productionization-first path
+
+```mermaid
+flowchart LR
+  A[4-pillar AI ROI] --> B[AI lifecycle + AI-CoE] --> C[End of AI pilots] --> D[Context Fabric] --> E[CAP / reusable controls] --> F[Scaled enterprise AI]
 ```
 
 ## Banking-platform-first path
