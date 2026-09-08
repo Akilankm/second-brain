@@ -5,9 +5,9 @@ updated: 2026-09-09
 
 # TCS AI + BFSI — Public Initiative Index
 
-[[index|← Home]] · [[news/timeline]] · [[sources/source-catalog]]
+[[index|← Home]] · [[news/timeline]] · [[atlas/architecture-atlas]] · [[bfsi/use-case-atlas]] · [[media/watchlist]] · [[sources/source-catalog]]
 
-Master index of the public TCS AI/BFSI initiatives captured in this repository. This is an inventory, not a claim that the list represents internal TCS programs.
+Master index of the public TCS AI/BFSI initiatives captured in this repository. This is an inventory of public evidence, **not a claim that the list represents internal TCS programs or internal architecture**.
 
 ## Company-level AI strategy and infrastructure
 
@@ -21,18 +21,24 @@ Master index of the public TCS AI/BFSI initiatives captured in this repository. 
 | Odisha AI-enabled governance platform | 2026-09-08 | announced | ₹122 crore bid win | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-wins-122-crore-bid-build-ai-enabled-digital-governance-platform-odisha-government |
 | UK AI-native creative engineering studio | 2026-09-07 | announced | new AI-native studio | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-ai-native-creative-engineering-studio-uk |
 
-## BFSI AI products / platforms
+## BFSI AI products, architectures and public concepts
 
 | Product / initiative | Status | Publicly described scope | Primary source |
 |---|---|---|---|
 | TCS Cognitive Automation Platform | live capability | agentic mesh, 200+ reusable agents, governance/observability, 60+ wins, 30+ live implementations | https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking |
+| TCS Unified Workbench | product capability / official video | BFSI operations workbench powered by Cognitive Automation Platform; workflow/RPA + NLP/ML/GenAI/Agentic AI | https://www.youtube.com/watch?v=JxAbHkb3rvg |
 | TCS AI Spectrum for BFSI | live capability | composite predictive AI + GenAI; NVIDIA ecosystem | https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi |
-| TCS BaNCS AI Compass | announced/live capability | AI core for banking, securities, wealth; ML/DL/GenAI/agents; guardrails/audit | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation |
+| TCS GenAI for BFSI | public capability | assist → augment → transform; polyglot architecture; machine-first/human-in-the-loop; enterprise guardrails | https://www.tcs.com/what-we-do/industries/banking/genai-insurance-banking-financial-services |
+| TCS BaNCS AI Compass | announced/live capability | AI core for banking, securities, wealth; ML/DL/GenAI/agents; responsible/explainable/traceable AI | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation |
+| ABOS — fully agentic AI-driven bank operating platform | thought-leadership/product concept | Genesis, hyper-composability, autonomous product, autonomous watchdog and adaptive-AI layers | https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/articles/redefining-banking-intelligence-abos |
 | TCS BaNCS IX GenAI | announced/live capability | GenAI agents for financial-institution experiences/workflows | https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting |
 | Quartz Intelligent Insights | announced/live capability | GenAI across structured/unstructured/DLT/big-data information | same source as BaNCS IX announcement |
 | Quartz AI + DLT | live capability/public event | digital assets/currencies, compliance/KYC, surveillance, market intelligence | https://www.tcs.com/who-we-are/events/tcs-bancs-quartz-sibos-2026-miami |
-| TCS AI WisdomNext | cross-industry live capability | model/agent orchestration and governed GenAI; cited in wealth advisory context | https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-leader-capital-markets-operations-services-everest-group |
-| Context Fabric for Agentic AI in BFSI | thought leadership | domain/process/data/regulatory context for agentic workflows | https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi |
+| TCS AI WisdomNext | cross-industry live capability | model/agent/data orchestration, governance, observability, cost visibility and reusable workflows | https://www.tcs.com/what-we-do/services/artificial-intelligence/solution/enterprise-generative-ai-adoption-wisdomnext |
+| Context Fabric for Agentic AI in BFSI | thought leadership | semantic/adaptive process, regulatory, domain, data and tool context for agentic workflows | https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi |
+| Modern MDM for AI-ready BFSI data | thought leadership | cloud-native MDM, data quality/governance/customer-360; agentic AI direction for data lifecycle | https://www.tcs.com/what-we-do/industries/banking/white-paper/modern-mdm-ai-ready-enterprise-data-bfsi |
+
+See [[atlas/architecture-atlas]] for Mermaid study reconstructions of the public architecture concepts and [[tcs/public-language-glossary]] for terminology.
 
 ## AI ecosystem partnerships
 
@@ -55,11 +61,13 @@ Master index of the public TCS AI/BFSI initiatives captured in this repository. 
 | Customer / description | Domain | Status | Public evidence | Primary source |
 |---|---|---|---|---|
 | Lloyds Banking Group | banking | public case study | GenAI Office; 50+ use cases; >$50M business value reported by TCS | https://www.tcs.com/what-we-do/industries/banking/case-study/lloyds-banking-group-reimagine-banking-generative-ai |
+| Momentum Metropolitan Life | insurance | deployed/public case study | conversational AI deployed across web, WhatsApp and Facebook; TCS says pilot-to-production in four months | https://www.tcs.com/what-we-do/industries/insurance/case-study/reimagining-client-experience-conversational-ai |
 | DNB Bank ASA | banking | announced | five-year extension; modernization/security/AI/quantum exploration | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-extends-partnership-with-dnb-bank-asa-5-years-power-next-gen-banking-innovation |
 | Khan Bank | banking | announced | BaNCS modernization; AI/ML framing | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-partners-with-khan-bank-future-proof-operations-enhance-customer-experience-propel-innovation-leveraging-ai-ml |
 | Tryg | insurance | announced | seven-year €550M transformation using AI/cloud | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-partners-tryg-deal-propel-growth-comprehensive-digital-transformation-over-next-7-years |
 | Canada Life | insurance | announced | multimillion-euro AI-powered services transformation | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-wins-multimillion-euro-ai-powered-services-transformation-deal-canada-life |
 | Tier-1 insurer customers | insurance | pilot/project evidence | two pilots + three projects stated with BaNCS IX/Quartz GenAI announcement | https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting |
+| Leading financial institution in India | banking/financial services | public article example | TCS BaNCS article says AI agents optimize onboarding/KYC paths and sequence lending/investment/insurance offers | https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/articles/agentic-ai-human-centric-engagement-financial-services |
 | Top-five US bank | banking | public case study | 5.6M+ payment docs/month; TCS-reported cost/time-to-market outcomes | https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking |
 | Top-five US life insurer | insurance | public case study | 100% automated call-quality verification stated by TCS | same CAP source |
 | Top-five US P&C insurer | insurance | public case study | 1M+ docs/month; 60% processing-cost reduction stated by TCS | same CAP source |
@@ -67,17 +75,21 @@ Master index of the public TCS AI/BFSI initiatives captured in this repository. 
 | Major US advisory firm | financial services | public case study | 95.6% straight-through onboarding stated by TCS | same CAP source |
 | Australian financial-services firm | financial services | public case study | efficiency/automation/CSAT/cost metrics reported by TCS | same CAP source |
 
-See [[bfsi/public-implementations]] for detailed attribution.
+See [[bfsi/public-implementations]] and [[bfsi/use-case-atlas]] for detailed attribution and domain mapping.
 
-## Near-term public BFSI agenda
+## Public event / demonstration signals
 
-| Date | Event | Status | Published AI/BFSI focus | Source |
+| Date | Public event / signal | Status | Published AI/BFSI focus | Source |
 |---|---|---|---|---|
+| 2026 — completed | AWS Financial Services Symposium | completed public event | Anthropic + CardWorks panel on agentic AI PoC→production; TCS/AWS session on AI at scale; AWS-based wealth-advisory and fraud-detection solutions | https://www.tcs.com/who-we-are/events/tcs-at-aws-financial-services-symposium-2026 |
+| 2025-09-07–17 | BFSI AI Symposium, Singapore | completed public event | 80+ financial-services executives; responsible AI; IT organization for AI adoption; operational efficiency | https://www.linkedin.com/posts/tata-consultancy-services-asia-pacific_tcs-tcssg-bfsi-activity-7373938613199400960-FsZZ |
 | 2026-09-24 | Risk Live North America | planned | risk/compliance agentic AI; governance, monitoring, auditable models, human oversight | https://www.tcs.com/who-we-are/events/tcs-at-risk-live-north-america-2026 |
 | 2026-09-28–10-01 | Sibos | planned | BaNCS payments/securities; Quartz AI+DLT, KYC/compliance, surveillance | https://www.tcs.com/who-we-are/events/tcs-bancs-quartz-sibos-2026-miami |
 | 2026-09-29–10-01 | ITC Vegas | planned | AI-first insurance with Anthropic, AWS, FICO | https://www.tcs.com/who-we-are/events/tcs-at-itc-vegas-2026 |
 | 2026-10-26 | ABA Annual Convention | planned | AI, core modernization, tokenization/stablecoins, risk | https://www.tcs.com/who-we-are/events/tcs-bancs-at-aba-annual-convention-2026 |
 
+See [[events/public-event-watch]] for the richer agenda graph and [[media/watchlist]] for watchable assets/posts.
+
 ## Related
 
-[[dashboards/tcs-bfsi-ai-radar]] · [[tcs/tcs-ai-strategy]] · [[tcs/tcs-bfsi-ai-offerings]] · [[tcs/ai-partnerships]] · [[bfsi/public-implementations]]
+[[dashboards/tcs-bfsi-ai-radar]] · [[tcs/tcs-ai-strategy]] · [[tcs/tcs-bfsi-ai-offerings]] · [[tcs/ai-partnerships]] · [[atlas/architecture-atlas]] · [[bfsi/use-case-atlas]] · [[media/watchlist]] · [[people/public-voices]]
