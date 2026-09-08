@@ -26,6 +26,7 @@ flowchart TB
     PRAS[Prasad Chitta\nChief Architect — AI & analytics strategy]
     IND[Indra Chourasia\nIndustry Advisor]
     VISH[Vishal Singh\nAnalytics / CDO initiatives — UK & Europe]
+    ROH[Rohit Lotlikar\nSenior Data Science Architect\nAdvanced Analytics]
   end
 
   subgraph AQUA[Advanced Quantz & Analytics / Data Science]
@@ -167,6 +168,27 @@ This older public asset is valuable because it reveals that the current agentic/
 
 ---
 
+## Dr. Rohit Lotlikar
+
+**Public TCS role:** Senior Data Science Architect in the **Advanced Analytics Practice of the Data & Analytics Group of TCS' BFSI business unit**.
+
+**TCS-published background:** more than 25 years across data science, machine learning and related technologies; works with BFSI clients on complex advanced-analytics engagements.
+
+**Public topic signal:**
+- AI investment ROI
+- production AI lifecycle
+- PoC-to-production transition
+- human-in-the-loop design
+- continuous AI quality monitoring
+- guardrails and explainability
+- centralized AI-CoE operating models
+
+**Primary source:** [How Banks Can Improve Artificial Intelligence ROI](https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi)
+
+Related: [[research/ai-roi-lifecycle-and-coe]]
+
+---
+
 # Advanced Quantz & Analytics / Data Science cluster
 
 ## Jatinder Singh Sidhu
@@ -277,7 +299,7 @@ Sources:
 | Public cluster | Representative public people/assets | Repeated topics |
 |---|---|---|
 | BFSI business/executive | Susheel Vasudevan, Shankar Narayanan, Babu Unnikrishnan | scaled transformation, strategy, cloud/AI, regulated production |
-| Data & Analytics | Prab Pitchandi, Prasad Chitta, Indra Chourasia, Vishal Singh | AI strategy, context, governance, data architecture, risk, capital markets |
+| Data & Analytics | Prab Pitchandi, Prasad Chitta, Indra Chourasia, Vishal Singh, Rohit Lotlikar | AI strategy, context, governance, data architecture, production lifecycle, risk, capital markets |
 | AQuA / Data Science | Jatinder Sidhu, Baljeet Saini, Sreeja Ashok, Vikrant Karale | quant engineering, ML engineering, risk modelling, portfolio optimization |
 | Product/platform | BaNCS, AI Compass, ABOS, Quartz, Subrato Bhattacharya | transaction platforms, embedded AI/agents, market infrastructure |
 | Cross-enterprise AI/cloud | AI.Cloud, Cloud Unit, WisdomNext, partner ecosystems | orchestration, models, cloud, governance, enterprise AI |
