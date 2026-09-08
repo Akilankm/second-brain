@@ -5,7 +5,7 @@ updated: 2026-09-09
 
 # TCS AI + BFSI — Public Intelligence Graph
 
-> A deeply curated, source-backed Foam knowledge graph of **publicly documented TCS artificial intelligence activity**, with a concentrated view of banking, financial services, insurance, capital markets, risk, compliance, platforms, architecture, partnerships, customer evidence, public voices, videos, visuals and events.
+> A deeply curated, source-backed Foam knowledge graph of **publicly documented TCS artificial intelligence activity**, with concentrated coverage of banking, financial services, insurance, capital markets, risk, compliance, products, architecture, partners, public customer evidence, expert networks, videos, visuals, research and events.
 
 [![Foam](https://img.shields.io/badge/Knowledge_Graph-Foam-6f42c1)](https://foambubble.github.io/foam/) ![Public Sources](https://img.shields.io/badge/Evidence-Public_Sources_only-success) ![Focus](https://img.shields.io/badge/Focus-TCS_AI_%2B_BFSI-blue)
 
@@ -16,8 +16,11 @@ updated: 2026-09-09
 | [[dashboards/tcs-bfsi-ai-radar|📡 Current radar]] | What the highest-signal public TCS BFSI AI facts are right now |
 | [[news/timeline|🕒 Public timeline]] | What happened, in chronological order |
 | [[tcs/public-ai-initiative-index|🧭 Master initiative index]] | What TCS has publicly announced, launched, deployed, partnered on or planned |
+| [[intelligence/public-operating-model-inference|🧠 Public-evidence inference layer]] | What higher-order operating-model patterns emerge when many public sources are connected |
 | [[atlas/architecture-atlas|🏗 Architecture atlas]] | How TCS publicly describes AI/BFSI architecture and how the pieces connect |
-| [[bfsi/use-case-atlas|🧩 BFSI use-case atlas]] | Which public TCS capabilities/examples map to banking, insurance, risk and markets |
+| [[bfsi/use-case-atlas|🧩 BFSI use-case atlas]] | Which public capabilities/examples map to banking, insurance, risk and markets |
+| [[people/public-capability-network|🕸 Public capability network]] | Which publicly named expert/capability clusters repeatedly appear around BFSI AI |
+| [[research/bfsi-ai-reading-room|📚 Research reading room]] | Which TCS papers/journals contain the densest architecture, governance, data and operating-model information |
 | [[media/watchlist|▶ Curated watchlist]] | Which official videos, event watch pages, journals and public posts are worth opening |
 | [[media/visual-reference-library|🖼 Visual reference library]] | Where the official public diagrams, figures and infographics are |
 | [[tcs/public-language-glossary|📖 Public vocabulary glossary]] | What TCS-specific AI/BFSI words and product terms mean in public material |
@@ -59,6 +62,11 @@ flowchart TB
   TECH --> AGENT[Agentic/context architecture]
   TECH --> VIS[Official visual references]
 
+  HOME --> DEEP[Deep-context layer]
+  DEEP --> INF[Evidence-backed inference]
+  DEEP --> NET[Public capability network]
+  DEEP --> READ[Research reading room]
+
   HOME --> MEDIA[Public media]
   MEDIA --> WATCH[Videos / watchlist]
   MEDIA --> VOICES[Authors / speakers]
@@ -84,13 +92,19 @@ flowchart TB
 
 # BFSI domain graph
 
-- [[bfsi/domain-map]] — banking/insurance/capital-markets map
+- [[bfsi/domain-map]]
 - [[bfsi/banking-ai]]
 - [[bfsi/insurance-ai]]
 - [[bfsi/capital-markets-ai]]
 - [[bfsi/risk-compliance-ai]]
 - [[bfsi/use-case-atlas]] — cross-domain use-case matrix
 - [[bfsi/public-implementations]] — implementation/case evidence and public outcomes
+
+# Deep-context layer
+
+- [[intelligence/public-operating-model-inference]] — public evidence → repeated patterns → hypotheses → confidence → falsifiers
+- [[people/public-capability-network]] — thematic network spanning BFSI business, Data & Analytics, Advanced Quant/Data Science, BaNCS/platforms, AI.Cloud/cloud and innovation labs
+- [[research/bfsi-ai-reading-room]] — high-density reading paths across architecture, responsible AI, data, quant, BaNCS and enterprise AI
 
 # Architecture and visual understanding
 
@@ -119,8 +133,6 @@ flowchart TB
 
 ## Evidence-status vocabulary
 
-Every substantive item should make its evidence level visible.
-
 | Status | Interpretation |
 |---|---|
 | `live` / `deployed` | Public source explicitly establishes active/production use |
@@ -129,20 +141,21 @@ Every substantive item should make its evidence level visible.
 | `planned` | Future event/program/activity |
 | `public-case-study` | TCS/customer has published implementation evidence |
 | `product-capability` | Product page states the capability; no deployment inferred |
+| `public-demo` | Public event/experience-center/video demonstrates the capability/use case |
 | `thought-leadership` | Architecture, journal, white paper or viewpoint |
-| `analyst-recognition` | Analyst assessment published/quoted by TCS |
+| `analyst-recognition` | Analyst assessment |
 | `regulatory` | Regulator/standards material |
+| `derived-inference` | Cross-source hypothesis with evidence chain, confidence and falsifier |
 
 ## Foam usage
 
-In VS Code:
-
-1. Open this page and use **Foam: Show Graph**.
-2. `Ctrl/Cmd + click` a `[[wikilink]]` to traverse the graph.
-3. Use backlinks to see every place a product, use case, source or public voice is connected.
+1. Open this page and run **Foam: Show Graph**.
+2. `Ctrl/Cmd + click` `[[wikilinks]]` to traverse products → people → architecture → use cases → evidence.
+3. Use backlinks to discover every source or concept connected to a node.
 4. Search tags such as `#agentic-ai`, `#banking`, `#insurance`, `#risk`, `#architecture`, `#public-intelligence`.
-5. Use [[templates/intelligence-note]] when adding a new public fact so date, status, provenance and confidence remain explicit.
+5. Use [[templates/intelligence-note]] for new public facts.
+6. Keep deductions in the dedicated inference layer rather than mixing them into the factual ledger.
 
 ## Public boundary
 
-This knowledge base deliberately contains **public research only**. It excludes internal TCS material, private client/project information, personal employment metadata, confidential architecture, inferred client identities, credentials, rumors and unsupported claims. Mermaid diagrams in the atlas are study reconstructions from cited public sources and are not represented as proprietary TCS diagrams.
+This knowledge base contains **public research only**. It excludes internal TCS material, private client/project information, personal employment metadata, confidential architecture, inferred client identities, credentials, rumors and unsupported claims. Mermaid diagrams are study reconstructions from cited public sources and are not represented as proprietary TCS diagrams. Public professional-network information is used only for work-related topic mapping, never for private/personally sensitive profiling or inferred internal politics.
