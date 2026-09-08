@@ -46,10 +46,11 @@ Install the recommended **Foam** extension. Useful commands:
 
 ## Start here
 
-Open [[index]].
+Open [[index]]. For the fastest complete view, open [[tcs/public-ai-initiative-index]].
 
 ## Main knowledge surfaces
 
+- [[tcs/public-ai-initiative-index]] — master index of captured public initiatives, programs, partnerships, implementations and plans
 - [[dashboards/tcs-bfsi-ai-radar]] — current factual snapshot
 - [[news/timeline]] — chronological public timeline
 - [[tcs/tcs-ai-strategy]] — company-level AI direction and investments
