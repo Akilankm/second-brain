@@ -7,14 +7,16 @@ updated: 2026-09-09
 
 > A source-backed Foam graph of public facts about TCS artificial intelligence, with emphasis on banking, financial services, insurance, capital markets, risk and compliance.
 
-## Current view
+## Start here
 
+- [[tcs/public-ai-initiative-index|Master TCS AI + BFSI initiative index]]
 - [[dashboards/tcs-bfsi-ai-radar|Current TCS BFSI AI radar]]
-- [[news/timeline|Chronological timeline]]
+- [[news/timeline|Chronological public timeline]]
 - [[news/2026-09-09|Current intelligence snapshot — 2026-09-09]]
 
 ## TCS AI
 
+- [[tcs/public-ai-initiative-index|All captured public initiatives, programs and plans]]
 - [[tcs/tcs-ai-strategy|TCS AI strategy, scale and infrastructure]]
 - [[tcs/tcs-bfsi-ai-offerings|TCS BFSI AI products and platforms]]
 - [[tcs/ai-partnerships|AI ecosystem partnerships]]
@@ -45,3 +47,7 @@ updated: 2026-09-09
 ## Evidence boundary
 
 This repository intentionally excludes personal employment context, internal TCS information, non-public client information, private project details, rumors and unsupported claims. Public announcements are labeled according to whether they describe something **live/deployed, in pilot, announced/planned, a public case study, thought leadership, analyst recognition, or regulatory material**.
+
+## Graph rule
+
+A durable factual note should link to related product/domain/source notes so that Foam can answer the same public fact from multiple entry points without duplicating unsupported interpretation.
