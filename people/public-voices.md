@@ -25,6 +25,8 @@ flowchart TB
   SB[S. Baskar\nOpen Finance, BFSI]
   SUB[Subrato Bhattacharya\nTCS BaNCS Banking product management]
   KM[Krishna Mohan\nCloud Unit]
+  PG[Partha Pratim Ghosh\nBFSI Risk Practice]
+  SJ[Sukriti Jalali\nBFSI Innovation]
 
   BFSI --> SV
   BFSI --> SN
@@ -37,6 +39,8 @@ flowchart TB
   BFSI --> SB
   BFSI --> SUB
   BFSI --> KM
+  BFSI --> PG
+  BFSI --> SJ
 ```
 
 ---
@@ -132,6 +136,44 @@ Source: [Context Fabric](https://www.tcs.com/what-we-do/industries/banking/white
 
 ---
 
+## Partha Pratim Ghosh
+
+**Public TCS role on cited material:** consultant in the Risk Practice of TCS' BFSI business unit.
+
+**TCS-published topic context:** large-scale risk transformation with experience spanning market risk, credit risk, financial crime, model risk and risk data management.
+
+**Public AI topic anchors:**
+- Responsible AI in financial-crime compliance
+- AI governance
+- explainability and auditability
+- model risk
+- KYC / AML / sanctions / fraud
+- decision-level audit evidence
+
+Source: [Responsible AI in Financial Crime: Global Compliance and Governance](https://www.tcs.com/what-we-do/industries/banking/white-paper/responsible-ai-financial-crime-global-compliance-governance)
+
+Related: [[research/responsible-ai-financial-crime-governance]] · [[bfsi/risk-compliance-ai]]
+
+---
+
+## Sukriti Jalali
+
+**Public TCS role on cited material:** innovation partner with TCS' BFSI business unit.
+
+**TCS-published topic context:** technology-enabled business transformation across digital and innovation streams; public thought leadership spanning BFSI, digital transformation, IoT, blockchain and AI.
+
+**Public AI topic anchors:**
+- insurance claims transformation
+- composite AI
+- AI agents
+- assist → augment → transform operating model
+- enterprise knowledge fabric
+- human-centric claims automation
+
+Source: [Reimagining the Claims Processing Function with AI Agents](https://www.tcs.com/what-we-do/industries/insurance/white-paper/ai-agents-insurance-claims-function)
+
+---
+
 ## Siva Ganesan
 
 **Public TCS title on cited BFSI GenAI material:** Senior Vice President and Head, AI.Cloud, TCS.
@@ -196,6 +238,8 @@ Source: [TCS Partners with Google Cloud to Accelerate AI-Driven Innovation in Fi
 | Prab Pitchandi | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
 | Prasad Chitta | ✓ | ✓ | ✓ | ✓ | ✓ |  | ✓ |
 | Indra Chourasia | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
+| Partha Pratim Ghosh | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
+| Sukriti Jalali |  | ✓ |  | ✓ |  |  |  |
 | Siva Ganesan | cross-BFSI | cross-BFSI | cross-BFSI | ✓ |  | ✓ |  |
 | Nidhi Srivastava | cross-BFSI | cross-BFSI | cross-BFSI | ✓ |  | ✓ |  |
 | S. Baskar | ✓ |  |  | ✓ |  |  |  |
