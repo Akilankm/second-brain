@@ -18,6 +18,7 @@ updated: 2026-09-09
 | **Process context fabric sample — Table 1** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Process, regulation, policies, workflows and exception context |
 | **Data context fabric sample — Table 2** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Data/tool context and governance |
 | **AI project lifecycle — Figure 1** | [How Banks Can Improve Artificial Intelligence ROI](https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi) | Six stages from use-case discovery through PoC, production, go-live and scale |
+| **Advanced Quantz & Analytics BFSI landscape — Figure 1** | [Advanced Quantz & Analytics](https://www.tcs.com/what-we-do/industries/banking/solution/advanced-quantz-analytics-application) | Quant/data-science capability, venues, GRC/model-risk/front-office functions and analytics output classes |
 | **TCS Cognitive Automation Platform infographic** | [CAP solution page](https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking) | Platform modules, agentic orchestration and transformation capabilities |
 | **TCS AI Architecture for BFSI — Figure 5** | [Generative AI in Finance](https://www.tcs.com/what-we-do/industries/banking/white-paper/generative-ai-finance-insurance-industry) | Enterprise systems → data/models → task agents → AI-augmented work systems |
 | **ABOS layered architecture** | [ABOS article](https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/articles/redefining-banking-intelligence-abos) | Genesis, hyper-composability, autonomous product, autonomous watchdog and adaptive AI concepts |
@@ -116,6 +117,27 @@ flowchart LR
 **Study reconstruction only.** The surrounding TCS text adds the operational controls that make the figure especially useful: security/compliance evaluation, human-vs-AI task boundaries, end-to-end testing, explainability, quality monitoring, guardrail adjustment, operational ownership, KPI redesign and centralized AI-CoE scaling.
 
 Deep note: [[research/ai-roi-lifecycle-and-coe]]
+
+---
+
+## Advanced Quantz & Analytics — Figure 1
+
+**Official visual:** **Figure 1** on the [TCS Advanced Quantz & Analytics solution page](https://www.tcs.com/what-we-do/industries/banking/solution/advanced-quantz-analytics-application).
+
+The page's public description connects the offering to retail/private banks, corporate and investment banking, asset/investment management, insurance and payments; sell-side and buy-side firms; trading venues; and regulatory/market-infrastructure contexts. It also explicitly lists functions such as GRC, front-office quants, model risk, portfolio analytics, financial crime/compliance, forecasting/pricing and data/advanced analytics.
+
+TCS lists output classes including mathematical models, portfolio analytics, data-science models, advanced risk models, graph analytics, XVA, surveillance analytics and econometric/capital models.
+
+```mermaid
+flowchart LR
+  VENUES[BFSI venues / institutions]
+  FUNC[GRC · quants · model risk · portfolio · FCC · pricing]
+  TECH[ML / deep learning / LLM / graph / quantitative engineering]
+  OUT[Risk · portfolio · XVA · surveillance · econometric outputs]
+  VENUES --> FUNC --> TECH --> OUT
+```
+
+**Study reconstruction only.** Deep note: [[research/advanced-quantz-analytics-public-capability]].
 
 ---
 
