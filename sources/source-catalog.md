@@ -75,13 +75,16 @@ This is the canonical source inventory for the graph. Prefer these pages over re
 - Everest: P&C Insurance IT Services — https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-named-leader-property-casualty-insurance-it-services
 - Everest: Capital Markets Operations — https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-leader-capital-markets-operations-services-everest-group
 
-## India regulators
+## India regulators and regulator-published AI material
 
 - RBI — https://www.rbi.org.in/
-- RBI reports/publications — https://m.rbi.org.in/scripts/bs_viewpublicationreport.aspx
+- RBI reports/publications / FREE-AI listing — https://m.rbi.org.in/scripts/bs_viewpublicationreport.aspx
+- RBI bulletin reference describing MuleHunter.AI — https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=23057
+- RBI Annual Report AI/FREE-AI reference — https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1436
 - SEBI — https://www.sebi.gov.in/
 - SEBI responsible AI/ML consultation paper, 20 Jun 2025 — https://www.sebi.gov.in/reports-and-statistics/reports/jun-2025/consultation-paper-on-guidelines-for-responsible-usage-of-ai-ml-in-indian-securities-markets_94687.html
 - SEBI advisory on advanced AI tools for vulnerability detection, 5 May 2026 — https://www.sebi.gov.in/legal/circulars/may-2026/advisory-on-emerging-advanced-artificial-intelligence-ai-tools-for-vulnerability-detection_101270.html
+- SEBI CyberSuraksha AI/cyber knowledge portal — https://cybersuraksha-ai.sebi.gov.in/
 - IRDAI — https://irdai.gov.in/
 
 ## Related
