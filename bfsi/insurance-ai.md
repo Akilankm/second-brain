@@ -25,13 +25,72 @@ TCS' insurance pages and public materials describe AI activity across:
 
 Industry source: https://www.tcs.com/what-we-do/industries/insurance
 
-## AI agents in claims — `thought-leadership`
+## AI agents in claims — `thought-leadership / architecture`
 
-TCS' claims white paper describes AI-agent opportunities across the insurance claims lifecycle and discusses composite AI combined with geospatial data, wearables and digital twins. The paper cites TCS' AI for Business Study and states that 94% of surveyed insurance executives had AI implementations planned, in process or completed.
+TCS' claims paper is unusually useful because it exposes a public operating model for moving insurance claims from conventional automation toward composite and agentic AI.
+
+### Public claims architecture themes
+
+TCS describes combining:
+
+- predictive AI
+- GenAI
+- NLP
+- retrieval-augmented generation
+- fine-tuning / prompt engineering
+- image/audio/video evidence processing
+- geospatial data
+- wearables
+- digital twins
+- enterprise knowledge fabric
+- role-based purposive agents
+- human judgement for complex/high-risk claims
+
+The paper frames AI-agent maturity through an **assist → augment → transform** continuum:
+
+```mermaid
+flowchart LR
+  ASSIST[Assist\nknowledge discovery · summarization\npolicy/contact-center support]
+  AUG[Augment\npredictive workload/risk estimates\nmultimodal evidence extraction]
+  TRANS[Transform\nagentic end-to-end actions\nautomated event-triggered claims]
+  ORCH[Agent orchestration platform\nroute tasks to appropriate agents]
+  HUMAN[Human judgement / SIU / exception handling]
+
+  ASSIST --> AUG --> TRANS
+  ASSIST --> ORCH
+  AUG --> ORCH
+  TRANS --> ORCH
+  ORCH --> HUMAN
+```
+
+**Diagram status:** editorial reconstruction of the TCS paper, not an internal TCS architecture diagram.
+
+TCS says future-proof claims environments would place an enterprise knowledge fabric over contextual artifacts, with role-based access for purposive AI agents. It also argues that maturing insurers will need orchestration platforms capable of switching/routing between agents.
+
+### Four public agentic dimensions
+
+The paper maps claims-agent opportunities across:
+
+1. customer experience
+2. back-office operations
+3. smart engineering
+4. IT operations
+
+TCS' Figure 1 maps traditional AI/ML and GenAI opportunities across claims personas, while Figure 2 depicts claims-lifecycle automation with AI agents.
+
+### Adoption caution
+
+The paper explicitly keeps regulated insurance and human judgement in scope: not every claim should be autonomously processed, and complex/high-value/suspicious cases may require specialist or SIU involvement.
+
+### Study figures cited by TCS
+
+TCS cites its AI for Business Study and states that **94% of surveyed insurance executives** had AI implementation planned, in process or completed. It also says only **4%** regarded AI as a differentiating factor for business transformation at that time.
+
+These are study results cited in TCS-authored thought leadership, not TCS deployment counts.
+
+**Public author:** Sukriti Jalali, publicly described by TCS as an innovation partner in its BFSI business unit.
 
 Source: https://www.tcs.com/what-we-do/industries/insurance/white-paper/ai-agents-insurance-claims-function
-
-This is TCS-authored research/thought leadership, not a count of TCS deployments.
 
 ## Cognitive Automation Platform — `live-capability`
 
@@ -135,4 +194,4 @@ Source: https://www.tcs.com/who-we-are/events/tcs-at-itc-vegas-2026
 
 ## Related
 
-[[tcs/ai-partnerships]] · [[bfsi/risk-compliance-ai]] · [[ai/agentic-ai-bfsi-architecture]] · [[research/advanced-quantz-analytics-public-capability]] · [[news/timeline]]
+[[tcs/ai-partnerships]] · [[bfsi/risk-compliance-ai]] · [[ai/agentic-ai-bfsi-architecture]] · [[research/advanced-quantz-analytics-public-capability]] · [[news/timeline]] · [[people/public-voices]]
