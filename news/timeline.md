@@ -96,6 +96,15 @@ TCS reported annualized AI revenue above $2.3 billion. Public results and manage
 
 Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q4-fy-2026
 
+### 2026-03-17 — TCS Rapid Outcome AI powered by NVIDIA — `announced / product-capability`
+TCS launched Rapid Outcome AI as a blueprint-led enterprise AI platform intended to accelerate movement from experimentation and proofs of concept to governed production-scale deployment. TCS publicly lists **banking** among supported industries and describes predictive analytics, GenAI, computer vision, agentic AI and physical AI combined with NVIDIA accelerated computing, NIM microservices, Omniverse/OpenUSD simulation and Metropolis. The cited sources do not establish a named banking production deployment.
+
+Sources:
+- https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-rapid-outcome-ai-platform-powered-nvidia
+- https://www.tcs.com/what-we-do/services/artificial-intelligence/solution/tcs-rapid-outcome-ai
+
+Deep dive: [[tcs/rapid-outcome-ai]]
+
 ### 2026-02-16 — P&C Insurance BPS analyst recognition — `analyst-recognition`
 Everest Group positioned TCS as a Leader in P&C Insurance BPS; TCS' public summary highlights agentic AI and P&C processes including FNOL, underwriting triage, subrogation, litigation support and reinsurance.
 
@@ -150,4 +159,4 @@ Source: https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-base
 
 ## Related
 
-[[tcs/tcs-ai-strategy]] · [[tcs/tcs-bfsi-ai-offerings]] · [[tcs/ai-partnerships]] · [[bfsi/public-implementations]] · [[regulations/india-ai-bfsi]]
+[[tcs/tcs-ai-strategy]] · [[tcs/rapid-outcome-ai]] · [[tcs/tcs-bfsi-ai-offerings]] · [[tcs/ai-partnerships]] · [[bfsi/public-implementations]] · [[regulations/india-ai-bfsi]]
