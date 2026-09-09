@@ -113,6 +113,25 @@ Companion notes: [[events/public-event-watch]] · [[bfsi/use-case-atlas]] · [[t
 
 These are useful because they reveal how TCS publicly communicates BFSI AI themes between formal press releases.
 
+### InvestOps USA 2026 — investment operations recap
+
+**Priority:** ⭐⭐⭐ · `official-post` · direct capital markets
+
+[Open TCS Financial Services and Insurance recap](https://www.linkedin.com/posts/tcs-financial-services-and-insurance_investops2026-capitalmarkets-investmentoperations-activity-7447641291372306432-DZze)
+
+Publicly stated recap themes:
+- AI at scale
+- data modernization
+- tokenization
+- smarter sourcing
+- future-ready investment-operations operating models
+
+The recap points to TCS' follow-up article by **Kabir Bhagat**, [Redefining Investment Operations for the New Age](https://www.tcs.com/insights/blogs/redefining-investment-operations-for-the-new-age), which is especially high-density because it describes AI as the **operating fabric of investment operations**, frames the transition from process execution to outcome orchestration, and attaches accountability to data quality, model governance, explainability, embedded controls and measurable value.
+
+Companion: [[events/public-event-watch#investops-usa-2026--capital-markets--investment-operations]] · [[bfsi/capital-markets-ai]]
+
+---
+
 ### BFSI AI Symposium — Singapore
 
 **Priority:** ⭐⭐⭐ · `official-post` · direct BFSI
