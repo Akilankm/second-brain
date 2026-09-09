@@ -53,7 +53,7 @@ TCS has publicly announced or expanded strategic AI relationships with:
 - **Anthropic** — Global Premier Partnership; dedicated TCS business unit; regulated-industry go-to-market; 50,000 associates to receive Claude access.
 - **Mistral AI** — first GSI partner for Mistral Forge; dedicated CoE; initial industry focus includes BFSI.
 - **Google Cloud** — Gemini Enterprise, Gemini Experience Centers, agentic AI, Vertex/Gemini-based accelerators.
-- **NVIDIA** — NVIDIA Business Unit and industry solutions including TCS AI Spectrum for BFSI.
+- **NVIDIA** — NVIDIA Business Unit; TCS AI Spectrum for BFSI; and the broader [[tcs/rapid-outcome-ai|TCS Rapid Outcome AI]] productionization platform, with banking explicitly listed among supported sectors.
 - **Microsoft** — AI/cloud collaboration with industry solutions including financial services.
 - **ServiceNow** — large-scale enterprise AI and autonomous workflow collaboration.
 - **OpenAI** — multi-dimensional partnership announced by TCS in FY26 results, including AI transformation and infrastructure dimensions.
@@ -83,6 +83,7 @@ This is a catalog of terms/products TCS itself publicly references, not an asser
 - TCS AI WisdomNext
 - Cognitive Automation Platform
 - TCS AI Spectrum for BFSI
+- TCS Rapid Outcome AI
 - TCS BaNCS AI Compass
 - TCS BaNCS IX
 - Quartz Intelligent Insights
@@ -90,6 +91,21 @@ This is a catalog of terms/products TCS itself publicly references, not an asser
 - Agentic AI Data Accelerator for Google Cloud
 - HyperVault AI infrastructure
 - domain/context-aware agents and custom/domain models
+
+### Rapid Outcome AI — productionization layer
+
+**Launch date:** 17 Mar 2026  
+**Evidence:** `announced / product-capability`
+
+TCS launched Rapid Outcome AI with NVIDIA to move AI from experimentation into scalable production deployment. The current solution page describes a blueprint-led platform combining predictive analytics, GenAI, computer vision, agentic AI and physical AI with NVIDIA accelerated computing. TCS explicitly lists **banking** among supported industries and emphasizes simulation, monitoring, governance, reliability and operational integration.
+
+This is a cross-industry platform signal; the cited sources do not establish a named banking customer deployment.
+
+Sources:
+- https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-rapid-outcome-ai-platform-powered-nvidia
+- https://www.tcs.com/what-we-do/services/artificial-intelligence/solution/tcs-rapid-outcome-ai
+
+Deep dive: [[tcs/rapid-outcome-ai]]
 
 See [[tcs/tcs-bfsi-ai-offerings]] and [[ai/agentic-ai-bfsi-architecture]].
 
@@ -107,4 +123,4 @@ Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-ai-na
 
 ## Related
 
-[[news/timeline]] · [[tcs/ai-partnerships]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/public-implementations]]
+[[news/timeline]] · [[tcs/ai-partnerships]] · [[tcs/rapid-outcome-ai]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/public-implementations]]
