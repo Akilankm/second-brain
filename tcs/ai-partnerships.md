@@ -91,11 +91,20 @@ Source: https://www.tcs.com/who-we-are/events/tcs-at-itc-vegas-2026
 
 **Status:** `announced/live-capability`
 
-TCS announced an NVIDIA Business Unit. The public announcement identifies **TCS AI Spectrum for BFSI** as an industry solution built using NVIDIA AI Enterprise ecosystem technologies to support financial decisioning, risk and compliance.
+TCS announced a dedicated NVIDIA Business Unit and now publicly exposes at least two distinct AI capability relationships relevant to this graph:
 
-Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-nvidia-business-unit-accelerate-ai-adoption-customers-across-industries
+1. **TCS AI Spectrum for BFSI** — a financial-services AI solution built using NVIDIA AI Enterprise ecosystem technologies for decisioning, risk and compliance.
+2. **TCS Rapid Outcome AI** — launched 17 Mar 2026 as a broader enterprise AI productionization platform powered by NVIDIA, with **banking explicitly named among supported industries**. TCS describes NVIDIA accelerated computing, NIM microservices, Omniverse/OpenUSD simulation and Metropolis vision AI as platform components, alongside predictive, GenAI, agentic and physical-AI blueprints.
 
-Product source: https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi
+This is evidence that the NVIDIA relationship spans both **BFSI-specific solutioning** and a broader **AI deployment/productionization layer**. It does not establish that every banking engagement uses Rapid Outcome AI.
+
+Sources:
+- https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-nvidia-business-unit-accelerate-ai-adoption-customers-across-industries
+- https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi
+- https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-rapid-outcome-ai-platform-powered-nvidia
+- https://www.tcs.com/what-we-do/services/artificial-intelligence/solution/tcs-rapid-outcome-ai
+
+Related: [[tcs/rapid-outcome-ai]]
 
 ## Microsoft
 
@@ -141,7 +150,7 @@ Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-resu
 | Mistral | Yes | BFSI named as initial sector focus |
 | Google Cloud | Yes | BFSI GEC Bengaluru; fraud/claims demos |
 | AWS | Yes | financial-services symposium; wealth/fraud solutions |
-| NVIDIA | Yes | AI Spectrum for BFSI |
+| NVIDIA | Yes | AI Spectrum for BFSI; Rapid Outcome AI explicitly includes banking as a supported sector |
 | Microsoft | Yes | financial services among target industries |
 | ServiceNow | Not in cited announcement | company-wide AI/workflow partnership |
 | OpenAI | Not in cited announcement | company-wide strategic AI partnership |
@@ -149,4 +158,4 @@ Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-resu
 
 ## Related
 
-[[tcs/tcs-ai-strategy]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]]
+[[tcs/tcs-ai-strategy]] · [[tcs/tcs-bfsi-ai-offerings]] · [[tcs/rapid-outcome-ai]] · [[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]]
