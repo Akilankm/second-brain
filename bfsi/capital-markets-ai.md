@@ -65,6 +65,31 @@ TCS' public summary of Everest Group's capital-markets operations assessment als
 
 Source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-leader-capital-markets-operations-services-everest-group
 
+## Investment operations: AI as operating fabric — `thought-leadership / official-post / completed-public-event`
+
+TCS' InvestOps USA 2026 material and follow-up article sharpen its public capital-markets operating-model language beyond isolated AI use cases.
+
+The TCS event page frames investment operations around the intersection of **tokenized assets, smart sourcing and AI at scale**, with AI-assisted decisioning, data readiness, controls, governance, resilience and workforce transformation as explicit operating-model concerns. The session, led publicly by **Kabir Bhagat, Managing Partner – Global Consulting Practice, TCS**, focused on where AI is delivering value today and how firms can adopt it responsibly while preserving control.
+
+TCS' follow-up article, **“Redefining Investment Operations for the New Age,”** states that AI is moving beyond point solutions and task automation to become the **operating fabric of investment operations**. It names reconciliation, exception management, surveillance, corporate actions and regulatory reporting as workflows increasingly supported by intelligent systems with human supervision, and describes the shift from **running processes** to **orchestrating outcomes**. The article ties accountability to data quality, model governance, explainability, embedded controls and measurable value delivery across the trade lifecycle.
+
+The same article argues for redesigning buy-side operating models around:
+
+- programmable/tokenized assets
+- AI-led control
+- data as a strategic foundation
+- flexible/hybrid sourcing
+- resilience, regulatory compliance and scalability
+
+TCS also describes a sourcing transition in which decision-critical capabilities and proprietary data may be retained or brought in-house while standardized reporting and utility-style services remain selectively sourced. This is `thought-leadership`; it is not evidence that a specific client has adopted that operating model.
+
+Sources:
+- https://www.tcs.com/who-we-are/events/tcs-at-investops-usa-2026
+- https://www.tcs.com/insights/blogs/redefining-investment-operations-for-the-new-age
+- https://www.linkedin.com/posts/tcs-financial-services-and-insurance_investops2026-capitalmarkets-investmentoperations-activity-7447641291372306432-DZze
+
+Related: [[events/public-event-watch]] · [[media/watchlist]] · [[bfsi/risk-compliance-ai]]
+
 ## Capital-markets operations analyst signal — `analyst-recognition`
 
 On 2 February 2026, TCS published its Everest Group Leader recognition for Capital Markets Operations Services. TCS' public summary cites:
