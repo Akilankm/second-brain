@@ -1,6 +1,6 @@
 ---
 tags: [events, tcs, bfsi, ai, banking, insurance, capital-markets, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS AI + BFSI — Public Event Watch
@@ -16,6 +16,7 @@ timeline
   title TCS public BFSI + AI event signals — 2026
   Mar 9-11 — InvestOps USA : Investment operations : Tokenization : AI at scale : Value with control
   AWS Financial Services Symposium : Agentic AI from PoC to production : Wealth advisory : Fraud detection
+  Sep 2 — TD TechCon US : Banking AI demos : Human-centered AI : Responsible adoption
   Sep 24 — Risk Live North America : Risk & compliance AI : Governance : Monitoring : Human oversight
   Sep 28-Oct 1 — Sibos : BaNCS : Payments : Securities : Quartz : AI + DLT : KYC / surveillance
   Sep 29-Oct 1 — ITC Vegas : AI-first insurance : Anthropic : AWS : FICO
@@ -98,6 +99,44 @@ Topic: what it takes to operationalize AI at scale in a highly regulated industr
 ### Graph links
 
 [[media/watchlist#aws-financial-services-symposium-2026]] · [[bfsi/use-case-atlas]] · [[tcs/ai-partnerships]] · [[people/public-voices#susheel-vasudevan]]
+
+---
+
+## TD TechCon US 2026 — banking AI demonstrations / human-centered adoption
+
+**Date:** September 2, 2026  
+**Status:** `completed-public-event`  
+**Evidence class:** `public-demo / official-post / public-event positioning`  
+**Official page:** [TCS at TD TechCon US 2026](https://www.tcs.com/who-we-are/events/tcs-at-td-techcon-us-2026)  
+**Official TCS Financial Services post:** [TCS Financial Services and Insurance LinkedIn](https://www.linkedin.com/showcase/tcs-financial-services-and-insurance/)
+
+### Publicly advertised signals
+
+TCS describes TD TechCon US 2026 as a banking-technology event focused on emerging financial-services technology, digital transformation, AI and engineering. The TCS page says its booth would feature **AI-driven banking use cases, digital innovation showcases and interactive demonstrations**.
+
+The same page frames the AI discussion around:
+
+- enterprise AI adoption
+- responsible innovation
+- balancing automation with human ingenuity
+- trust and responsible adoption
+- human-centered transformation
+- personalised banking experiences at scale
+- combining strategy, data, AI, design and technology through TCS Interactive
+
+### Public speaker / customer-event signal
+
+TCS publicly identifies **Frank Diana, Managing Partner and Principal Futurist, TCS**, joining leaders from **TD Bank US** for a session titled **“The Human Advantage: Thriving in the age of AI.”** The session description focuses on how enterprises can create value with AI while keeping transformation human-centered.
+
+An official TCS Financial Services and Insurance post independently reinforces the same public positioning: AI-powered experiences, digital innovation solutions, and a panel with TD Bank US technology leaders on the role of uniquely human capabilities in an AI-enabled future.
+
+### Evidence boundary
+
+This establishes a **named-bank event context plus public TCS banking-AI demonstrations**. It does **not** establish that TD Bank has deployed the demonstrated TCS banking use cases, nor does the public material identify the architectures, models, products, production status or business outcomes of those demonstrations.
+
+The TD Bank relationship is therefore captured only as **event participation / public-demo context**, not `pilot`, `deployed`, or `public-case-study` evidence.
+
+Related: [[bfsi/banking-ai]] · [[media/watchlist]] · [[people/public-voices]]
 
 ---
 
