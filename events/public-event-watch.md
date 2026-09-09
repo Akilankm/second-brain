@@ -17,6 +17,7 @@ timeline
   Mar 9-11 — InvestOps USA : Investment operations : Tokenization : AI at scale : Value with control
   AWS Financial Services Symposium : Agentic AI from PoC to production : Wealth advisory : Fraud detection
   Sep 2 — TD TechCon US : Banking AI demos : Human-centered AI : Responsible adoption
+  Sep 2 — PostTrade 360 Stockholm : Quartz surveillance : GenAI Intelligent Insights : Market infrastructure
   Sep 24 — Risk Live North America : Risk & compliance AI : Governance : Monitoring : Human oversight
   Sep 28-Oct 1 — Sibos : BaNCS : Payments : Securities : Quartz : AI + DLT : KYC / surveillance
   Sep 29-Oct 1 — ITC Vegas : AI-first insurance : Anthropic : AWS : FICO
@@ -137,6 +138,33 @@ This establishes a **named-bank event context plus public TCS banking-AI demonst
 The TD Bank relationship is therefore captured only as **event participation / public-demo context**, not `pilot`, `deployed`, or `public-case-study` evidence.
 
 Related: [[bfsi/banking-ai]] · [[media/watchlist]] · [[people/public-voices]]
+
+---
+
+## PostTrade 360 Stockholm 2026 — Quartz surveillance / Intelligent Insights
+
+**Date:** September 2, 2026  
+**Status:** `completed-public-event`  
+**Evidence class:** `completed-public-event / product-capability`  
+**Official page:** [TCS at PostTrade 360 Stockholm 2026](https://www.tcs.com/who-we-are/events/tcs-at-posttrade-360-stockholm-2026)
+
+### Publicly advertised signals
+
+TCS positioned TCS BaNCS and Quartz for exchanges, CCPs, CSDs, custodians, investment institutions and other financial-market infrastructures. The page explicitly describes:
+
+- **Quartz Surveillance** as an AI-powered capability for proactive market-abuse detection, participant-activity monitoring and regulatory-compliance support.
+- **Quartz Intelligent Insights** as a GenAI-based capability for on-demand reporting using natural-language queries, sentiment analysis and structured-content generation from emails.
+- Quartz more broadly as combining DLT and AI under a “trusted intelligence” framing across tokenization, digital currencies and data-driven intelligence.
+
+### Securities-platform scale signal
+
+The page states that the **TCS BaNCS Global Securities Platform** is deployed across **more than 60 local markets** and covers **over 100 global securities markets**, with real-time 24x5 processing and multi-currency / multi-entity / multi-market support.
+
+### Evidence boundary
+
+These are public event/product claims. The event page also lists named BaNCS customer successes, but it does **not** state that those customers use Quartz Surveillance or Intelligent Insights. The 60+/100+ figures describe the broader securities platform, not AI deployment counts.
+
+Related: [[bfsi/capital-markets-ai]] · [[bfsi/risk-compliance-ai]] · [[tcs/tcs-bfsi-ai-offerings]]
 
 ---
 
