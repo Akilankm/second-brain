@@ -49,6 +49,28 @@ The platform is described as combining ML, deep learning, GenAI and pre-built ag
 
 Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation
 
+## TCS Customer Intelligence & Insights — `product-capability`
+
+TCS' current public CI&I pages now describe a materially more agentic banking architecture than the older predictive-analytics positioning. The product is described as an **AI-powered, real-time customer data analytics solution** using **patented multi-agent orchestration**, GenAI, machine learning and enterprise-specific knowledge for real-time interactions, proactive engagement and customer-lifetime-value optimization.
+
+The banking-specific architecture page exposes:
+
+- first-party and multi-source data unification
+- customer, marketing, operational and lending-risk analytics
+- a Connected Intelligence Platform with data ingestion/management, data security/privacy and a customer data lake
+- an AI/ML analytics workbench with **XAI**
+- **real-time decision orchestration**
+- downstream marketing automation, campaign/content management and reporting/visualization
+- bank touchpoints including branch, mobile, ATM, call center and virtual assistants
+
+Source: https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights
+
+Banking architecture source: https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights/solutions/tcs-customer-intelligence-insights-personalized-banking
+
+**Evidence boundary:** these current pages establish `product-capability`; they do not establish that all newly described agentic features are deployed at the older named Scotwest implementation.
+
+Deep note: [[research/ciii-banking-agentic-evolution]]
+
 ## Bengaluru BFSI Gemini Experience Center — `live`
 
 Launched 22 August 2025 by TCS and Google Cloud inside TCS' BFSI Innovation Lab in Bengaluru.
@@ -82,6 +104,14 @@ Source: https://www.tcs.com/who-we-are/events/tcs-at-aws-financial-services-symp
 TCS says it helped establish a GenAI Office and governed GenAI foundation at Lloyds Banking Group. The TCS case study cites **50+ GenAI use cases** and **>$50M business value**.
 
 Source: https://www.tcs.com/what-we-do/industries/banking/case-study/lloyds-banking-group-reimagine-banking-generative-ai
+
+### Scotwest Credit Union — `deployed / public customer implementation`
+
+On **16 January 2023**, TCS announced that Scotwest Credit Union had enhanced its customer experience using **TCS Customer Intelligence & Insights (CI&I)** integrated with **TCS BaNCS Cloud for Banking**. The implementation used predictive models for probability of default and early payoff, contextual product recommendations and loan-top-up recommendations, with stated goals including retention, lifetime value, liquidity management and reduced lending risk.
+
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/scotwest-credit-union-partners-with-tcs
+
+The current CI&I pages describe a newer agentic/GenAI architecture, but the 2023 Scotwest source should not be retroactively relabeled as an agentic deployment.
 
 ### DNB Bank ASA — `announced`
 TCS and DNB extended their partnership for five years on 28 February 2025. The public announcement includes modernization, security and technology exploration involving AI and quantum.
