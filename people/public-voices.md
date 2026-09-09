@@ -28,6 +28,9 @@ flowchart TB
   PG[Partha Pratim Ghosh\nBFSI Risk Practice]
   SJ[Sukriti Jalali\nBFSI Innovation]
   VV[Vijayaraghavan Venkatraman\nBFSI Risk Management & Regulatory Compliance]
+  SD[Sanjukta Dhar\nBFSI Risk Advisory / FinCrime]
+  AW[Aditya Walimbe\nBFSI Chief Architect / emerging technology]
+  AA[Annamalai Anbukkarasu\nBFSI Digital & Emerging Technologies]
 
   BFSI --> SV
   BFSI --> SN
@@ -43,6 +46,9 @@ flowchart TB
   BFSI --> PG
   BFSI --> SJ
   BFSI --> VV
+  BFSI --> SD
+  BFSI --> AW
+  BFSI --> AA
 ```
 
 ---
@@ -214,6 +220,64 @@ Source: [Reimagining the Claims Processing Function with AI Agents](https://www.
 
 ---
 
+## Sanjukta Dhar
+
+**Public TCS role on cited material:** Senior Consultant in the Risk Advisory Practice in TCS' BFSI business unit.
+
+The public author biography associates her with FinCrime technology and risk/regulatory programs including OFSAA EPM, risk-finance integration, FRTB standardized approach, VaR back-testing, BCBS 239 and SR 11/7.
+
+**Public AI topic anchors:**
+- AI-agent adoption in regulated financial services
+- FinCrime / risk advisory
+- KYC / AML and customer due diligence
+- agent controls and human accountability
+- phased agent adoption
+
+Source: [AI Agents: The Next Frontier of Financial Services Transformation](https://www.tcs.com/what-we-do/industries/banking/white-paper/ai-agents-financial-services-transformation)
+
+Related: [[research/ai-agents-phased-adoption-bfsi]]
+
+---
+
+## Aditya Walimbe
+
+**Public TCS role on cited material:** Senior Consultant and Chief Architect with TCS' BFSI unit.
+
+**TCS-published topic context:** architecture, emerging-technology consulting, delivery and supporting large customers as a digital partner.
+
+**Public AI topic anchors:**
+- AI-agent architecture
+- enterprise agent platform
+- evolutionary architecture
+- orchestration and observability
+- emerging technology in BFSI
+
+Source: [AI Agents: The Next Frontier of Financial Services Transformation](https://www.tcs.com/what-we-do/industries/banking/white-paper/ai-agents-financial-services-transformation)
+
+Related: [[research/ai-agents-phased-adoption-bfsi]]
+
+---
+
+## Annamalai Anbukkarasu (Anbu)
+
+**Public TCS role on cited material:** Global Head of Digital and Emerging Technologies in TCS' BFSI business unit.
+
+**TCS-published topic context:** technology transformation, domain, relationship management, strategy, practice and CoE development, plus global delivery experience.
+
+**Public AI topic anchors:**
+- digital and emerging technologies in BFSI
+- AI-agent adoption strategy
+- enterprise scaling
+- practice / CoE development
+
+Source: [AI Agents: The Next Frontier of Financial Services Transformation](https://www.tcs.com/what-we-do/industries/banking/white-paper/ai-agents-financial-services-transformation)
+
+Related: [[research/ai-agents-phased-adoption-bfsi]]
+
+**Evidence boundary:** this preserves only the public professional role and topics attached to the TCS source; it does not infer private reporting lines, account ownership or project assignments.
+
+---
+
 ## Siva Ganesan
 
 **Public TCS title on cited BFSI GenAI material:** Senior Vice President and Head, AI.Cloud, TCS.
@@ -281,6 +345,9 @@ Source: [TCS Partners with Google Cloud to Accelerate AI-Driven Innovation in Fi
 | Vijayaraghavan Venkatraman | ✓ | ✓ | ✓ | ✓ | ✓ |  | ✓ |
 | Partha Pratim Ghosh | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
 | Sukriti Jalali |  | ✓ |  | ✓ |  |  |  |
+| Sanjukta Dhar | ✓ |  | ✓ | ✓ |  |  | ✓ |
+| Aditya Walimbe | ✓ | ✓ | ✓ | ✓ |  |  | ✓ |
+| Annamalai Anbukkarasu | ✓ | ✓ | ✓ | ✓ |  |  |  |
 | Siva Ganesan | cross-BFSI | cross-BFSI | cross-BFSI | ✓ |  | ✓ |  |
 | Nidhi Srivastava | cross-BFSI | cross-BFSI | cross-BFSI | ✓ |  | ✓ |  |
 | S. Baskar | ✓ |  |  | ✓ |  |  |  |
