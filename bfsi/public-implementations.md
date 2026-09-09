@@ -55,6 +55,34 @@ Source: https://www.tcs.com/who-we-are/newsroom/press-release/scotwest-credit-un
 
 Deep note: [[research/ciii-banking-agentic-evolution]]
 
+### Colonial First State — three-day AI accelerator — `pilot` / `official-post`
+
+In an official **TCS Financial Services and Insurance** LinkedIn post published in August 2026, TCS described a **three-day AI accelerator workshop with Colonial First State (CFS)** in which cross-functional teams converted customer opportunities into working solutions.
+
+TCS publicly states that the workshop:
+
+- developed **five customer-focused use cases into working prototypes**
+- progressed from specification to **demo-ready code**
+- created a pathway toward rapid productionisation
+- produced **reusable components, prompts and assets** intended to support broader adoption
+- used close cross-functional collaboration to accelerate experimentation and learning
+
+Official TCS source: https://www.linkedin.com/showcase/tcs-financial-services-and-insurance/
+
+**Evidence boundary:** this is named-customer, hands-on AI prototyping evidence. It is classified as `pilot / official-post` because the source establishes working prototypes and demo-ready code, but **does not establish that any of the five use cases reached production deployment**. The post does not publicly identify the individual use cases, architecture, models or runtime environment, so none are inferred.
+
+#### Customer-context corroboration — not TCS attribution
+
+CFS independently publishes an active AI program. On **21 October 2025**, CFS announced a University of Sydney Future AI PhD Internship Program spanning investment, HR, **risk and compliance**, and technical-advisory projects; on **11 March 2026**, CFS published research emphasizing continued human judgment and accountability for consequential financial decisions. These sources corroborate that CFS is actively developing responsible AI capability, but they do **not** attribute those separate initiatives to TCS.
+
+Customer sources:
+- https://www.cfs.com.au/about-us/media/Usyd-CFS-AI-internship-program
+- https://www.cfs.com.au/about-us/media/cfs-tech-AI
+
+TCS also separately publishes a broader CFS digital-transformation case study covering migration of the FirstChoice superannuation platform, AWS foundations, cybersecurity and operational transformation. That case is useful relationship context but should not be used as evidence that the August 2026 accelerator prototypes are already embedded in the migrated platform.
+
+TCS relationship-context source: https://www.tcs.com/what-we-do/industries/capital-markets/case-study/colonial-first-state-superannuation-digital-transformation
+
 ### AmTrust Financial Services — E&S clearance transformation — `public-case-study` / `deployed`
 
 TCS' public case study describes an implemented AI-and-automation transformation for **AmTrust Financial Services' Excess & Surplus (E&S)** insurance clearance process.
