@@ -19,6 +19,7 @@ updated: 2026-09-09
 | **Data context fabric sample — Table 2** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Data/tool context and governance |
 | **AI project lifecycle — Figure 1** | [How Banks Can Improve Artificial Intelligence ROI](https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi) | Six stages from use-case discovery through PoC, production, go-live and scale |
 | **Phased strategy for adoption of AI agents — Figure 1** | [AI Agents: The Next Frontier of Financial Services Transformation](https://www.tcs.com/what-we-do/industries/banking/white-paper/ai-agents-financial-services-transformation) | Sandbox pilots → foundational agent platform → multi-agent ecosystem, with changing agent diversity/human supervision and maturing guardrails/observability |
+| **Modern MDM architecture for AI-ready data — Figure 1** | [Modern MDM: AI-ready Data to Scale Enterprise AI in BFSI](https://www.tcs.com/what-we-do/industries/banking/white-paper/modern-mdm-ai-ready-enterprise-data-bfsi) | Cloud-native MDM, embedded ML/agents, data stewardship, governance/security and real-time interfaces serving AI models/apps/agents |
 | **Smart Risk Enterprise capability framework — Figure 1** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Cognitive automation, early-warning signals, advanced analytics/visualization, simulation and risk-service externalization |
 | **Smart Risk Enterprise target architecture — Figure 2** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Risk information ecosystem, digital decision fabric, analytics/models, controls and intervention architecture |
 | **Smart Risk Enterprise transition roadmap — Figure 3** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Three-phase evolution from insight/automation to real-time decision fabric and advanced risk business models |
@@ -143,6 +144,40 @@ TCS says guardrails, observability, evaluation and architecture evolve in parall
 **Study reconstruction only.** TCS also explicitly retains human accountability at the mature stage; the source should not be read as recommending uncontrolled autonomy.
 
 Deep note: [[research/ai-agents-phased-adoption-bfsi]]
+
+---
+
+## Modern MDM + AI-ready data — Figure 1
+
+**Official visual:** **“Figure 1: A modern MDM architecture to enable a continuous flow of AI-ready data for AI models, AI applications and AI agents”** on [Modern MDM: AI-ready Data to Scale Enterprise AI in BFSI](https://www.tcs.com/what-we-do/industries/banking/white-paper/modern-mdm-ai-ready-enterprise-data-bfsi).
+
+TCS' public description identifies a cloud-native MDM core fed by enterprise/third-party sources, with embedded machine-learning models and AI agents, core services for data quality/governance/security, business/data-steward experiences and downstream sharing to operational and AI consumers.
+
+```mermaid
+flowchart LR
+  SRC[Enterprise + third-party sources]
+  ING[Ingestion]
+  MDM[Cloud-native MDM / SaaS]
+  INT[Embedded intelligence\nML + AI agents]
+  CORE[Quality · governance · security]
+  UI[Business / steward / GenAI experiences]
+  RT[Real-time sharing\nAPIs · zero-copy · MCP]
+  AI[AI models · GenAI apps · agents]
+  BIZ[Business applications]
+
+  SRC --> ING --> MDM
+  MDM --> INT
+  MDM --> CORE
+  INT --> UI
+  CORE --> UI
+  MDM --> RT
+  RT --> AI
+  RT --> BIZ
+```
+
+The surrounding text explicitly names API frameworks, zero-copy data connectors and **Model Context Protocol (MCP) servers** as real-time interfaces. It also names consent management, masking/encryption, attribute-level security, lineage, observability and auditability as privacy/governance controls.
+
+**Study reconstruction only.** Deep note: [[research/modern-mdm-ai-ready-data-bfsi]].
 
 ---
 
