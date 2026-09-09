@@ -5,7 +5,7 @@ updated: 2026-09-09
 
 # TCS BFSI AI — Risk, Compliance and Governance Public Intelligence
 
-[[bfsi/domain-map|← BFSI map]] · [[regulations/india-ai-bfsi]] · [[ai/agentic-ai-bfsi-architecture]] · [[research/responsible-ai-financial-crime-governance]]
+[[bfsi/domain-map|← BFSI map]] · [[regulations/india-ai-bfsi]] · [[ai/agentic-ai-bfsi-architecture]] · [[research/responsible-ai-financial-crime-governance]] · [[research/smart-risk-enterprise-to-agentic-risk-intelligence]]
 
 ## Risk Live North America 2026 — `planned`
 
@@ -19,9 +19,45 @@ TCS' public event page for 24 September 2026 states that its BFSI risk-managemen
 - alignment with regulatory expectations and internal risk appetite
 - human judgment and oversight for accountability and trust
 
+TCS publicly identifies **Vijayaraghavan Venkatraman**, Global Head - BFSI Risk Management & Regulatory Compliance, as a speaker for the event.
+
 Source: https://www.tcs.com/who-we-are/events/tcs-at-risk-live-north-america-2026
 
 This is a stated public agenda for an upcoming event, not evidence that a particular client has implemented all listed controls.
+
+## Historical architecture continuity — `thought-leadership / historical`
+
+A 2021 TCS white paper, **Building a Smart Risk Enterprise in Financial Institutions**, provides an unusually useful historical baseline for the current AI-risk narrative. It publicly described:
+
+- cognitive automation
+- early-warning signals
+- advanced analytics and visualization
+- risk information ecosystems
+- an AI-backed digital decision fabric
+- KRI/KPI and risk-decision frameworks
+- automated RCSA and integrated risk/compliance
+- risk simulations and digital twins
+- controls and remediation frameworks
+- operational resilience and stress testing
+
+The same paper identified **Vijayaraghavan Venkatraman** as Global Head, Risk Management and Regulatory Compliance in TCS BFSI and described his work across risk transformation, data-science-led innovation and RegTech compliance.
+
+Primary source: https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf
+
+### Public evolution signal
+
+```mermaid
+flowchart LR
+  Y21[2021 Smart Risk Enterprise]
+  A21[Analytics · cognitive automation · decision fabric · EWI · digital twins]
+  Y26[2026 Risk Intelligence Enterprise]
+  A26[GenAI · agents · governance · auditability · model-risk controls · human oversight]
+  Y21 --> A21 --> Y26 --> A26
+```
+
+**Inference discipline:** this is continuity in public concepts and vocabulary, not proof that the 2021 and 2026 materials describe the same internal implementation.
+
+Deep study: [[research/smart-risk-enterprise-to-agentic-risk-intelligence]].
 
 ## Responsible AI in financial crime — `thought-leadership / governance`
 
@@ -199,4 +235,4 @@ See [[regulations/india-ai-bfsi]] for RBI/SEBI/IRDAI public material. TCS-author
 
 ## Related
 
-[[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]] · [[tcs/ai-partnerships]] · [[sources/source-catalog]] · [[research/responsible-ai-financial-crime-governance]]
+[[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]] · [[tcs/ai-partnerships]] · [[sources/source-catalog]] · [[research/responsible-ai-financial-crime-governance]] · [[research/smart-risk-enterprise-to-agentic-risk-intelligence]]
