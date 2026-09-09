@@ -14,6 +14,7 @@ Master index of the public TCS AI/BFSI initiatives captured in this repository. 
 | Initiative / public signal | Date | Status | Public fact | Primary source |
 |---|---|---|---|---|
 | Infrastructure to Intelligence | current | public strategy | TCS frames its AI direction around enterprise intelligence and AI-led transformation | https://www.tcs.com/what-we-do/infrastructure-to-intelligence |
+| TCS Rapid Outcome AI | 2026-03-17 | announced / product-capability | NVIDIA-powered blueprint-led enterprise AI platform for moving pilots to production; banking explicitly listed among supported sectors; predictive + GenAI + computer vision + agentic + physical AI, with governance/monitoring and simulation | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-rapid-outcome-ai-platform-powered-nvidia |
 | FY26 annualized AI revenue | 2026-04-09 | reported | crossed $2.3B | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q4-fy-2026 |
 | Q1 FY27 annualized AI revenue | 2026-07-09 | reported | $2.6B, +13.6% QoQ | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q1-fy-2027 |
 | HyperVault + TPG | 2025-11-20 | announced | combined investment commitment up to ₹18,000 crore; target >1 GW AI-ready capacity | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-secures-1bn-investment-from-tpg-accelerate-ai-data-center-business-hypervault |
@@ -51,7 +52,7 @@ See [[atlas/architecture-atlas]] for Mermaid study reconstructions of the public
 | Google Cloud — autonomous enterprise expansion | 2026-04-24 | announced | Cross-industry; governed agentic AI | https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-deepens-partnership-google-cloud-power-ai-native-autonomous-enterprises |
 | Anthropic | 2026-06-11 | announced | Yes — financial services named among regulated-sector GTM targets | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-anthropic-launch-global-premier-partnership-drive-enterprise-ai-scaling |
 | Mistral AI | 2026-05-28 | announced | Yes — BFSI named as initial sector focus | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-partners-mistral-first-global-systems-integrator-enterprises-worldwide |
-| NVIDIA | public partnership / BU | announced/live capability | Yes — TCS AI Spectrum for BFSI | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-nvidia-business-unit-accelerate-ai-adoption-customers-across-industries |
+| NVIDIA — AI Spectrum + Rapid Outcome AI | 2026-03-17 and ongoing | announced/live capability | Yes — AI Spectrum is BFSI-specific; Rapid Outcome AI is cross-industry but explicitly includes banking and adds a governed AI productionization layer | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-rapid-outcome-ai-platform-powered-nvidia |
 | AWS | 2026 symposium evidence | public-event | Yes — wealth advisory, fraud detection, scaling agents in financial services | https://www.tcs.com/who-we-are/events/tcs-at-aws-financial-services-symposium-2026 |
 | Microsoft | 2025-06-20 | announced | Financial services included among target industries | https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-build-new-ai-led-solutions-business-transformation-collaboration-microsoft |
 | ServiceNow | 2026-02-23 | announced | No BFSI-specific deployment established by cited announcement | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-servicenow-partner-accelerate-large-scale-ai-adoption-enterprises |
@@ -95,4 +96,4 @@ See [[events/public-event-watch]] for the richer agenda graph and [[media/watchl
 
 ## Related
 
-[[dashboards/tcs-bfsi-ai-radar]] · [[tcs/tcs-ai-strategy]] · [[tcs/tcs-bfsi-ai-offerings]] · [[tcs/ai-partnerships]] · [[atlas/architecture-atlas]] · [[bfsi/use-case-atlas]] · [[media/watchlist]] · [[people/public-voices]]
+[[dashboards/tcs-bfsi-ai-radar]] · [[tcs/tcs-ai-strategy]] · [[tcs/tcs-bfsi-ai-offerings]] · [[tcs/rapid-outcome-ai]] · [[tcs/ai-partnerships]] · [[atlas/architecture-atlas]] · [[bfsi/use-case-atlas]] · [[media/watchlist]] · [[people/public-voices]]
