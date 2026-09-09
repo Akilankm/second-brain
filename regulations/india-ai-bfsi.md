@@ -80,6 +80,29 @@ This is a current regulator-positioning signal, not a new AI rule.
 
 Primary RBI speech: https://www.rbi.org.in/Scripts/BS_SpeechesView.aspx?Id=1576
 
+### Global FinTech Fest 2026 — emerging-technology prudence and consequence-based AI governance — `regulatory / official-speech`
+
+**Published / delivered:** September 9, 2026  
+**Speaker:** Shri Rohit Jain, Deputy Governor, Reserve Bank of India  
+**Title:** *Emerging Technologies in Finance: The Imperatives of Purpose, Prudence, and Policy*
+
+The Deputy Governor described AI as increasingly augmenting **human judgment** in finance and identified three technology-amplified risk dimensions that matter as AI and other emerging technologies scale: **speed, concentration and opacity**.
+
+The speech sharpens several governance/control expectations that are directly relevant to AI architecture in regulated financial institutions:
+
+- **machine-speed resilience:** institutions should be able to detect problems early, contain effects and intervene before small errors amplify
+- **concentration / common-dependency risk:** reliance on a small set of cloud, technology and model providers can transmit disruption or error across institutions
+- **accountability despite outsourcing:** an institution may outsource computation, but responsibility for outcomes does not disappear when a model or technology is supplied by a third party
+- **explainability / meaningful accountability:** higher model sophistication should not weaken the ability to explain consequential financial decisions
+- **consequence-based proportionality:** low-consequence uses such as internal summarisation should not be treated like autonomous credit approval or transaction execution
+- **stronger controls for higher-consequence AI:** governance, validation, oversight and intervention expectations should increase with the consequence of the use case
+- **controlled experimentation:** regulatory sandboxes remain a mechanism for testing novel applications within defined safeguards before wider deployment
+- **network-level fraud intelligence:** the speech cites the Digital Payments Intelligence Platform as recognition that fraud can cross institutional boundaries and may require near-real-time information sharing
+
+This is **not a new binding AI rule**. It is an official RBI policy/supervisory signal that complements the June 2026 draft Model Risk Management Guidance and the earlier FREE-AI framework. It should be used to infer required control capabilities only at the architectural level; it does **not** constitute regulator endorsement of any TCS product or operating model.
+
+Primary RBI speech: https://www.rbi.org.in/Scripts/BS_SpeechesView.aspx?Id=1577
+
 ## Securities and Exchange Board of India (SEBI)
 
 ### Responsible usage of AI/ML in Indian securities markets — `regulatory / consultation`
@@ -134,7 +157,7 @@ The graph keeps these categories separate:
 
 TCS publicly discusses governance, auditability, guardrails, observability and human oversight in BFSI AI. Those TCS sources are cataloged separately in [[bfsi/risk-compliance-ai]] and [[ai/agentic-ai-bfsi-architecture]].
 
-The RBI model-risk draft should be compared against those TCS public controls only as an architecture/control mapping exercise; **RBI does not endorse TCS products or architectures**.
+The RBI model-risk draft and September 2026 speeches should be compared against those TCS public controls only as an architecture/control mapping exercise; **RBI does not endorse TCS products or architectures**.
 
 ## Related
 
