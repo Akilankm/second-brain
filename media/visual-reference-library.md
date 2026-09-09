@@ -18,6 +18,7 @@ updated: 2026-09-09
 | **Process context fabric sample — Table 1** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Process, regulation, policies, workflows and exception context |
 | **Data context fabric sample — Table 2** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Data/tool context and governance |
 | **AI project lifecycle — Figure 1** | [How Banks Can Improve Artificial Intelligence ROI](https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi) | Six stages from use-case discovery through PoC, production, go-live and scale |
+| **Phased strategy for adoption of AI agents — Figure 1** | [AI Agents: The Next Frontier of Financial Services Transformation](https://www.tcs.com/what-we-do/industries/banking/white-paper/ai-agents-financial-services-transformation) | Sandbox pilots → foundational agent platform → multi-agent ecosystem, with changing agent diversity/human supervision and maturing guardrails/observability |
 | **Smart Risk Enterprise capability framework — Figure 1** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Cognitive automation, early-warning signals, advanced analytics/visualization, simulation and risk-service externalization |
 | **Smart Risk Enterprise target architecture — Figure 2** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Risk information ecosystem, digital decision fabric, analytics/models, controls and intervention architecture |
 | **Smart Risk Enterprise transition roadmap — Figure 3** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Three-phase evolution from insight/automation to real-time decision fabric and advanced risk business models |
@@ -120,6 +121,28 @@ flowchart LR
 **Study reconstruction only.** The surrounding TCS text adds the operational controls that make the figure especially useful: security/compliance evaluation, human-vs-AI task boundaries, end-to-end testing, explainability, quality monitoring, guardrail adjustment, operational ownership, KPI redesign and centralized AI-CoE scaling.
 
 Deep note: [[research/ai-roi-lifecycle-and-coe]]
+
+---
+
+## Phased AI-agent adoption — Figure 1
+
+**Official visual:** **“Figure 1: Phased strategy for adoption of AI agents”** on [AI Agents: The Next Frontier of Financial Services Transformation](https://www.tcs.com/what-we-do/industries/banking/white-paper/ai-agents-financial-services-transformation).
+
+The surrounding TCS description makes the progression explicit:
+
+```mermaid
+flowchart LR
+  P0[Phase 0\nSandbox / simple pilots\nLow agent diversity\nHigh human supervision]
+  P1[Phase 1\nFoundational agent platform\nMulti-agent collaboration\nMedium diversity / supervision]
+  P2[Phase 2\nComplex multi-agent ecosystem\nHigh diversity\nLower direct supervision]
+  P0 --> P1 --> P2
+```
+
+TCS says guardrails, observability, evaluation and architecture evolve in parallel across the phases. Phase 1 adds an enterprise agent platform, agent/automation registries, orchestration standards, regulatory reporting and an **AI agent steward**. Phase 2 adds partner agents, agent/tool marketplaces, FinOps, agent-on-agent evaluation and infrastructure optimization.
+
+**Study reconstruction only.** TCS also explicitly retains human accountability at the mature stage; the source should not be read as recommending uncontrolled autonomy.
+
+Deep note: [[research/ai-agents-phased-adoption-bfsi]]
 
 ---
 
