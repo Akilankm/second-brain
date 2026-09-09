@@ -27,6 +27,8 @@ flowchart TB
     IND[Indra Chourasia\nIndustry Advisor]
     VISH[Vishal Singh\nAnalytics / CDO initiatives — UK & Europe]
     ROH[Rohit Lotlikar\nSenior Data Science Architect\nAdvanced Analytics]
+    ABH[Abhik Das\nSolution Architect\nMDM / AI-ready data]
+    NEE[Neeraj Arora\nManaging Partner\nMDM CoE]
   end
 
   subgraph AQUA[Advanced Quantz & Analytics / Data Science]
@@ -189,6 +191,44 @@ Related: [[research/ai-roi-lifecycle-and-coe]]
 
 ---
 
+## Abhik Das
+
+**Public TCS role:** Solution Architect in the Data & Analytics Group of TCS' BFSI business unit.
+
+**TCS-published topic context:**
+- enterprise master data management
+- customer-360
+- large-scale MDM modernization
+- MDM architecture
+- operating-model transformation
+- AI-ready data foundations
+
+**Primary source:** [Modern MDM: AI-ready Data to Scale Enterprise AI in BFSI](https://www.tcs.com/what-we-do/industries/banking/white-paper/modern-mdm-ai-ready-enterprise-data-bfsi)
+
+Related: [[research/modern-mdm-ai-ready-data-bfsi]]
+
+---
+
+## Neeraj Arora
+
+**Public TCS role:** Managing Partner in the Data & Analytics Group of TCS' BFSI business unit. The cited page explicitly states that he **leads the MDM CoE for the BFSI sector**.
+
+**TCS-published topic context:**
+- MDM consulting
+- MDM architecture
+- program management
+- enterprise MDM transformation
+- AI-ready data
+- data governance
+
+**Primary source:** [Modern MDM: AI-ready Data to Scale Enterprise AI in BFSI](https://www.tcs.com/what-we-do/industries/banking/white-paper/modern-mdm-ai-ready-enterprise-data-bfsi)
+
+**Interpretation boundary:** “leads the MDM CoE” is source-published professional context; it does not establish private reporting lines, staffing, customers or project assignments.
+
+Related: [[research/modern-mdm-ai-ready-data-bfsi]]
+
+---
+
 # Advanced Quantz & Analytics / Data Science cluster
 
 ## Jatinder Singh Sidhu
@@ -299,7 +339,7 @@ Sources:
 | Public cluster | Representative public people/assets | Repeated topics |
 |---|---|---|
 | BFSI business/executive | Susheel Vasudevan, Shankar Narayanan, Babu Unnikrishnan | scaled transformation, strategy, cloud/AI, regulated production |
-| Data & Analytics | Prab Pitchandi, Prasad Chitta, Indra Chourasia, Vishal Singh, Rohit Lotlikar | AI strategy, context, governance, data architecture, production lifecycle, risk, capital markets |
+| Data & Analytics | Prab Pitchandi, Prasad Chitta, Indra Chourasia, Vishal Singh, Rohit Lotlikar, Abhik Das, Neeraj Arora | AI strategy, context, governance, data architecture, MDM, AI-ready data, production lifecycle, risk, capital markets |
 | AQuA / Data Science | Jatinder Sidhu, Baljeet Saini, Sreeja Ashok, Vikrant Karale | quant engineering, ML engineering, risk modelling, portfolio optimization |
 | Product/platform | BaNCS, AI Compass, ABOS, Quartz, Subrato Bhattacharya | transaction platforms, embedded AI/agents, market infrastructure |
 | Cross-enterprise AI/cloud | AI.Cloud, Cloud Unit, WisdomNext, partner ecosystems | orchestration, models, cloud, governance, enterprise AI |
