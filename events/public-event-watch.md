@@ -14,12 +14,52 @@ updated: 2026-09-09
 ```mermaid
 timeline
   title TCS public BFSI + AI event signals — 2026
+  Mar 9-11 — InvestOps USA : Investment operations : Tokenization : AI at scale : Value with control
   AWS Financial Services Symposium : Agentic AI from PoC to production : Wealth advisory : Fraud detection
   Sep 24 — Risk Live North America : Risk & compliance AI : Governance : Monitoring : Human oversight
   Sep 28-Oct 1 — Sibos : BaNCS : Payments : Securities : Quartz : AI + DLT : KYC / surveillance
   Sep 29-Oct 1 — ITC Vegas : AI-first insurance : Anthropic : AWS : FICO
   Oct 26 — ABA Annual Convention : Banking modernization : AI : Tokenization / stablecoins : Risk
 ```
+
+---
+
+## InvestOps USA 2026 — capital markets / investment operations
+
+**Date:** March 9–11, 2026  
+**Status:** `completed-public-event`  
+**Evidence class:** `completed-public-event / official-post / thought-leadership`  
+**Official page:** [TCS at InvestOps USA 2026](https://www.tcs.com/who-we-are/events/tcs-at-investops-usa-2026)  
+**Official recap:** [TCS Financial Services and Insurance LinkedIn post](https://www.linkedin.com/posts/tcs-financial-services-and-insurance_investops2026-capitalmarkets-investmentoperations-activity-7447641291372306432-DZze)  
+**Follow-up article:** [Redefining Investment Operations for the New Age](https://www.tcs.com/insights/blogs/redefining-investment-operations-for-the-new-age)
+
+### Public session signal
+
+TCS hosted a session titled **“The Next Frontier is Here — Powered by Tokenization, Smart Sourcing, and AI at Scale”**, with **Kabir Bhagat, Managing Partner – Global Consulting Practice, TCS** publicly listed as speaker.
+
+The event page frames investment-operations redesign around:
+
+- tokenized assets and near-real-time settlement
+- AI-assisted decisioning
+- data readiness
+- controls and governance
+- resilience
+- workforce transformation
+- sourcing-model redesign
+
+A specific agenda item, **“Emergence of AI in Investment Operations — Value with Control,”** asks where AI is producing measurable impact and what governance models are emerging as firms adopt it responsibly.
+
+### Post-event evidence
+
+The official TCS Financial Services and Insurance recap says conversations at InvestOps reinforced the convergence of **AI at scale, data modernization, tokenization and smarter sourcing** as drivers of future-ready investment-operations models.
+
+TCS' follow-up article sharpens the architecture language further: AI is described as moving beyond point solutions and task automation to become the **operating fabric of investment operations**, with intelligent systems supporting reconciliation, exception management, surveillance, corporate actions and regulatory reporting. The article explicitly describes a shift from **running processes** to **orchestrating outcomes**, with accountability moving toward data quality, model governance, explainability, embedded controls and measurable value delivery.
+
+### Evidence boundary
+
+This is strong public operating-model / thought-leadership evidence. It does **not** establish that a named asset manager has adopted the described target model or that every cited AI workflow is live at a TCS client.
+
+Related: [[bfsi/capital-markets-ai]] · [[media/watchlist]] · [[bfsi/risk-compliance-ai]]
 
 ---
 
