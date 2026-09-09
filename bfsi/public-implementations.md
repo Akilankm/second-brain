@@ -22,6 +22,25 @@ TCS' public case study says it helped Lloyds Banking Group establish a GenAI Off
 
 Source: https://www.tcs.com/what-we-do/industries/banking/case-study/lloyds-banking-group-reimagine-banking-generative-ai
 
+### Scotwest Credit Union — CI&I + TCS BaNCS Cloud — `deployed`
+
+On **16 January 2023**, TCS announced that **Scotwest Credit Union** had enhanced its customer experience with **TCS Customer Intelligence & Insights (CI&I)**, integrated with **TCS BaNCS Cloud for Banking**.
+
+TCS describes the deployed capability as using predictive models for:
+
+- probability of default
+- early payoff / prepayment risk
+- contextual next-product recommendations
+- loan top-up recommendations
+
+The stated business objectives include preempting defaults, improving loan recovery and retention, protecting interest income, improving customer lifetime value and supporting liquidity management.
+
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/scotwest-credit-union-partners-with-tcs
+
+**Status discipline:** the 2023 customer source establishes predictive AI/ML deployment. TCS' current CI&I product pages now describe GenAI and patented multi-agent orchestration, but those newer product capabilities are **not retroactively attributed to Scotwest** without customer-specific evidence.
+
+Deep note: [[research/ciii-banking-agentic-evolution]]
+
 ### AmTrust Financial Services — E&S clearance transformation — `public-case-study` / `deployed`
 
 TCS' public case study describes an implemented AI-and-automation transformation for **AmTrust Financial Services' Excess & Surplus (E&S)** insurance clearance process.
