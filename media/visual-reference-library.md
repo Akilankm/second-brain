@@ -18,6 +18,9 @@ updated: 2026-09-09
 | **Process context fabric sample — Table 1** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Process, regulation, policies, workflows and exception context |
 | **Data context fabric sample — Table 2** | [Context Fabric white paper](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi) | Data/tool context and governance |
 | **AI project lifecycle — Figure 1** | [How Banks Can Improve Artificial Intelligence ROI](https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi) | Six stages from use-case discovery through PoC, production, go-live and scale |
+| **Smart Risk Enterprise capability framework — Figure 1** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Cognitive automation, early-warning signals, advanced analytics/visualization, simulation and risk-service externalization |
+| **Smart Risk Enterprise target architecture — Figure 2** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Risk information ecosystem, digital decision fabric, analytics/models, controls and intervention architecture |
+| **Smart Risk Enterprise transition roadmap — Figure 3** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Three-phase evolution from insight/automation to real-time decision fabric and advanced risk business models |
 | **Advanced Quantz & Analytics BFSI landscape — Figure 1** | [Advanced Quantz & Analytics](https://www.tcs.com/what-we-do/industries/banking/solution/advanced-quantz-analytics-application) | Quant/data-science capability, venues, GRC/model-risk/front-office functions and analytics output classes |
 | **TCS Cognitive Automation Platform infographic** | [CAP solution page](https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking) | Platform modules, agentic orchestration and transformation capabilities |
 | **TCS AI Architecture for BFSI — Figure 5** | [Generative AI in Finance](https://www.tcs.com/what-we-do/industries/banking/white-paper/generative-ai-finance-insurance-industry) | Enterprise systems → data/models → task agents → AI-augmented work systems |
@@ -117,6 +120,52 @@ flowchart LR
 **Study reconstruction only.** The surrounding TCS text adds the operational controls that make the figure especially useful: security/compliance evaluation, human-vs-AI task boundaries, end-to-end testing, explainability, quality monitoring, guardrail adjustment, operational ownership, KPI redesign and centralized AI-CoE scaling.
 
 Deep note: [[research/ai-roi-lifecycle-and-coe]]
+
+---
+
+## Smart Risk Enterprise — Figures 1–3
+
+**Official source:** [TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf), copyright 2021.
+
+The paper is valuable as historical architecture evidence because it exposes a pre-GenAI public risk stack that can be compared with current agentic-AI governance language.
+
+### Figure 1 — Smart Risk Enterprise Capability Framework
+
+Public capability blocks include cognitive automation, early-warning signals, advanced analytics/visualization, simulation/strategy recommendations and service externalization.
+
+### Figure 2 — Smart Risk Enterprise Target Architecture
+
+The surrounding text describes a target architecture built around:
+
+- risk information ecosystem / ingestion fabric
+- AI-backed digital decision fabric
+- risk-decision frameworks
+- analytics, early-warning, KRI/KPI and model layers
+- controls / remediation frameworks
+- business intervention layer
+- enterprise assurance, resilience and growth outcomes
+
+```mermaid
+flowchart TB
+  SRC[Risk information sources]
+  INFO[Risk information ecosystem]
+  DEC[Digital decision fabric]
+  ANALYTICS[Analytics · models · EWI · KRI/KPI]
+  CTRL[Controls / remediation]
+  INT[Business intervention]
+  OUT[Assurance · resilience · capital / growth outcomes]
+
+  SRC --> INFO --> DEC
+  ANALYTICS --> DEC
+  CTRL --> DEC
+  DEC --> INT --> OUT
+```
+
+### Figure 3 — Three-phase transition roadmap
+
+TCS' public roadmap moves from data-driven insight and automation, to real-time risk management and a decision fabric, then toward behavioural analytics, digital twins and risk-service externalization.
+
+**Study reconstruction only.** Deep comparison: [[research/smart-risk-enterprise-to-agentic-risk-intelligence]].
 
 ---
 
