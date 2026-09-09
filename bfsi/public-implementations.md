@@ -11,7 +11,7 @@ This page records implementation evidence that TCS has made public. It preserves
 
 ## Named public cases / programs
 
-### Lloyds Banking Group — GenAI Office — `public-case-study`
+### Lloyds Banking Group — GenAI Office — `public-case-study` / `deployed`
 
 TCS' public case study says it helped Lloyds Banking Group establish a GenAI Office and a secure, scalable, governed foundation for GenAI. TCS reports:
 
@@ -20,7 +20,21 @@ TCS' public case study says it helped Lloyds Banking Group establish a GenAI Off
 - a path from concept to production
 - self-service model access and guardrails
 
-Source: https://www.tcs.com/what-we-do/industries/banking/case-study/lloyds-banking-group-reimagine-banking-generative-ai
+TCS source: https://www.tcs.com/what-we-do/industries/banking/case-study/lloyds-banking-group-reimagine-banking-generative-ai
+
+#### Independent customer corroboration and status boundary
+
+On **29 January 2026**, Lloyds Banking Group independently said that **over 50 GenAI solutions were deployed during 2025** and that GenAI delivered **around £50 million of value in 2025**. Lloyds also said it expected more than **£100 million in additional value during 2026** as it continued scaling GenAI and agentic AI.
+
+Customer source: https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/ai-driven-benefits-2026.html
+
+This materially strengthens the deployment status of the broader Lloyds GenAI program. The TCS and Lloyds value statements use **different currencies and wording** (`more than $50M` versus `around £50M`), so they are preserved as separate source claims rather than normalized into one figure.
+
+**Attribution boundary for later agentic AI:** Lloyds subsequently published additional 2026 agentic-AI developments, including the **Envoy** platform on **1 May 2026** and a real-time multi-agent fraud system on **8 June 2026**. Lloyds says Envoy was built with **Google Cloud**, while the fraud agent was built by Lloyds teams using Envoy. These customer sources establish that Lloyds' AI estate continued into live agentic-AI deployment, but they do **not** establish that TCS built, deployed, or operates those specific later capabilities. They must therefore not be retroactively attributed to TCS without a source that explicitly connects TCS to them.
+
+Customer sources:
+- https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/lloyds-banking-group-unveils-envoy.html
+- https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/lloyds-banking-group-deploys-agentic-ai-to-strengthen-real-time-.html
 
 ### Scotwest Credit Union — CI&I + TCS BaNCS Cloud — `deployed`
 
