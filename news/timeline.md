@@ -31,6 +31,11 @@ TCS plans a roundtable on scaling AI and agentic intelligence across risk and co
 
 Source: https://www.tcs.com/who-we-are/events/tcs-at-risk-live-north-america-2026
 
+### 2026-09-09 — RBI emerging-technology prudence / AI governance speech — `regulatory / official-speech`
+RBI Deputy Governor Rohit Jain described AI as increasingly augmenting human judgment in finance and framed three technology-amplified risks as **speed, concentration and opacity**. The speech says higher-consequence uses such as autonomous credit approval or transaction execution should attract stronger governance, validation, oversight and intervention expectations, and reiterates that responsibility does not disappear when models or technology are supplied by third parties.
+
+Source: https://www.rbi.org.in/Scripts/BS_SpeechesView.aspx?Id=1577
+
 ### 2026-09-08 — Odisha AI-enabled digital governance platform — `announced`
 TCS announced a ₹122 crore bid win to build an AI-enabled digital governance platform for the Odisha Government. This is a TCS-wide AI signal rather than a BFSI program.
 
