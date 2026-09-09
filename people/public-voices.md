@@ -31,6 +31,9 @@ flowchart TB
   SD[Sanjukta Dhar\nBFSI Risk Advisory / FinCrime]
   AW[Aditya Walimbe\nBFSI Chief Architect / emerging technology]
   AA[Annamalai Anbukkarasu\nBFSI Digital & Emerging Technologies]
+  AK[Adiel Karthak\nP&C Centre of Excellence]
+  AN[Ankur Agarwal\nP&C Insurance BPS]
+  MM[Meenu Mittal\nBFSI Business Process Services]
 
   BFSI --> SV
   BFSI --> SN
@@ -49,6 +52,9 @@ flowchart TB
   BFSI --> SD
   BFSI --> AW
   BFSI --> AA
+  BFSI --> AK
+  BFSI --> AN
+  BFSI --> MM
 ```
 
 ---
@@ -220,6 +226,64 @@ Source: [Reimagining the Claims Processing Function with AI Agents](https://www.
 
 ---
 
+## Adiel Karthak
+
+**Public TCS role on cited material:** heads the Property and Casualty Centre of Excellence in TCS' BFSI business unit.
+
+TCS' public biography associates his work with the P&C insurance value chain, consulting-led engagements, domain-driven transformation, operating-model design, innovation and solution design for insurers.
+
+**Public AI topic anchors:**
+- autonomous-vehicle insurance
+- P&C underwriting and claims
+- cyber risk and connected mobility
+- GenAI / AI agents in insurance
+- domain-driven operating-model transformation
+
+Source: [Adopting Generative and Agentic AI in Autonomous Vehicle Insurance](https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance)
+
+Related: [[research/autonomous-vehicle-insurance-agentic-ai]] · [[bfsi/insurance-ai]]
+
+---
+
+## Ankur Agarwal
+
+**Public TCS role on cited material:** heads the Property and Casualty Insurance BPS Practice in TCS' BFSI business unit.
+
+TCS' public biography associates his work with large-scale operations and transformation across P&C insurance, mortgage and retail banking, with focus on operational excellence, digital enablement and strategic transformation.
+
+**Public AI topic anchors:**
+- P&C insurance operations
+- autonomous-vehicle insurance operating model
+- GenAI / AI-agent-enabled process transformation
+- insurance BPS modernization
+
+Source: [Adopting Generative and Agentic AI in Autonomous Vehicle Insurance](https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance)
+
+Related: [[research/autonomous-vehicle-insurance-agentic-ai]] · [[bfsi/insurance-ai]]
+
+---
+
+## Meenu Mittal
+
+**Public TCS role on cited material:** heads Business Process Services in TCS' BFSI business unit.
+
+TCS' public biography describes multi-functional BFSI experience spanning banking, insurance, operations, risk management and sales, and states participation in organizational regulatory-compliance examinations involving OCC, FSA, APRA and RBI.
+
+**Public AI topic anchors on the cited paper:**
+- AI-enabled insurance operating models
+- front/middle/back-office transformation
+- cyber-risk-aware insurance operations
+- regulatory/compliance alignment
+- GenAI and AI agents in P&C insurance
+
+Source: [Adopting Generative and Agentic AI in Autonomous Vehicle Insurance](https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance)
+
+Related: [[research/autonomous-vehicle-insurance-agentic-ai]] · [[bfsi/insurance-ai]]
+
+**Evidence boundary for all three P&C/BPS entries:** source-published professional roles and topics only; no private reporting lines, influence claims, account ownership or project assignments are inferred.
+
+---
+
 ## Sanjukta Dhar
 
 **Public TCS role on cited material:** Senior Consultant in the Risk Advisory Practice in TCS' BFSI business unit.
@@ -345,6 +409,9 @@ Source: [TCS Partners with Google Cloud to Accelerate AI-Driven Innovation in Fi
 | Vijayaraghavan Venkatraman | ✓ | ✓ | ✓ | ✓ | ✓ |  | ✓ |
 | Partha Pratim Ghosh | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
 | Sukriti Jalali |  | ✓ |  | ✓ |  |  |  |
+| Adiel Karthak |  | ✓ |  | ✓ |  |  | ✓ |
+| Ankur Agarwal | ✓ | ✓ |  | ✓ |  |  |  |
+| Meenu Mittal | ✓ | ✓ |  | ✓ |  |  | ✓ |
 | Sanjukta Dhar | ✓ |  | ✓ | ✓ |  |  | ✓ |
 | Aditya Walimbe | ✓ | ✓ | ✓ | ✓ |  |  | ✓ |
 | Annamalai Anbukkarasu | ✓ | ✓ | ✓ | ✓ |  |  |  |
