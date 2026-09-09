@@ -166,19 +166,50 @@ Related: [[bfsi/capital-markets-ai]] · [[atlas/architecture-atlas#9-quartz--coe
 
 **Date:** September 29 – October 1, 2026  
 **Status:** `planned`  
+**Evidence class:** `planned / public-event positioning`  
 **Official page:** [TCS at ITC Vegas 2026](https://www.tcs.com/who-we-are/events/tcs-at-itc-vegas-2026)
 
 ### Public ecosystem signal
 
-TCS' agenda brings together **TCS + Anthropic + AWS + FICO** around AI-first insurance.
+TCS' agenda brings together **TCS + Anthropic + AWS + FICO** around the theme **“Building AI That Compounds: The Blueprint for the AI-First Insurer.”**
 
-Public topics include:
-- composable AI
-- enterprise AI scaling
-- governance
-- cloud-first insurance
-- ownership / operating-model decisions
-- quantum readiness
+The page describes a modular/composable AI model intended to become more valuable as decisions and capabilities accumulate. This is an event-positioning signal, not evidence of a named production architecture.
+
+### High-density agenda signals
+
+The published kickoff-summit agenda is unusually specific:
+
+1. **Building the Composable AI Insurer** — TCS says the buy-vs-build decision is becoming layered. The agenda characterizes the **system of record as increasingly commoditized**, AI intelligence as fast-changing, and the **system of orchestration** as the layer insurers should own to create durable “connected intelligence.”
+2. **The AI ownership playbook** — focuses on deciding which layers and proprietary intelligence an insurer should own versus source from the ecosystem.
+3. **Scaling AI that compounds** — explicitly distinguishes working pilots from enterprise AI where each investment improves the value of subsequent investments.
+4. **Architecting for Intelligence** — focuses on integrating frontier models into enterprise environments while addressing operational and regulatory risk.
+5. **Scaling trustworthy AI: a cloud-first approach for insurers** — links cloud modernization to claims and underwriting AI, with governance and trust as production requirements.
+6. **The quantum horizon** — frames quantum as a next-wave insurance capability rather than a current AI deployment.
+
+### Editorial study abstraction
+
+```mermaid
+flowchart TB
+  SOR[System of record\ncore insurance systems]
+  MODELS[Frontier / specialist models\nvolatile intelligence layer]
+  DATA[Proprietary insurer data\ncontext + history + risk signals]
+  ORCH[System of orchestration\nconnected intelligence]
+  GOV[Governance / trust\nregulatory + operational controls]
+  USE[Claims · underwriting · service · risk]
+  LOOP[Compounding learning / reuse]
+
+  SOR --> ORCH
+  MODELS --> ORCH
+  DATA --> ORCH
+  GOV --> ORCH
+  ORCH --> USE --> LOOP --> ORCH
+```
+
+**Diagram status:** editorial reconstruction of the public ITC Vegas 2026 agenda language; it is **not** an internal TCS architecture diagram.
+
+### Why this matters
+
+This event adds a sharper public strategic distinction to the repo: TCS is not merely advocating “use AI in insurance.” It is publicly discussing **which architectural layer should become the insurer's durable control point**. That complements existing TCS public material on CAP, AI WisdomNext, Context Fabric and insurance claims orchestration, but the event alone does not prove that this ownership model is implemented for a customer.
 
 ### Ecosystem map
 
@@ -192,11 +223,13 @@ flowchart LR
   I --> SCALE[Enterprise scaling]
   I --> CLOUD[Cloud]
   I --> COMP[Composable AI]
+  I --> OWN[Layered ownership decisions]
+  I --> ORCH[System of orchestration]
 ```
 
 **Evidence boundary:** the partner/event combination demonstrates public go-to-market dialogue; it does not by itself prove those vendors are all used together in a named customer architecture.
 
-Related: [[bfsi/insurance-ai]] · [[tcs/ai-partnerships]]
+Related: [[bfsi/insurance-ai]] · [[tcs/ai-partnerships]] · [[intelligence/public-operating-model-inference]]
 
 ---
 
