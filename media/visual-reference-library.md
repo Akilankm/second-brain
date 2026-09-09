@@ -20,6 +20,9 @@ updated: 2026-09-09
 | **AI project lifecycle — Figure 1** | [How Banks Can Improve Artificial Intelligence ROI](https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-financial-services-improve-ai-roi) | Six stages from use-case discovery through PoC, production, go-live and scale |
 | **Phased strategy for adoption of AI agents — Figure 1** | [AI Agents: The Next Frontier of Financial Services Transformation](https://www.tcs.com/what-we-do/industries/banking/white-paper/ai-agents-financial-services-transformation) | Sandbox pilots → foundational agent platform → multi-agent ecosystem, with changing agent diversity/human supervision and maturing guardrails/observability |
 | **Modern MDM architecture for AI-ready data — Figure 1** | [Modern MDM: AI-ready Data to Scale Enterprise AI in BFSI](https://www.tcs.com/what-we-do/industries/banking/white-paper/modern-mdm-ai-ready-enterprise-data-bfsi) | Cloud-native MDM, embedded ML/agents, data stewardship, governance/security and real-time interfaces serving AI models/apps/agents |
+| **AV cyberthreat landscape — Figure 1** | [Autonomous Vehicle Insurance paper](https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance) | Connected attack surface across infrastructure, charging, cloud, networks, devices, sensors/cameras and vehicle-control systems |
+| **GenAI + agents for AV cyber risk — Figure 2** | [Autonomous Vehicle Insurance paper](https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance) | Composite-AI response across multi-party liability, system malfunction, cyber vulnerabilities and data security |
+| **Front/middle/back office powered by AI — Figure 3** | [Autonomous Vehicle Insurance paper](https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance) | AI-enabled insurance operating model with middle-office analytics/governance and retained human judgment |
 | **Smart Risk Enterprise capability framework — Figure 1** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Cognitive automation, early-warning signals, advanced analytics/visualization, simulation and risk-service externalization |
 | **Smart Risk Enterprise target architecture — Figure 2** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Risk information ecosystem, digital decision fabric, analytics/models, controls and intervention architecture |
 | **Smart Risk Enterprise transition roadmap — Figure 3** | [2021 TCS Smart Risk Enterprise PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf) | Three-phase evolution from insight/automation to real-time decision fabric and advanced risk business models |
@@ -178,6 +181,44 @@ flowchart LR
 The surrounding text explicitly names API frameworks, zero-copy data connectors and **Model Context Protocol (MCP) servers** as real-time interfaces. It also names consent management, masking/encryption, attribute-level security, lineage, observability and auditability as privacy/governance controls.
 
 **Study reconstruction only.** Deep note: [[research/modern-mdm-ai-ready-data-bfsi]].
+
+---
+
+## Autonomous-vehicle insurance — Figures 1–3
+
+**Official source:** [Adopting Generative and Agentic AI in Autonomous Vehicle Insurance](https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance).
+
+### Figure 1 — The expanding cyberthreat landscape for AVs
+
+The TCS page identifies attack surfaces including infrastructure breach, charging-station hacks, cloud breach, data theft, network breach, device compromise, sensor/camera tampering and vehicle-control systems.
+
+### Figure 2 — How GenAI and AI agents can assist in overcoming cyber risks in AV insurance
+
+The public figure maps GenAI/agent support against four risk classes: multi-party liability, system malfunction, cyber vulnerabilities and data security.
+
+### Figure 3 — Front-, middle-, and back-office operations powered by AI
+
+The surrounding TCS text describes the middle office as an **analytical and governance layer** aligning AI-supported outputs with policy and regulatory requirements, while GenAI and agents span customer engagement, underwriting, claims and compliance.
+
+```mermaid
+flowchart LR
+  THREAT[Connected AV cyber / system risk]
+  F[Front office\ncustomer + risk communication]
+  M[Middle office\nanalytics + governance]
+  B[Back office\noperations]
+  AI[GenAI + AI agents\ncomposite AI workflows]
+  H[Human judgment]
+
+  THREAT --> AI
+  AI -. enables .-> F
+  AI -. enables .-> M
+  AI -. enables .-> B
+  F <--> M <--> B
+  M --> H
+  B --> H
+```
+
+**Study reconstruction only.** Deep note: [[research/autonomous-vehicle-insurance-agentic-ai]].
 
 ---
 
