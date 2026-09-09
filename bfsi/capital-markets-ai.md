@@ -1,6 +1,6 @@
 ---
 tags: [tcs, capital-markets, securities, wealth, ai, quartz, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS Capital Markets, Securities and Wealth AI — Public Intelligence
@@ -24,7 +24,28 @@ Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgra
 
 On 23 January 2025 TCS announced Quartz Intelligent Insights, describing GenAI applied across databases, distributed-ledger systems, unstructured data and big-data environments for financial institutions.
 
-Source: https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting
+A later TCS event page for **PostTrade 360 Stockholm 2026** makes the published functionality more concrete: TCS describes Intelligent Insights as a **GenAI-based solution** supporting on-demand reporting through natural-language queries, sentiment analysis, and structured-content generation from emails. This remains `product-capability`; the event page does not establish a named customer deployment of Intelligent Insights.
+
+Sources:
+- https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting
+- https://www.tcs.com/who-we-are/events/tcs-at-posttrade-360-stockholm-2026
+
+## PostTrade 360 Stockholm 2026 — Quartz surveillance + securities footprint — `completed-public-event / product-capability`
+
+At PostTrade 360 Stockholm on **2 September 2026**, TCS publicly positioned TCS BaNCS and Quartz for financial-market infrastructures, exchanges, CCPs, CSDs, custodians and investment institutions.
+
+The event page describes Quartz as combining **DLT and AI** under a “trusted intelligence” framing and names two especially relevant public AI capabilities:
+
+- **Surveillance** — an AI-powered solution intended to proactively detect market abuse, monitor participant activity, strengthen regulatory compliance and improve market trust.
+- **Intelligent Insights** — GenAI-based on-demand reporting using natural-language queries, sentiment analysis and structured-content generation from emails.
+
+The same page says the **TCS BaNCS Global Securities Platform** is deployed across **more than 60 local markets** and covers **over 100 global securities markets**, with real-time 24x5 processing and support for multi-currency, multi-entity and multi-market environments.
+
+**Evidence boundary:** the 60+/100+ figures describe the broader securities-platform footprint, not AI-deployment counts. The event also lists named BaNCS customer successes, but it does not attribute Quartz Surveillance or Intelligent Insights deployment to those customers; no such attribution is inferred here.
+
+Source: https://www.tcs.com/who-we-are/events/tcs-at-posttrade-360-stockholm-2026
+
+Related: [[events/public-event-watch]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/risk-compliance-ai]]
 
 ## Quartz AI + DLT at Sibos 2026 — `planned/public-capability`
 
