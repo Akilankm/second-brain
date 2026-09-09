@@ -97,9 +97,11 @@ All figures in this section are TCS-published customer evidence on the CAP produ
 
 - **100% automated call-quality verification** using agentic AI
 
-### European life insurer — `public-case-study`
+### European life insurer — `deployment-in-progress / public-case-study`
 
-- GenAI self-service document model publicly described by TCS
+TCS' current CAP page says CAP agents **are being deployed** for the US division of a European life insurer to accelerate transition and modernize quality engineering. The described scope includes AI-driven test optimization, defect prediction, automation-coverage analysis and rapid test-case generation, with a stated target of roughly **30% productivity improvement across the software-testing lifecycle**.
+
+This is stronger than a generic product capability claim but should remain `deployment-in-progress` rather than `deployed` until TCS or the customer explicitly describes the implementation as live/operating.
 
 ### Top-five US P&C insurer — `public-case-study`
 
