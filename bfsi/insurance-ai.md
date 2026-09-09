@@ -22,6 +22,7 @@ TCS' insurance pages and public materials describe AI activity across:
 - risk and compliance
 - composite AI
 - agentic AI
+- cyber insurance and connected-mobility risk
 
 Industry source: https://www.tcs.com/what-we-do/industries/insurance
 
@@ -91,6 +92,57 @@ These are study results cited in TCS-authored thought leadership, not TCS deploy
 **Public author:** Sukriti Jalali, publicly described by TCS as an innovation partner in its BFSI business unit.
 
 Source: https://www.tcs.com/what-we-do/industries/insurance/white-paper/ai-agents-insurance-claims-function
+
+## Autonomous-vehicle insurance + cyber risk — `thought-leadership / architecture`
+
+A newer public TCS paper extends the insurance-AI model into **autonomous vehicles (AVs)**, where the insured object is itself a connected AI/software/cyber-physical system.
+
+TCS identifies four major AV risk classes:
+
+- multi-party liability
+- system malfunction
+- cyber vulnerabilities
+- data security
+
+The paper says driver-centric historical models are poorly suited to distributed liability involving OEMs, software providers, sensors and other technology dependencies. TCS proposes combining **GenAI, AI agents, composite AI and intelligent workflows** for dynamic profiling, automated analysis, underwriting, claims, cyber-risk management and compliance.
+
+### Front / middle / back-office model
+
+The strongest operating-model signal is TCS' public description of a tightly integrated front-, middle- and back-office environment:
+
+```mermaid
+flowchart LR
+  F[Front office\ncustomer + proactive risk communication]
+  M[Middle office\nanalytics + governance + policy/regulatory alignment]
+  B[Back office\noperations + increasingly complex processing]
+  AI[GenAI + AI agents\nreal-time data + workflow automation]
+  H[Human judgment]
+
+  F <--> M <--> B
+  AI -. enables .-> F
+  AI -. enables .-> M
+  AI -. enables .-> B
+  M --> H
+  B --> H
+```
+
+TCS explicitly describes the **middle office as an analytical and governance layer** that checks AI-supported outputs against policy and regulatory requirements. It also says underwriters and adjusters can increasingly move away from routine work toward activities requiring human judgment.
+
+### Official figures
+
+The page exposes three useful public visuals:
+
+1. **Figure 1 — The expanding cyberthreat landscape for AVs**
+2. **Figure 2 — How GenAI and AI agents can assist in overcoming cyber risks in AV insurance**
+3. **Figure 3 — Front-, middle-, and back-office operations powered by AI**
+
+Deep note: [[research/autonomous-vehicle-insurance-agentic-ai]] · visual locators: [[media/visual-reference-library]].
+
+**Public authors:** Adiel Karthak, Ankur Agarwal and Meenu Mittal; see [[people/public-voices]].
+
+Source: https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance
+
+**Date discipline:** the retrieved public page does not expose a reliable publication date, so no chronology date is inferred.
 
 ## Cognitive Automation Platform — `live-capability`
 
@@ -194,4 +246,4 @@ Source: https://www.tcs.com/who-we-are/events/tcs-at-itc-vegas-2026
 
 ## Related
 
-[[tcs/ai-partnerships]] · [[bfsi/risk-compliance-ai]] · [[ai/agentic-ai-bfsi-architecture]] · [[research/advanced-quantz-analytics-public-capability]] · [[news/timeline]] · [[people/public-voices]]
+[[tcs/ai-partnerships]] · [[bfsi/risk-compliance-ai]] · [[ai/agentic-ai-bfsi-architecture]] · [[research/advanced-quantz-analytics-public-capability]] · [[research/autonomous-vehicle-insurance-agentic-ai]] · [[news/timeline]] · [[people/public-voices]]
