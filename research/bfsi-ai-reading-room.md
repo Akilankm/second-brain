@@ -34,6 +34,11 @@ mindmap
       AI-ready MDM
       Data mesh
       Analytics & Insights
+    Insurance
+      Claims agents
+      Autonomous-vehicle cyber insurance
+      Composite AI
+      Human judgment
     Quant / capital markets
       Volatility risk
       Portfolio management
@@ -472,6 +477,45 @@ Authors include Indra Chourasia and Prab Pitchandi, showing the Data & Analytics
 
 ---
 
+# Tier C — Insurance specialization
+
+## 19. Adopting Generative and Agentic AI in Autonomous Vehicle Insurance
+
+**Priority:** ⭐⭐⭐⭐  
+**Evidence type:** `thought-leadership / architecture / connected-risk operating model`  
+**Open:** https://www.tcs.com/what-we-do/industries/insurance/white-paper/generative-agentic-autonomous-vehicle-insurance
+
+### Why it is structurally useful
+
+This source shifts the insurance problem from driver-centric actuarial history toward a connected cyber-physical risk system. TCS explicitly maps autonomous-vehicle insurance risk across:
+
+- multi-party liability
+- system malfunction
+- cyber vulnerabilities
+- data security
+
+It then combines **GenAI, AI agents, composite AI and intelligent workflows** for dynamic profiling, automated analysis, underwriting, claims, cyber-risk management and compliance.
+
+### Operating-model signal
+
+The paper's Figure 3 is especially useful because TCS describes the **middle office as an analytical and governance layer** that aligns AI-supported outputs with policy and regulatory requirements, while the front office becomes more proactive around risk communication and the back office moves toward complex processing. Humans remain focused on work requiring judgment and reasoning.
+
+### Public figures
+
+- Figure 1 — expanding AV cyberthreat landscape
+- Figure 2 — GenAI + agents across AV cyber-risk classes
+- Figure 3 — front/middle/back-office operations powered by AI
+
+### Named public authors
+
+- Adiel Karthak — head, Property and Casualty Centre of Excellence, TCS BFSI
+- Ankur Agarwal — head, Property and Casualty Insurance BPS Practice, TCS BFSI
+- Meenu Mittal — head, Business Process Services, TCS BFSI
+
+Deep note: [[research/autonomous-vehicle-insurance-agentic-ai]] · visuals: [[media/visual-reference-library#autonomous-vehicle-insurance--figures-13]] · domain: [[bfsi/insurance-ai]].
+
+---
+
 # Consumption paths
 
 ## Architecture-first path
@@ -500,6 +544,13 @@ flowchart LR
 ```mermaid
 flowchart LR
   A[4-pillar AI ROI] --> B[AI lifecycle + AI-CoE] --> C[End of AI pilots] --> D[Context Fabric] --> E[CAP / reusable controls] --> F[Scaled enterprise AI]
+```
+
+## Insurance connected-risk path
+
+```mermaid
+flowchart LR
+  A[Claims agents] --> B[Composite AI] --> C[AV cyber/system risk] --> D[Dynamic underwriting + claims] --> E[Middle-office governance] --> F[Human judgment]
 ```
 
 ## Banking-platform-first path
