@@ -69,15 +69,26 @@ Topic: what it takes to operationalize AI at scale in a highly regulated industr
 
 ### Publicly advertised focus
 
-The TCS event page positions risk/compliance around themes including:
+TCS frames the event under **“Building the Risk Intelligence Enterprise.”** The public page says TCS will host an invite-only roundtable titled **“From Experimentation to Trust: Scaling AI & Agentic Intelligence Across Risk and Compliance”** and participate in a keynote panel on **AI Governance and Risk Management: Balancing Innovation and Control**.
 
-- agentic AI in risk and compliance
-- responsible AI / governance
-- model monitoring
-- auditability
-- bias mitigation
-- regulatory expectations
-- human oversight
+The agenda explicitly includes:
+
+- where AI is creating the greatest value across risk and compliance
+- responsible scaling of AI and agentic capabilities
+- governance and monitoring frameworks
+- AI adoption success factors and business-impact metrics
+- robust, transparent and auditable AI models
+- model risk, bias and unintended consequences
+- alignment with regulatory expectations and internal risk appetite
+- human judgment and oversight for accountability and trust
+
+### Public speaker signal
+
+TCS publicly identifies **Vijayaraghavan Venkatraman** as **Global Head - BFSI Risk Management & Regulatory Compliance, TCS** for the event.
+
+This is especially useful when joined with TCS' 2021 Smart Risk Enterprise paper, which identifies the same public leader and describes his work across risk transformation, data-science-led innovation, RegTech compliance, solution/framework design and risk/compliance innovation.
+
+Deep continuity study: [[research/smart-risk-enterprise-to-agentic-risk-intelligence]] · [[people/public-voices#vijayaraghavan-venkatraman]]
 
 ### Domain connections
 
