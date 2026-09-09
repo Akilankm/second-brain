@@ -113,6 +113,25 @@ Companion notes: [[events/public-event-watch]] · [[bfsi/use-case-atlas]] · [[t
 
 These are useful because they reveal how TCS publicly communicates BFSI AI themes between formal press releases.
 
+### Colonial First State — three-day AI accelerator
+
+**Priority:** ⭐⭐⭐ · `official-post` · named financial-services customer · prototype evidence
+
+**Open:** [TCS Financial Services and Insurance LinkedIn page](https://www.linkedin.com/showcase/tcs-financial-services-and-insurance/)
+
+In an August 2026 official TCS Financial Services and Insurance post, TCS said a three-day AI accelerator with **Colonial First State (CFS)** produced:
+
+- **five customer-focused use cases developed into working prototypes**
+- progression from specification to **demo-ready code**
+- reusable components, prompts and assets
+- a stated pathway toward rapid productionisation
+
+Evidence status: `pilot / official-post`. This is strong named-customer co-creation evidence, but the post does **not** establish production deployment of any of the five prototypes and does not disclose the individual use cases or architecture.
+
+Companion: [[bfsi/public-implementations#colonial-first-state--three-day-ai-accelerator--pilot--official-post]]
+
+---
+
 ### InvestOps USA 2026 — investment operations recap
 
 **Priority:** ⭐⭐⭐ · `official-post` · direct capital markets
