@@ -27,6 +27,7 @@ flowchart TB
   KM[Krishna Mohan\nCloud Unit]
   PG[Partha Pratim Ghosh\nBFSI Risk Practice]
   SJ[Sukriti Jalali\nBFSI Innovation]
+  VV[Vijayaraghavan Venkatraman\nBFSI Risk Management & Regulatory Compliance]
 
   BFSI --> SV
   BFSI --> SN
@@ -41,6 +42,7 @@ flowchart TB
   BFSI --> KM
   BFSI --> PG
   BFSI --> SJ
+  BFSI --> VV
 ```
 
 ---
@@ -133,6 +135,44 @@ Source: [Context Fabric](https://www.tcs.com/what-we-do/industries/banking/white
 **TCS-published topic context:** designs solution offerings and drives thought leadership/client engagements across banking, financial services and capital markets.
 
 Source: [Context Fabric](https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi)
+
+---
+
+## Vijayaraghavan Venkatraman
+
+**Public current TCS title on Risk Live North America 2026:** Global Head - BFSI Risk Management & Regulatory Compliance, TCS.
+
+**Historical TCS title in the 2021 Smart Risk Enterprise paper:** Global Head, Risk Management and Regulatory Compliance at TCS' BFSI business unit.
+
+TCS' public author biography says his experience spans banking, risk management and regulatory compliance, including:
+
+- risk transformation
+- data-science-led innovation
+- RegTech-based compliance implementations
+- solution design and framework development
+- risk/compliance innovation
+- thought leadership
+- domain competence development
+
+### Public topic anchors
+
+- smart / intelligent risk enterprise
+- AI and agentic intelligence in risk & compliance
+- AI governance and monitoring
+- model risk, bias and unintended consequences
+- auditability and transparency
+- regulatory alignment and risk appetite
+- human judgment / oversight
+- risk transformation and RegTech
+
+### Sources
+
+- [TCS at Risk Live North America 2026](https://www.tcs.com/who-we-are/events/tcs-at-risk-live-north-america-2026)
+- [Building a Smart Risk Enterprise in Financial Institutions — TCS PDF](https://www.tcs.com/content/dam/global-tcs/en/pdfs/insights/whitepapers/smart-risk-management-banking.pdf)
+
+Related: [[research/smart-risk-enterprise-to-agentic-risk-intelligence]] · [[bfsi/risk-compliance-ai]]
+
+**Evidence boundary:** the repeated public title/topic evidence establishes long-running external subject-matter leadership; it does not establish private reporting lines or ownership of specific client projects.
 
 ---
 
@@ -238,6 +278,7 @@ Source: [TCS Partners with Google Cloud to Accelerate AI-Driven Innovation in Fi
 | Prab Pitchandi | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
 | Prasad Chitta | ✓ | ✓ | ✓ | ✓ | ✓ |  | ✓ |
 | Indra Chourasia | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
+| Vijayaraghavan Venkatraman | ✓ | ✓ | ✓ | ✓ | ✓ |  | ✓ |
 | Partha Pratim Ghosh | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
 | Sukriti Jalali |  | ✓ |  | ✓ |  |  |  |
 | Siva Ganesan | cross-BFSI | cross-BFSI | cross-BFSI | ✓ |  | ✓ |  |
