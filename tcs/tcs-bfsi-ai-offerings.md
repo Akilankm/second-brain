@@ -17,15 +17,18 @@ TCS describes CAP as an agentic-AI orchestration platform for business and IT op
 
 - agentic mesh for multi-agent orchestration
 - agent marketplace with **200+ pre-built reusable domain-trained agents**
-- agent studio and agent builder
+- agent studio and future-proof agent builder
+- **Transform.ai** for AI-agent-assisted transformation assessments
+- a **super-cognitive knowledge-management layer** for discovery, analysis and decision support
 - governance-centric agentic framework
+- agentic pre/post-processing framework for governance and observability
 - enterprise guardrails and policy controls
 - business-context knowledge models
 - RAG / knowledge-fabric patterns
 - intelligent document processing
 - smart email management
 - conversational assistants
-- low-code workflow automation
+- low-code/no-code workflow automation
 - human approvals and overrides
 - continuous evaluation / observability
 - multimodal and composite-AI capabilities
@@ -35,11 +38,35 @@ TCS describes CAP as an agentic-AI orchestration platform for business and IT op
 
 Banking examples include retail KYC, creditworthiness, real-time loan decisioning, fraud monitoring, periodic KYC, credit risk, trade-finance screening and AML. Insurance examples span underwriting, claims and customer operations.
 
+TCS' current CAP page also explicitly extends the platform across **capital-markets functions including trading, post-trade operations, risk management and client onboarding**, alongside retail/corporate/transaction banking, lending, payments, financial-crime compliance, life/health/P&C insurance and wealth workflows.
+
 ### Published scale / proof points
 
 TCS states **60+ wins** and **30+ live implementations**. The product page also publishes anonymized customer examples; those are recorded in [[bfsi/public-implementations]].
 
-Source: https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+The current page additionally states platform-level target/outcome ranges including:
+
+- **30–50% improvement in process efficiency**
+- **up to 50% faster delivery of industry solutions**
+- **over 40% reduction in total cost of ownership**
+
+These are product-page benefit claims and should not be interpreted as results achieved by every implementation.
+
+### Analyst / industry recognition — `analyst-recognition`
+
+TCS' CAP page says the platform has been featured in analyst assessments including:
+
+- Everest Group leadership in life and annuities / insurance BPS and third-party administration
+- Everest Group leadership in payments business-process services
+- NelsonHall leadership in **GenAI and Process Automation in Banking 2025**
+
+TCS separately announced on **3 July 2026** that NelsonHall positioned TCS as a Leader in its 2025 NEAT for GenAI and Process Automation in Banking. The TCS announcement highlights CAP, AI WisdomNext, Cognix and agentic-AI frameworks, and says the assessed operating model combines domain-trained small language models, low-code/no-code orchestration, human-in-the-loop controls and responsible-AI guardrails to move banks from bolt-on AI toward AI-native environments.
+
+Evidence status: `analyst-recognition`; this is independent market assessment evidence, not proof that every listed TCS platform is deployed at every banking client.
+
+Sources:
+- https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+- https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-a-leader-gen-ai-process-automation-banking
 
 ## TCS AI Spectrum for BFSI — `live-capability`
 
