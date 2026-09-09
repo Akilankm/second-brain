@@ -11,6 +11,35 @@ This page records primary-source Indian regulatory and regulator-published AI ma
 
 ## Reserve Bank of India (RBI)
 
+### Draft Guidance on Regulatory Principles for Model Risk Management — `regulatory / draft consultation`
+
+**Published:** June 24, 2026  
+**Press Release:** 2026-2027/528  
+**Consultation closed:** July 24, 2026
+
+RBI issued draft **Guidance on Regulatory Principles for Model Risk Management** covering all models used by regulated entities, explicitly including **third-party models** and models employing **AI / ML**.
+
+The draft describes a model-risk governance perimeter covering:
+
+- Board-approved Model Risk Management Frameworks
+- risk-based model tiering and model inventories
+- lifecycle governance from development/acquisition through validation, deployment, monitoring, change management, business continuity and decommissioning
+- independent validation
+- third-party model governance
+- enhanced AI/ML controls
+
+AI/ML-specific themes in the draft include bias/discriminatory-output risk, explainability, overfitting/generalisation, spurious correlations, stochastic/output variability, data-quality and drift risk, adversarial testing/red-teaming, stronger controls for dynamic or automatic model updates, and human oversight of automated decisions.
+
+For customer-facing and generative systems, the draft introduces stronger transparency and cyber-control expectations, including safeguards against prompt-injection/adversarial inputs, disclosure that customers are interacting with AI and access to human assistance.
+
+**Status discipline:** this remains a **draft**, not a final binding direction, unless RBI subsequently issues a final instrument.
+
+Primary RBI domain / draft directions area:
+- https://www.rbi.org.in/
+- https://www.rbi.org.in/Scripts/BS_ViewREwiseDraftDirections.aspx
+
+Deep study: [[research/rbi-model-risk-management-ai-ml-2026]]
+
 ### FREE-AI Committee Report — `regulatory`
 
 **Published:** August 2025  
@@ -40,6 +69,16 @@ Primary RBI source: https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=23057
 RBI Annual Report reference: https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1436
 
 This is a concrete regulator-led Indian banking AI initiative and is kept separate from regulatory-rule status.
+
+### Global FinTech Fest 2026 — RBI Governor AI signal — `regulatory / official-speech`
+
+**Published / delivered:** September 8, 2026
+
+In the inaugural session of Global FinTech Fest 2026, the RBI Governor publicly cited **AI-driven analytics for fraud detection** and **real-time supervision** among the ways fintech is improving the efficiency and customer experience of India's financial infrastructure. The speech also reiterated RBI's policy posture of encouraging innovation while safeguarding trust, inclusion, fairness and system safety.
+
+This is a current regulator-positioning signal, not a new AI rule.
+
+Primary RBI speech: https://www.rbi.org.in/Scripts/BS_SpeechesView.aspx?Id=1576
 
 ## Securities and Exchange Board of India (SEBI)
 
@@ -95,6 +134,8 @@ The graph keeps these categories separate:
 
 TCS publicly discusses governance, auditability, guardrails, observability and human oversight in BFSI AI. Those TCS sources are cataloged separately in [[bfsi/risk-compliance-ai]] and [[ai/agentic-ai-bfsi-architecture]].
 
+The RBI model-risk draft should be compared against those TCS public controls only as an architecture/control mapping exercise; **RBI does not endorse TCS products or architectures**.
+
 ## Related
 
-[[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]] · [[sources/source-radar]]
+[[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]] · [[research/rbi-model-risk-management-ai-ml-2026]] · [[sources/source-radar]]
