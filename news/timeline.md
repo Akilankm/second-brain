@@ -127,10 +127,14 @@ Sources:
 
 Deep dive: [[tcs/rapid-outcome-ai]]
 
-### 2026-02-16 — P&C Insurance BPS analyst recognition — `analyst-recognition`
-Everest Group positioned TCS as a Leader in P&C Insurance BPS; TCS' public summary highlights agentic AI and P&C processes including FNOL, underwriting triage, subrogation, litigation support and reinsurance.
+### 2026-02-16 — P&C Insurance BPS agentic-AI implementation signal — `analyst-recognition / implementation-evidence`
+TCS' public summary of Everest Group's P&C Insurance BPS assessment says TCS had **moved beyond PoCs in AI initiatives** and was **deploying modular solutions** to automate **setup, adjudication and summarization for complex workers' compensation claims**. The same source describes Cognitive Automation Platform as a suite of **Agentic AI solutions and pre-trained agents**, and says TCS combines cognitive automation and GenAI across commercial underwriting, claims summarization and policy indexing.
+
+**Evidence boundary:** the source does not identify the insurer(s), confirm that every cited modular solution is fully production-live, disclose deployment scale, architecture or measured outcomes. This is therefore anonymous `implementation-evidence`, not a named `deployed` case.
 
 Source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-named-leader-p-and-c-insurance-bps
+
+Deep dive: [[research/pc-insurance-agentic-ai-beyond-poc]]
 
 ### 2026-02-02 — Capital markets operations analyst recognition — `analyst-recognition`
 Everest Group positioned TCS as a Leader in capital-markets operations services. TCS cites AI-powered platforms, cognitive assets for post-trade/data operations, Cognitive Automation Platform for transfer agency and AI WisdomNext for wealth advisory.
