@@ -1,6 +1,6 @@
 ---
 tags: [media, video, youtube, tcs, bfsi, ai, foam, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS AI + BFSI — Curated Public Media Library
@@ -67,6 +67,27 @@ Companion material:
 The TCSGlobal description positions the video as a public BaNCS transformation story for a leading bank responding to digital banking and e-commerce demand.
 
 Companion notes: [[bfsi/banking-ai]] · [[tcs/tcs-bfsi-ai-offerings]]
+
+---
+
+### Five Star Bank + TCS CI&I — public project video set
+
+**Priority:** ⭐⭐⭐ · `public-case-study media` · named bank · AI customer intelligence / lending risk
+
+A public BOLD Awards project artifact for **TCS Customer Intelligence & Insights (CI&I) at Five Star Bank** links two short project videos plus a banking product-overview video. The artifact describes Five Star Bank as successfully using CI&I and therefore provides stronger implementation context than the original 2022 announcement alone.
+
+**Project provenance:** [BOLD Awards — TCS Customer Intelligence & Insights](https://bold-awards.com/project/tcs-customer-intelligence-insights/)  
+**Project PDF:** [Draft application for The BOLD Award — CI&I / Five Star Bank](https://bold-awards.com/wp-content/uploads/2023/12/Draft-application-for-The-BOLD-Award_CII_Final.pdf)
+
+Public video links preserved from the project artifact:
+
+- [How CI&I helped Five Star Bank solve segment-specific use cases — 3:23](https://vimeo.com/850616692/9b87463bab?share=copy)
+- [How CI&I helped Five Star Bank find new growth opportunities and achieve operational efficiencies — 6:00](https://vimeo.com/850606552/011188b763?share=copy)
+- [TCS Customer Intelligence & Insights for banking — product overview](https://youtu.be/IygwrthdL1Y)
+
+**Evidence boundary:** the BOLD artifact supplies the provenance for these links. The Vimeo uploader identity was not independently verified here, so the two customer-project clips are catalogued as **public project media**, not automatically relabelled `official-video`. The project evidence supports historical deployed AI-driven analytics; it does not establish that Five Star Bank uses the current CI&I GenAI / patented multi-agent capabilities.
+
+Companion: [[bfsi/public-implementations#five-star-bank--ciii-customer-intelligence--lending-risk--public-case-study--deployed]] · [[research/ciii-banking-agentic-evolution]]
 
 ---
 
