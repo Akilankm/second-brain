@@ -108,6 +108,16 @@ TCS reported annualized AI revenue above $2.3 billion. Public results and manage
 
 Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q4-fy-2026
 
+### 2026-03-30 — TCS BaNCS Corporate Actions AI-enabled deployment footprint — `deployed / product-capability`
+At ISITC's Annual Securities Operations Summit, TCS described TCS BaNCS for Corporate Actions as an **AI-enabled intelligent solution deployed at more than 60 leading financial institutions**, with automated end-to-end processing across traditional, digital and tokenized asset forms. TCS' current product page now states **65+ clients worldwide** and explicitly lists AI operational support, ML-based error processing/repair, chatbots and predictive analytics. A May 2026 SIFMA Ops page additionally says the solution is used by **eight of the world's top ten custodians**.
+
+**Evidence boundary:** the platform is widely deployed and TCS explicitly characterizes it as AI-enabled, but the public sources do not prove that every client installation has every AI/ML capability enabled.
+
+Sources:
+- https://www.tcs.com/who-we-are/events/tcs-bancs-isitc-annual-securities-operations-summit-2026
+- https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/solution/corporate-actions
+- https://www.tcs.com/who-we-are/events/tcs-bancs-sifma-ops-2026
+
 ### 2026-03-17 — TCS Rapid Outcome AI powered by NVIDIA — `announced / product-capability`
 TCS launched Rapid Outcome AI as a blueprint-led enterprise AI platform intended to accelerate movement from experimentation and proofs of concept to governed production-scale deployment. TCS publicly lists **banking** among supported industries and describes predictive analytics, GenAI, computer vision, agentic AI and physical AI combined with NVIDIA accelerated computing, NIM microservices, Omniverse/OpenUSD simulation and Metropolis. The cited sources do not establish a named banking production deployment.
 
