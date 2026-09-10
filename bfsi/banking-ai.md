@@ -98,6 +98,27 @@ The event also covered scaling agentic AI from PoC to production and operational
 
 Source: https://www.tcs.com/who-we-are/events/tcs-at-aws-financial-services-symposium-2026
 
+## KeyBank + Google Cloud Next '26 — multi-agent contact-center session — `official-post / public-event evidence`
+
+On **22 April 2026**, a TCS-led Google Cloud Next '26 session titled **“The Rise of the AI Workforce: Orchestrating Multi-Agent Systems in the Enterprise”** brought together public speakers from **KeyBank, Google Cloud and TCS** around banking contact-center transformation.
+
+TCS' public Financial Services and Insurance post says the discussion covered collaborative AI agents across:
+
+- triage
+- resolution
+- compliance
+- quality
+
+The public framing describes contact centers moving from reactive service toward proactive customer-intelligence hubs, with multi-agent orchestration, cloud-scale execution, governance, oversight and trust as core requirements.
+
+Public speakers identified in the TCS material include **Kimberly Agin, Head of Contact Center & Conversational AI Performance and Enablement, KeyBank**; **Maxim Afanasyev, Financial Services Market Lead, JAPAC, Google Cloud**; and **Sathiskumar Venkataramani, Global Head, BFSI Business Ops Transformation Strategic Initiative, TCS**.
+
+Source: https://www.linkedin.com/posts/tcs-financial-services-and-insurance_googlecloudnext26-aiworkforce-agenticai-activity-7467254625772003329-IweE
+
+**Evidence boundary:** this is named-bank `official-post / public-event evidence`. The session language says collaborative agents are transforming banking contact centers and discusses real-world impact, but the public post does **not** establish which specific multi-agent workflows are deployed by KeyBank, their production status, architecture, models, transaction volumes or measured outcomes. It therefore must not be promoted to a KeyBank `deployed` case without separate implementation evidence.
+
+Deep note: [[research/keybank-tcs-google-cloud-next-multi-agent-contact-center-2026]]
+
 ## Public bank/customer evidence
 
 ### Lloyds Banking Group — `public-case-study`
