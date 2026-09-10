@@ -151,6 +151,20 @@ On 2 February 2026, TCS published its Everest Group Leader recognition for Capit
 
 Source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-leader-capital-markets-operations-services-everest-group
 
+## Advanced Quantz & Analytics — APAC exchange graph surveillance — `public-case-study / deployed`
+
+A TCS-hosted **Advanced Quantz & Analytics** eBook publishes an anonymous but implementation-specific case for a **“Leading APAC Exchange.”** TCS says the exchange established a 360-degree market/trade surveillance capability using a heterogeneous knowledge graph over trading, transaction, communication and payment-transfer relationships, with advanced NLP, PageRank/vertex-centrality, vertex similarity, graph embeddings and deduplication.
+
+TCS reports that the implementation covered **25 manipulation scenarios** through graph-based ML/AI and operated with **100M+ vertices, 2B+ edges, <200 ms latency, 200M nodes in the production cluster and 70 asset types/schema definitions**. The published architecture/design details include HPE Ezmeral Data Fabric and Lake, Scala-based distributed processing/MPP, Elasticsearch/SOLR/Lucene indexes, automated Airflow data-science pipelines and H2O.ai AutoML.
+
+Primary source: https://www.tcs.com/content/dam/global-tcs/en/pdfs/what-we-do/industries/banking/abstract/advanced-quantz-analytics-eBook.pdf
+
+Current AQuA solution page: https://www.tcs.com/what-we-do/industries/banking/solution/advanced-quantz-analytics-application
+
+**Evidence boundary:** the customer remains anonymous exactly as TCS publishes it. `deployed` is supported by the PDF's explicit reference to a **production cluster** and published operating characteristics. The source does **not** connect this implementation to Quartz Surveillance, CAP, WisdomNext, AI Spectrum, Context Fabric or BaNCS AI Compass, so no such linkage is inferred.
+
+Deep note: [[research/advanced-quantz-apac-exchange-market-surveillance]]
+
 ## Tokenization / stablecoin public agenda — `planned`
 
 At the ABA Annual Convention on 26 October 2026, TCS BaNCS and Zions Bancorporation leaders are scheduled to discuss tokenization, stablecoins, tokenized deposits, payments and liquidity.
