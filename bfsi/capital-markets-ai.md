@@ -20,6 +20,35 @@ TCS says the AI core spans banking, securities and wealth management and include
 
 Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation
 
+## TCS BaNCS for Corporate Actions — `deployed / product-capability`
+
+TCS' current Corporate Actions product page states that the platform is deployed at **more than 65 clients worldwide**. The same public page explicitly lists an AI/ML capability set that includes:
+
+- Artificial Intelligence for operational support
+- Machine Learning for processing errors and subsequent repair
+- client servicing through chatbots
+- analytics to predict future processing trends
+
+The platform is described as an end-to-end corporate-actions engine spanning custody, brokerage, investment banking, asset management, retail banking and private banking, with ISO 15022, ISO 20022 and DTCC 20022 support.
+
+Source: https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/solution/corporate-actions
+
+Two 2026 TCS event pages independently reinforce the AI-enabled positioning. At ISITC's Annual Securities Operations Summit on **30 March 2026**, TCS described the Corporate Actions offering as an **AI-enabled intelligent solution deployed at more than 60 leading financial institutions**, supporting automated end-to-end processing across traditional, digital and tokenized asset forms. At SIFMA Ops in May 2026, TCS again called it AI-enabled and said the solution is used by **eight of the world's top ten custodians**.
+
+Sources:
+- https://www.tcs.com/who-we-are/events/tcs-bancs-isitc-annual-securities-operations-summit-2026
+- https://www.tcs.com/who-we-are/events/tcs-bancs-sifma-ops-2026
+
+**Evidence boundary:** this establishes a widely deployed platform that TCS publicly characterizes as AI-enabled and for which TCS publishes specific AI/ML capabilities. The sources do **not** establish that every one of the 60+/65+ client installations has each AI/ML feature enabled, nor do they quantify production AI transaction volumes. The 65+ current product-page figure supersedes older regional pages that still state 40+ clients; the older figure is treated as stale regional content, not a contradiction in current global status.
+
+### Public operating-model vocabulary: exception queue → control plane
+
+At both ISITC 2026 and SIFMA Ops 2026, TCS repeated the workshop concept **“Moving from Exception Queues to Operational Control Planes in Corporate Actions.”** TCS describes the shift as moving from reactive exception handling toward real-time visibility, proactive oversight and continuous improvement across the corporate-actions lifecycle.
+
+This repeated event vocabulary aligns with TCS' broader 2026 capital-markets language around AI-led control and intelligent operations, but is retained here as public positioning rather than evidence of one shared internal architecture.
+
+Related: [[bfsi/risk-compliance-ai]] · [[events/public-event-watch]]
+
 ## Quartz Intelligent Insights — `announced/live-capability`
 
 On 23 January 2025 TCS announced Quartz Intelligent Insights, describing GenAI applied across databases, distributed-ledger systems, unstructured data and big-data environments for financial institutions.
