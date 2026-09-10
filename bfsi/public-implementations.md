@@ -207,6 +207,22 @@ Source: https://www.ar.tcs.com/
 
 These are TCS-reported program/platform figures; the annual-report page should be treated as the authoritative context for scope and attribution.
 
+## Everest Group banking IT implementation evidence — `analyst-recognition / implementation-evidence`
+
+TCS' **16 June 2026** summary of Everest Group's Banking IT Services PEAK Matrix assessment states that TCS **has implemented agentic AI use cases** in banking in:
+
+- dispute resolution
+- credit underwriting
+- call summarization
+
+Source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/everest-group-names-tcs-leader-banking-it-services
+
+This is stronger than generic product-capability or event-demo evidence, but the public assessment summary does **not** name the customer(s), disclose production/live status, quantify scale or outcomes, or identify the architecture/model stack. It is therefore retained as anonymous `implementation-evidence`, not promoted to a named `deployed` case.
+
+The use-case spread is also important for governance analysis: call summarization is generally assistive, while credit underwriting can affect materially consequential financial decisions. Current RBI public policy language calls for stronger governance, validation, oversight and intervention as AI consequence increases. That regulatory alignment is recorded only as a control-model comparison; it is **not** evidence that RBI reviewed or endorsed these TCS implementations.
+
+RBI source: https://www.rbi.org.in/Scripts/BS_SpeechesView.aspx?Id=1577
+
 ## Anonymous / named evidence in TCS quarterly results
 
 TCS quarterly results sometimes disclose client programs without customer names. Such entries remain anonymous here.
