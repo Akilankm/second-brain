@@ -1,6 +1,6 @@
 ---
 tags: [timeline, news, tcs, bfsi, ai, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS AI + BFSI Public Timeline
@@ -50,6 +50,13 @@ Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-launches-ai-na
 HyperVault, a TCS subsidiary, secured 264 acres for a phased AI data center campus of up to 1 GW, designed for high-density GPU training, inference and advanced computing workloads.
 
 Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana
+
+### 2026-09-02 — SOP-driven core-banking quality engineering — `public-case-study / ai-ready-foundation`
+TCS published a case study for an unnamed leading Canadian multinational bank modernising its Transport Finance business. TCS says roughly **300 SOPs** and **20+ master processes** were converted into structured, traceable and reusable test assets, producing **25% efficiency gains**, **15–20% less rework**, **5–6% lower defect leakage**, and **100% SOP-to-test traceability**. TCS explicitly positions the resulting decision-mapped repository as a foundation for later AI-assisted test generation and automation; the source does **not** establish a deployed GenAI or agentic-AI system.
+
+Source: https://www.tcs.com/what-we-do/industries/banking/case-study/sop-driven-quality-engineering-core-banking-modernisation
+
+Deep dive: [[research/core-banking-ai-ready-quality-engineering]]
 
 ### 2026-09-02 — TD TechCon US — `public-event`
 TCS participated with TD Bank US leaders in a banking technology event covering AI, human-centered adoption, responsible innovation and financial-services technology.
