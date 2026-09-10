@@ -1,6 +1,6 @@
 ---
 tags: [india, regulation, rbi, sebi, irdai, bfsi, ai, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # India AI + BFSI Regulatory Watch
@@ -129,11 +129,52 @@ Primary source: https://www.sebi.gov.in/legal/circulars/may-2026/advisory-on-eme
 SEBI's official CyberSuraksha portal publicly lists AI-related knowledge material including:
 
 - **“AI-driven Emerging Cyber Security Threats and Defences for Securities market participants”** — 10 June 2026
-- **“Frontier_AI_Readiness_Enterprise_Resilience”** — 16 August 2026
+- **“Frontier AI readiness: Defining the next era of enterprise resilience”** — 16 August 2026
 
 Official portal: https://cybersuraksha-ai.sebi.gov.in/
 
-These are regulator-published knowledge/tutorial items; they are not labeled here as binding regulations.
+These are regulator-published knowledge/tutorial items; they are not binding regulations.
+
+#### Frontier AI readiness — machine-speed resilience and delegated-agent governance
+
+**Published/listed:** August 16, 2026  
+**Evidence class:** `regulator-published knowledge / thought-leadership`  
+**Authoring organization:** Deloitte Touche Tohmatsu India LLP  
+**Host:** SEBI CyberSuraksha
+
+The 16-page regulator-hosted paper argues that frontier AI changes the **speed and scale** of cyber risk and therefore requires a higher-velocity operating model rather than a standalone AI policy. It organizes the response into six connected workstreams:
+
+1. AI-speed vulnerability operations
+2. exposure and attack-path reduction
+3. identity resilience
+4. AI-augmented security operations, deception and containment
+5. crown-jewel recovery
+6. secure AI governance
+
+Its most relevant agentic-AI control statement is that **AI agents should be governed as delegated actors**, with risk determined by the combination of data, tools, permissions and autonomy available to them.
+
+The paper recommends controls including:
+
+- inventories of agents, copilots, models, plugins, connectors and tools
+- documented owner, approved purpose, data access and action scope
+- least privilege and read-only-by-default access where possible
+- downstream authorization controls rather than relying on prompts/model behaviour for restraint
+- logging of prompts, tool calls, data access, outputs and downstream actions
+- ability to pause agents, revoke tokens and disable connectors
+- adversarial re-testing when models, instructions, tools, connectors or permissions change
+- separation of orchestration, logging, evaluation, tools and controls from the underlying model where practical
+- governed reversible containment, rollback and audit trails
+- identity governance for non-human identities including service accounts, bots, scripts and AI agents
+
+The paper also says irreversible response actions should not be delegated to unproven automation, preserving an explicit human/control boundary as autonomy increases.
+
+**Published visual:** the PDF includes **“Image 2: The six workstream programme for a resilient enterprise.”** The repository does not re-host the artwork.
+
+**Status boundary:** this is a Deloitte perspective carried on SEBI's CyberSuraksha knowledge portal. It should not be presented as a SEBI regulation or mandatory control framework.
+
+Regulator-hosted PDF: https://cybersuraksha-ai.sebi.gov.in/documents/48365173/0/Frontier_AI_Readiness_Enterprise_Resilience.pdf/bd92d325-a730-ec92-2e3e-feb634cd4ed0?t=1786867808004
+
+Deep study: [[research/sebi-frontier-ai-readiness-enterprise-resilience-2026]]
 
 ## Insurance Regulatory and Development Authority of India (IRDAI)
 
@@ -157,8 +198,8 @@ The graph keeps these categories separate:
 
 TCS publicly discusses governance, auditability, guardrails, observability and human oversight in BFSI AI. Those TCS sources are cataloged separately in [[bfsi/risk-compliance-ai]] and [[ai/agentic-ai-bfsi-architecture]].
 
-The RBI model-risk draft and September 2026 speeches should be compared against those TCS public controls only as an architecture/control mapping exercise; **RBI does not endorse TCS products or architectures**.
+The RBI model-risk draft, September 2026 speeches and SEBI CyberSuraksha frontier-AI material should be compared against those TCS public controls only as an architecture/control mapping exercise; **RBI and SEBI do not endorse TCS products or architectures**.
 
 ## Related
 
-[[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]] · [[research/rbi-model-risk-management-ai-ml-2026]] · [[sources/source-radar]]
+[[bfsi/banking-ai]] · [[bfsi/insurance-ai]] · [[bfsi/capital-markets-ai]] · [[research/rbi-model-risk-management-ai-ml-2026]] · [[research/sebi-frontier-ai-readiness-enterprise-resilience-2026]] · [[sources/source-radar]]
