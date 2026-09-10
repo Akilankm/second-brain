@@ -1,13 +1,13 @@
 ---
 tags: [dashboard, tcs, bfsi, ai, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS BFSI AI — Current Public Radar
 
 [[index|← Home]] · [[news/timeline]] · [[sources/source-catalog]]
 
-**Snapshot date:** 2026-09-09  
+**Snapshot date:** 2026-09-10  
 **Scope:** public facts and source-attributed product/architecture claims only.
 
 ## 1. TCS AI scale and infrastructure
@@ -80,12 +80,22 @@ TCS announced AI Compass on 19 December 2025 as an AI core for TCS BaNCS spannin
 
 Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation
 
+### TCS BaNCS Corporate Actions — `deployed / product-capability`
+TCS' current product page says **TCS BaNCS for Corporate Actions is deployed at more than 65 clients worldwide** and explicitly lists AI for operational support, ML for error processing/repair, chatbots and predictive analytics. At ISITC 2026, TCS separately described the offering as an **AI-enabled intelligent solution deployed at more than 60 leading financial institutions**; at SIFMA Ops 2026 it said the solution is used by **eight of the world's top ten custodians**.
+
+Evidence boundary: this proves a widely deployed platform with published AI/ML capabilities and an explicit TCS “AI-enabled” characterization; it does **not** prove every client installation has every AI capability activated.
+
+Sources:
+- https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/solution/corporate-actions
+- https://www.tcs.com/who-we-are/events/tcs-bancs-isitc-annual-securities-operations-summit-2026
+- https://www.tcs.com/who-we-are/events/tcs-bancs-sifma-ops-2026
+
 ### TCS BaNCS IX + Quartz Intelligent Insights — `announced`
 On 23 January 2025 TCS announced GenAI capabilities in TCS BaNCS IX and Quartz Intelligent Insights and said it was working with customers including tier-1 insurers on **two pilots and three projects**.
 
 Source: https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting
 
-See [[tcs/tcs-bfsi-ai-offerings]].
+See [[tcs/tcs-bfsi-ai-offerings]] and [[bfsi/capital-markets-ai]].
 
 ## 6. Public BFSI implementation evidence
 
@@ -113,11 +123,13 @@ TCS public BFSI material currently emphasizes:
 - human oversight / approval
 - explainability and auditability
 - AI-ready data and cloud foundations
+- operational **control-plane** thinking in post-trade/corporate-actions workflows
 
 Primary sources:
 - https://www.tcs.com/what-we-do/industries/banking/white-paper/context-fabric-backbone-agentic-ai-bfsi
 - https://www.tcs.com/what-we-do/industries/banking/solution/tcs-ai-spectrum-for-bfsi
 - https://www.tcs.com/what-we-do/industries/insurance/solution/cognitive-automation-platform-transform-banking
+- https://www.tcs.com/who-we-are/events/tcs-bancs-isitc-annual-securities-operations-summit-2026
 
 See [[ai/agentic-ai-bfsi-architecture]].
 
