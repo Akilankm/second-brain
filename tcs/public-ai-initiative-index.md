@@ -1,6 +1,6 @@
 ---
 tags: [tcs, ai, bfsi, initiatives, index, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS AI + BFSI — Public Initiative Index
@@ -33,6 +33,7 @@ Master index of the public TCS AI/BFSI initiatives captured in this repository. 
 | TCS CI&I for Banking | product capability | banking-specific customer/marketing/operations/lending-risk analytics with AI/ML workbench, XAI, customer data lake and real-time decision orchestration | https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights/solutions/tcs-customer-intelligence-insights-personalized-banking |
 | TCS GenAI for BFSI | public capability | assist → augment → transform; polyglot architecture; machine-first/human-in-the-loop; enterprise guardrails | https://www.tcs.com/what-we-do/industries/banking/genai-insurance-banking-financial-services |
 | TCS BaNCS AI Compass | announced/live capability | AI core for banking, securities, wealth; ML/DL/GenAI/agents; responsible/explainable/traceable AI | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-bancs-ai-upgrade-new-core-tool-supercharge-innovation |
+| TCS BaNCS for Corporate Actions | deployed / product-capability | current page states 65+ clients worldwide; AI for operational support, ML-based error processing/repair, chatbots, predictive analytics; 2026 event material calls the solution AI-enabled at 60+ financial institutions and says it is used by 8 of the world's top 10 custodians | https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/solution/corporate-actions |
 | ABOS — fully agentic AI-driven bank operating platform | thought-leadership/product concept | Genesis, hyper-composability, autonomous product, autonomous watchdog and adaptive-AI layers | https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/articles/redefining-banking-intelligence-abos |
 | TCS BaNCS IX GenAI | announced/live capability | GenAI agents for financial-institution experiences/workflows | https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-offers-genai-based-solutions-help-financial-institutions-enhance-customer-experience-improve-reporting |
 | Quartz Intelligent Insights | announced/live capability | GenAI across structured/unstructured/DLT/big-data information | same source as BaNCS IX announcement |
