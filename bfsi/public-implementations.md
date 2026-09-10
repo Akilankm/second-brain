@@ -1,6 +1,6 @@
 ---
 tags: [tcs, bfsi, ai, implementations, customer-evidence, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS BFSI AI — Public Implementations and Customer Evidence
@@ -54,6 +54,23 @@ Source: https://www.tcs.com/who-we-are/newsroom/press-release/scotwest-credit-un
 **Status discipline:** the 2023 customer source establishes predictive AI/ML deployment. TCS' current CI&I product pages now describe GenAI and patented multi-agent orchestration, but those newer product capabilities are **not retroactively attributed to Scotwest** without customer-specific evidence.
 
 Deep note: [[research/ciii-banking-agentic-evolution]]
+
+### Five Star Bank — CI&I customer intelligence / lending risk — `public-case-study / deployed`
+
+On **11 August 2022**, TCS announced a Five Star Bank program using **TCS Customer Intelligence & Insights (CI&I)** for contextual customer intelligence, omnichannel personalization and lending-risk analytics. The announced scope included AI/ML-driven customer profiles, churn/sentiment scoring, contextual next-best offers/actions, KPI alerts, periodic loan monitoring and predictive early warnings for default and early payoff.
+
+Initial TCS source: https://www.tcs.com/who-we-are/newsroom/press-release/five-star-bank-partners-tcs-drive-digital-transformation-enhance-customer-experience
+
+A later public **BOLD Awards** project page and linked project PDF materially strengthen the status from an announcement to `public-case-study / deployed`. The artifact states that Five Star Bank **successfully uses** CI&I for banking and describes the engagement as uncovering an approximately **4,000-customer** previously overlooked/underserved segment, including side-hustle and micro-business customers. It also says AI-driven customer analytics surfaced a roughly **$10,000** financing threshold as significant for that segment's liquidity/credit needs.
+
+Public project page: https://bold-awards.com/project/tcs-customer-intelligence-insights/  
+Project PDF: https://bold-awards.com/wp-content/uploads/2023/12/Draft-application-for-The-BOLD-Award_CII_Final.pdf
+
+**Metric discipline:** the project artifact mentions a potential **8–10% SMB churn rate** as a figure from studies motivating the work. It is **not** recorded as a measured Five Star Bank outcome.
+
+**Architecture boundary:** this evidence establishes deployed historical AI-driven CI&I analytics/customer intelligence. It does **not** establish that Five Star Bank uses the current CI&I product's later GenAI or patented multi-agent orchestration capabilities.
+
+Deep note: [[research/ciii-banking-agentic-evolution]] · Media: [[media/watchlist]]
 
 ### Colonial First State — three-day AI accelerator — `pilot` / `official-post`
 
