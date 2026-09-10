@@ -1,6 +1,6 @@
 ---
 tags: [tcs, ai, strategy, infrastructure, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS AI — Public Strategy, Scale and Infrastructure
@@ -23,6 +23,14 @@ Primary source: https://www.tcs.com/what-we-do/infrastructure-to-intelligence
 | Q1 FY27, 9 Jul 2026 | annualized AI revenue **$2.6B**, **+13.6% QoQ** | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q1-fy-2027 |
 
 These are TCS-reported revenue metrics.
+
+## Public AI engagement scale — `company-wide / official-publication`
+
+In a **14 July 2026** TCS press release, the company stated that it had completed **more than 5,500 AI engagements with clients** and that annualized AI revenue had reached **US$2.6B**. The same release connects its full-stack **Infrastructure to Intelligence** strategy to a **five-level Human+AI Service Autonomy Model**, describing a progression from AI-assisted human work toward agentic enterprise models in which AI systems orchestrate workflows under human governance.
+
+**Evidence boundary:** the 5,500+ figure is a **company-wide AI engagement count**. It is not a BFSI deployment count, not an agentic-AI-only count, and does not establish how many engagements are pilots versus production deployments.
+
+Source: https://www.tcs.com/who-we-are/newsroom/press-release/tcs-named-india-most-valuable-it-services-brand-7-out-of-10-indians-use-technology-built-by-tcs-every-day
 
 ## FY2025-26 AI / R&D figures
 
