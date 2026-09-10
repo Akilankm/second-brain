@@ -1,6 +1,6 @@
 ---
 tags: [tcs, banking, ai, agentic-ai, public-intelligence]
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # TCS Banking AI — Public Intelligence
@@ -136,9 +136,21 @@ On 3 July 2026 TCS published its NelsonHall Leader result for GenAI and Process 
 
 Source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/tcs-a-leader-gen-ai-process-automation-banking
 
-Everest Group banking IT recognition published 16 June 2026 cites TCS strengths in core/lending/payments modernization, regulatory/risk transformation, AML and intelligent auditing with AI/ML.
+Everest Group banking IT recognition published **16 June 2026** cites TCS strengths in core/lending/payments modernization, regulatory/risk transformation, AML and intelligent auditing with AI/ML. Importantly, the TCS-hosted summary of Everest's assessment explicitly says TCS **has implemented agentic AI use cases** in banking in:
+
+- dispute resolution
+- credit underwriting
+- call summarization
 
 Source: https://www.tcs.com/who-we-are/newsroom/analyst-reports/everest-group-names-tcs-leader-banking-it-services
+
+**Evidence classification:** `analyst-recognition / implementation-evidence`. This is materially stronger than a product capability or event-demo statement because the analyst assessment describes implemented use cases. However, no customer is named and the public source does not establish the production/live status, scale, architecture, model stack or outcomes of those three implementations. They therefore must not be promoted to a named `deployed` case without further evidence.
+
+### Cross-source interpretation boundary
+
+The three implemented use cases span materially different consequence levels: call summarization is typically assistive, while credit underwriting can directly affect consequential financial decisions. This aligns with current public RBI language that governance, validation, oversight and intervention should scale with the consequence of an AI use case. The alignment is an architecture/control observation only; it does **not** imply RBI endorsement of TCS implementations or products.
+
+RBI source: https://www.rbi.org.in/Scripts/BS_SpeechesView.aspx?Id=1577
 
 ## Upcoming public banking signals
 
