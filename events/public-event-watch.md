@@ -1,6 +1,6 @@
 ---
 tags: [events, tcs, bfsi, ai, banking, insurance, capital-markets, public-intelligence]
-updated: 2026-09-10
+updated: 2026-09-11
 ---
 
 # TCS AI + BFSI — Public Event Watch
@@ -340,21 +340,55 @@ Related: [[bfsi/insurance-ai]] · [[tcs/ai-partnerships]] · [[intelligence/publ
 
 ---
 
-## ABA Annual Convention 2026
+## ABA Annual Convention 2026 — BaNCS, AI governance and tokenized banking
 
 **Date:** October 26, 2026  
 **Status:** `planned`  
+**Evidence class:** `planned / product-capability / public-event positioning`  
 **Official page:** [TCS BaNCS at ABA Annual Convention 2026](https://www.tcs.com/who-we-are/events/tcs-bancs-at-aba-annual-convention-2026)
 
 ### Publicly advertised themes
 
-- AI
-- core modernization
-- tokenization / stablecoins
-- risk
-- banking transformation
+TCS positions the event around:
 
-Related: [[bfsi/banking-ai]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/capital-markets-ai]]
+- core banking modernization
+- AI and responsible AI value realization
+- tokenization and stablecoins
+- payments and liquidity
+- risk management
+- future-ready banking transformation
+
+The page specifically says banks can seek greater value from AI through **responsible governance and transparency**. This is useful public language linking the BaNCS banking modernization story to AI control requirements, but it remains event/product positioning rather than proof of a customer AI deployment.
+
+### Named-bank ecosystem signal
+
+TCS BaNCS will share a panel with **Zions Bancorporation** leaders titled **“Tokenization in banking: What matters and what doesn’t.”** The session focuses on separating actionable banking use cases from hype, including practical implications for payments, liquidity and strategy.
+
+This establishes a named-bank public-event relationship only. It does **not** establish that Zions Bancorporation has deployed BaNCS, Quartz, AI Compass, tokenized deposits or any other TCS product/capability.
+
+### BaNCS scale claims at source date
+
+The event page states that:
+
+- TCS BaNCS is deployed across **500+ institutions worldwide**.
+- **Two of the world's largest core banking implementations process more than 1 billion accounts on TCS BaNCS**.
+- The platform is described as an **intelligent digital core** with a cloud-native microservices architecture.
+
+Treat these as TCS-published platform-scale claims tied to the event page/date; they are not AI deployment counts.
+
+### Cross-source significance
+
+This event joins three threads that recur elsewhere in the public graph:
+
+**core modernization → intelligent digital core → AI value under governance/transparency**
+
+and, separately:
+
+**payments/liquidity → tokenization/stablecoins → practical operating-model choices**
+
+The event does not prove those threads are implemented together in a single customer architecture.
+
+Related: [[bfsi/banking-ai]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/capital-markets-ai]] · [[bfsi/risk-compliance-ai]]
 
 ---
 
