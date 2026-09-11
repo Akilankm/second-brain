@@ -1,6 +1,6 @@
 ---
 tags: [india, regulation, rbi, sebi, irdai, bfsi, ai, public-intelligence]
-updated: 2026-09-11
+updated: 2026-09-12
 ---
 
 # India AI + BFSI Regulatory Watch
@@ -104,6 +104,26 @@ This is **not a new binding AI rule**. It is an official RBI policy/supervisory 
 Primary RBI speech: https://www.rbi.org.in/Scripts/BS_SpeechesView.aspx?Id=1577
 
 ## Securities and Exchange Board of India (SEBI)
+
+### Mutual Fund Master Circular — quarterly AI/ML application reporting — `regulatory`
+
+**Issued:** March 20, 2026  
+**Effective:** April 1, 2026  
+**Instrument:** Master Circular for Mutual Funds, No. HO/24/13/11(1)2026-IMD-POD-1/I/7602/2026
+
+SEBI's 2026 Master Circular for Mutual Funds includes a dedicated AI/ML reporting requirement. Its scope covers AI/ML used in product offerings as well as applications and systems used internally by mutual funds for investing/trading, investment strategies/advice, compliance, operations or management purposes. The circular explicitly says the scope also includes FinTech and RegTech initiatives involving AI/ML.
+
+Registered mutual funds offering or using such applications/systems must:
+
+- complete the prescribed **AI/ML reporting format (Format No. 9A)**;
+- report on a **quarterly** basis to AMFI within **15 calendar days** after each quarter ends;
+- have AMFI consolidate the submissions and send them to SEBI within **30 calendar days** after quarter-end, while maintaining confidentiality.
+
+**Architecture / operating-model implication:** this establishes a concrete regulatory inventory-and-reporting obligation for AI/ML use within the mutual-fund sector. At minimum, regulated entities need an auditable register of in-scope AI/ML applications, their business purpose and reporting metadata. The source does not by itself prescribe a full model-risk, agent-governance or technical control architecture.
+
+**Evidence boundary:** this is a reporting requirement in a SEBI Master Circular, not a SEBI certification or approval of the reported AI/ML systems. It does not imply endorsement of any TCS product, platform or architecture.
+
+Primary SEBI PDF: https://www.sebi.gov.in/sebi_data/attachdocs/mar-2026/1774024028162.pdf
 
 ### Responsible usage of AI/ML in Indian securities markets — `regulatory / consultation`
 
