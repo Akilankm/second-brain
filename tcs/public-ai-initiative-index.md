@@ -1,6 +1,6 @@
 ---
 tags: [tcs, ai, bfsi, initiatives, index, public-intelligence]
-updated: 2026-09-10
+updated: 2026-09-11
 ---
 
 # TCS AI + BFSI — Public Initiative Index
@@ -49,6 +49,7 @@ See [[atlas/architecture-atlas]] for Mermaid study reconstructions of the public
 | Partner | Date | Status | BFSI relevance established by cited source | Primary source |
 |---|---|---|---|---|
 | Google Cloud — BFSI Gemini Experience Center Bengaluru | 2025-08-22 | live | Yes — BFSI lab, BaNCS, compliance/customer/back-office agentic AI | https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-partners-with-google-cloud-accelerate-ai-driven-fnnovation-financial-services-industry |
+| Google Cloud — Mexico Gemini Experience Center | 2026-08-11 | live / public-demo | Yes — TCS says the ninth GEC has 3,000+ industry/context-aware agents built with Gemini Enterprise; launch demos included fraud investigation for financial institutions and automated insurance claims processing. This is demo/capability evidence, not named-customer production evidence. | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-and-google-cloud-gemini-experience-center-mexico-drive-ai-adoption |
 | Google Cloud — Gemini Enterprise expansion | 2025-10-14 | announced | Industry agents; agent-to-agent orchestration; broader than BFSI | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-partners-google-cloud-integrate-gemini-enterprise-workforce-customers |
 | Google Cloud — autonomous enterprise expansion | 2026-04-24 | announced | Cross-industry; governed agentic AI | https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-deepens-partnership-google-cloud-power-ai-native-autonomous-enterprises |
 | Anthropic | 2026-06-11 | announced | Yes — financial services named among regulated-sector GTM targets | https://www.tcs.com/who-we-are/newsroom/press-release/tcs-anthropic-launch-global-premier-partnership-drive-enterprise-ai-scaling |
