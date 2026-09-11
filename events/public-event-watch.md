@@ -1,6 +1,6 @@
 ---
 tags: [events, tcs, bfsi, ai, banking, insurance, capital-markets, public-intelligence]
-updated: 2026-09-11
+updated: 2026-09-12
 ---
 
 # TCS AI + BFSI — Public Event Watch
@@ -18,6 +18,7 @@ timeline
   AWS Financial Services Symposium : Agentic AI from PoC to production : Wealth advisory : Fraud detection
   Sep 2 — TD TechCon US : Banking AI demos : Human-centered AI : Responsible adoption
   Sep 2 — PostTrade 360 Stockholm : Quartz surveillance : GenAI Intelligent Insights : Market infrastructure
+  Sep 14-16 — BDUG Annual Conference : Corporate trust : Custody : AI + Cloud + Tokenization
   Sep 24 — Risk Live North America : Risk & compliance AI : Governance : Monitoring : Human oversight
   Sep 28-Oct 1 — Sibos : BaNCS : Payments : Securities : Quartz : AI + DLT : KYC / surveillance
   Sep 29-Oct 1 — ITC Vegas : AI-first insurance : Anthropic : AWS : FICO
@@ -165,6 +166,38 @@ The page states that the **TCS BaNCS Global Securities Platform** is deployed ac
 These are public event/product claims. The event page also lists named BaNCS customer successes, but it does **not** state that those customers use Quartz Surveillance or Intelligent Insights. The 60+/100+ figures describe the broader securities platform, not AI deployment counts.
 
 Related: [[bfsi/capital-markets-ai]] · [[bfsi/risk-compliance-ai]] · [[tcs/tcs-bfsi-ai-offerings]]
+
+---
+
+## Bank Depository User Group Annual Conference 2026 — corporate trust / custody / asset servicing
+
+**Date:** September 14–16, 2026  
+**Status:** `planned`  
+**Evidence class:** `planned / product-capability / official-post / public-event positioning`  
+**Official page:** [TCS BaNCS at Bank Depository User Group Annual Conference 2026](https://www.tcs.com/who-we-are/events/tcs-bancs-bank-depository-user-group-annual-conference-2026)  
+**Official TCS BaNCS post:** [TCS BaNCS LinkedIn](https://www.linkedin.com/showcase/tcs-bancs/)
+
+### Publicly advertised focus
+
+TCS BaNCS positions the conference around modernization of **corporate trust, custody, depository services and asset servicing**. The public event page says TCS and **F2 Strategy** will discuss how **AI, cloud and tokenization** can support business growth, operational efficiency, automation and client service as deal structures, regulatory expectations and transparency/self-service demands become more complex.
+
+The September 15 agenda includes:
+
+- an exhibitor presentation on modernizing **custody and settlement**, enhancing **corporate actions processing**, and transforming **corporate trust servicing**;
+- a panel titled **“Corporate trust challenges and future opportunities”** with TCS BaNCS and F2 Strategy;
+- discussion of purpose-built technology for corporate-trust operations rather than relying on platforms designed for adjacent custody or wealth-management functions.
+
+### Platform-scale signal
+
+The event page states that TCS BaNCS is deployed across **500+ institutions worldwide** and describes its underlying platform as an **intelligent digital core** with a cloud-native microservices architecture.
+
+Treat the 500+ figure as a TCS-published **BaNCS platform-deployment** claim. It is not an AI, tokenization, or corporate-trust deployment count.
+
+### Evidence boundary
+
+This is a strong near-term **capital-markets / securities-services event signal** linking AI with cloud modernization and tokenization in corporate-trust and custody operations. It does **not** establish that the event's AI concepts are live at a named customer, that F2 Strategy co-developed a TCS product, or that the 500+ BaNCS institutions use the discussed AI capabilities.
+
+Related: [[bfsi/capital-markets-ai]] · [[tcs/tcs-bfsi-ai-offerings]] · [[bfsi/risk-compliance-ai]]
 
 ---
 
