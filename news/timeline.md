@@ -1,6 +1,6 @@
 ---
 tags: [timeline, news, tcs, bfsi, ai, public-intelligence]
-updated: 2026-09-10
+updated: 2026-09-12
 ---
 
 # TCS AI + BFSI Public Timeline
@@ -117,6 +117,13 @@ Sources:
 - https://www.tcs.com/who-we-are/events/tcs-bancs-isitc-annual-securities-operations-summit-2026
 - https://www.tcs.com/what-we-do/products-platforms/tcs-bancs/solution/corporate-actions
 - https://www.tcs.com/who-we-are/events/tcs-bancs-sifma-ops-2026
+
+### 2026-03-20 — SEBI Mutual Fund AI/ML reporting requirement — `regulatory`
+SEBI's 2026 Master Circular for Mutual Funds requires registered mutual funds using or offering in-scope AI/ML applications and systems to submit **Format No. 9A quarterly to AMFI within 15 calendar days after quarter-end**; AMFI must consolidate the information and submit it to SEBI within **30 calendar days** while maintaining confidentiality. The scope includes AI/ML in product offerings and internal systems used for investing/trading, strategies/advice, compliance, operations or management, including FinTech and RegTech initiatives involving AI/ML. The Master Circular took effect on **April 1, 2026**.
+
+**Evidence boundary:** this is an AI/ML inventory/reporting obligation; it is not regulatory approval of the systems reported and does not constitute endorsement of any TCS product.
+
+Source: https://www.sebi.gov.in/sebi_data/attachdocs/mar-2026/1774024028162.pdf
 
 ### 2026-03-17 — TCS Rapid Outcome AI powered by NVIDIA — `announced / product-capability`
 TCS launched Rapid Outcome AI as a blueprint-led enterprise AI platform intended to accelerate movement from experimentation and proofs of concept to governed production-scale deployment. TCS publicly lists **banking** among supported industries and describes predictive analytics, GenAI, computer vision, agentic AI and physical AI combined with NVIDIA accelerated computing, NIM microservices, Omniverse/OpenUSD simulation and Metropolis. The cited sources do not establish a named banking production deployment.
